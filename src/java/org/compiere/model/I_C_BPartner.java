@@ -964,9 +964,4 @@ public interface I_C_BPartner extends IBusinessPartner
 	  * Search key for the record in the format required - must be unique
 	  */
 	public void setValue (String Value);
-
-	/** Get Search Key.
-	  * Search key for the record in the format required - must be unique
-	  */
-	public String getValue();
 }
