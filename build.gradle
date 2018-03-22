@@ -4,4 +4,7 @@ dependencies {
 
     compile project(':org.idempiere.common')
     compile files('../org.idempiere.common/bin')
+
+    compile project(':software.hsharp.business.models')
+    compile files('../software.hsharp.business.models/bin')
 }

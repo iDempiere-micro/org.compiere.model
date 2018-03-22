@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import software.hsharp.business.models.IBusinessPartner;
 
 /** Generated Interface for C_BPartner
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_BPartner 
+public interface I_C_BPartner extends IBusinessPartner
 {
 
     /** TableName=C_BPartner */
@@ -632,11 +633,6 @@ public interface I_C_BPartner
 	  * Alphanumeric identifier of the entity
 	  */
 	public void setName (String Name);
-
-	/** Get Name.
-	  * Alphanumeric identifier of the entity
-	  */
-	public String getName();
 
     /** Column name Name2 */
     public static final String COLUMNNAME_Name2 = "Name2";
