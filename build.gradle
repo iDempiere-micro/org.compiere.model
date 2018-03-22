@@ -1,0 +1,7 @@
+dependencies {
+    compile project(':org.idempiere.icommon')
+    compile files('../org.idempiere.icommon/bin')
+
+    compile project(':org.idempiere.common')
+    compile files('../org.idempiere.common/bin')
+}
