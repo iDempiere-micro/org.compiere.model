@@ -41,8 +41,8 @@ public interface I_C_UserRemuneration
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_UserRemuneration
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -106,7 +106,7 @@ public interface I_C_UserRemuneration
 	  */
 	public int getC_Remuneration_ID();
 
-	public org.compiere.model.I_C_Remuneration getC_Remuneration() throws RuntimeException;
+	public I_C_Remuneration getC_Remuneration() throws RuntimeException;
 
     /** Column name C_UserRemuneration_ID */
     public static final String COLUMNNAME_C_UserRemuneration_ID = "C_UserRemuneration_ID";

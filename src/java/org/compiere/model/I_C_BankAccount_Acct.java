@@ -41,8 +41,8 @@ public interface I_C_BankAccount_Acct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -165,7 +165,7 @@ public interface I_C_BankAccount_Acct
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name C_BankAccount_Acct_UU */
     public static final String COLUMNNAME_C_BankAccount_Acct_UU = "C_BankAccount_Acct_UU";
@@ -189,7 +189,7 @@ public interface I_C_BankAccount_Acct
 	  */
 	public int getC_BankAccount_ID();
 
-	public org.compiere.model.I_C_BankAccount getC_BankAccount() throws RuntimeException;
+	public I_C_BankAccount getC_BankAccount() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

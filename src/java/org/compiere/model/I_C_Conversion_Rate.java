@@ -41,8 +41,8 @@ public interface I_C_Conversion_Rate
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_C_Conversion_Rate
 	  */
 	public int getC_ConversionType_ID();
 
-	public org.compiere.model.I_C_ConversionType getC_ConversionType() throws RuntimeException;
+	public I_C_ConversionType getC_ConversionType() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -112,7 +112,7 @@ public interface I_C_Conversion_Rate
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_Currency_ID_To */
     public static final String COLUMNNAME_C_Currency_ID_To = "C_Currency_ID_To";
@@ -127,7 +127,7 @@ public interface I_C_Conversion_Rate
 	  */
 	public int getC_Currency_ID_To();
 
-	public org.compiere.model.I_C_Currency getC_Currency_To() throws RuntimeException;
+	public I_C_Currency getC_Currency_To() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

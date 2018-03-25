@@ -41,8 +41,8 @@ public interface I_ASP_Ref_List
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_ASP_Ref_List
 	  */
 	public int getAD_Reference_ID();
 
-	public org.compiere.model.I_AD_Reference getAD_Reference() throws RuntimeException;
+	public I_AD_Reference getAD_Reference() throws RuntimeException;
 
     /** Column name AD_Ref_List_ID */
     public static final String COLUMNNAME_AD_Ref_List_ID = "AD_Ref_List_ID";
@@ -90,7 +90,7 @@ public interface I_ASP_Ref_List
 	  */
 	public int getAD_Ref_List_ID();
 
-	public org.compiere.model.I_AD_Ref_List getAD_Ref_List() throws RuntimeException;
+	public I_AD_Ref_List getAD_Ref_List() throws RuntimeException;
 
     /** Column name ASP_Level_ID */
     public static final String COLUMNNAME_ASP_Level_ID = "ASP_Level_ID";
@@ -101,7 +101,7 @@ public interface I_ASP_Ref_List
 	/** Get ASP Level	  */
 	public int getASP_Level_ID();
 
-	public org.compiere.model.I_ASP_Level getASP_Level() throws RuntimeException;
+	public I_ASP_Level getASP_Level() throws RuntimeException;
 
     /** Column name ASP_Ref_List_ID */
     public static final String COLUMNNAME_ASP_Ref_List_ID = "ASP_Ref_List_ID";

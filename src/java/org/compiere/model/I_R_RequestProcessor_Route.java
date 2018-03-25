@@ -41,8 +41,8 @@ public interface I_R_RequestProcessor_Route
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_R_RequestProcessor_Route
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -132,7 +132,7 @@ public interface I_R_RequestProcessor_Route
 	  */
 	public int getR_RequestProcessor_ID();
 
-	public org.compiere.model.I_R_RequestProcessor getR_RequestProcessor() throws RuntimeException;
+	public I_R_RequestProcessor getR_RequestProcessor() throws RuntimeException;
 
     /** Column name R_RequestProcessor_Route_ID */
     public static final String COLUMNNAME_R_RequestProcessor_Route_ID = "R_RequestProcessor_Route_ID";
@@ -169,7 +169,7 @@ public interface I_R_RequestProcessor_Route
 	  */
 	public int getR_RequestType_ID();
 
-	public org.compiere.model.I_R_RequestType getR_RequestType() throws RuntimeException;
+	public I_R_RequestType getR_RequestType() throws RuntimeException;
 
     /** Column name SeqNo */
     public static final String COLUMNNAME_SeqNo = "SeqNo";

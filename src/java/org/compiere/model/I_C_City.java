@@ -42,8 +42,8 @@ public interface I_C_City
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -111,7 +111,7 @@ public interface I_C_City
 	  */
 	public int getC_Country_ID();
 
-	public org.compiere.model.I_C_Country getC_Country() throws RuntimeException;
+	public I_C_Country getC_Country() throws RuntimeException;
 
     /** Column name Coordinates */
     public static final String COLUMNNAME_Coordinates = "Coordinates";
@@ -155,7 +155,7 @@ public interface I_C_City
 	  */
 	public int getC_Region_ID();
 
-	public org.compiere.model.I_C_Region getC_Region() throws RuntimeException;
+	public I_C_Region getC_Region() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

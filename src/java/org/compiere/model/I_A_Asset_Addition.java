@@ -99,7 +99,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_CapvsExp */
     public static final String COLUMNNAME_A_CapvsExp = "A_CapvsExp";
@@ -119,8 +119,8 @@ public interface I_A_Asset_Addition
 	/** Get Create Asset	  */
 	public boolean isA_CreateAsset();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -238,7 +238,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name C_ConversionType_ID */
     public static final String COLUMNNAME_C_ConversionType_ID = "C_ConversionType_ID";
@@ -253,7 +253,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_ConversionType_ID();
 
-	public org.compiere.model.I_C_ConversionType getC_ConversionType() throws RuntimeException;
+	public I_C_ConversionType getC_ConversionType() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -268,7 +268,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -283,7 +283,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name C_Invoice_ID */
     public static final String COLUMNNAME_C_Invoice_ID = "C_Invoice_ID";
@@ -298,7 +298,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_InvoiceLine_ID */
     public static final String COLUMNNAME_C_InvoiceLine_ID = "C_InvoiceLine_ID";
@@ -313,7 +313,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name C_Project_ID */
     public static final String COLUMNNAME_C_Project_ID = "C_Project_ID";
@@ -328,7 +328,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getC_Project_ID();
 
-	public org.compiere.model.I_C_Project getC_Project() throws RuntimeException;
+	public I_C_Project getC_Project() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -472,7 +472,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getGL_JournalBatch_ID();
 
-	public org.compiere.model.I_GL_JournalBatch getGL_JournalBatch() throws RuntimeException;
+	public I_GL_JournalBatch getGL_JournalBatch() throws RuntimeException;
 
     /** Column name I_FixedAsset_ID */
     public static final String COLUMNNAME_I_FixedAsset_ID = "I_FixedAsset_ID";
@@ -483,7 +483,7 @@ public interface I_A_Asset_Addition
 	/** Get Imported Fixed Asset	  */
 	public int getI_FixedAsset_ID();
 
-	public org.compiere.model.I_I_FixedAsset getI_FixedAsset() throws RuntimeException;
+	public I_I_FixedAsset getI_FixedAsset() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";
@@ -552,7 +552,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getM_InOutLine_ID();
 
-	public org.compiere.model.I_M_InOutLine getM_InOutLine() throws RuntimeException;
+	public I_M_InOutLine getM_InOutLine() throws RuntimeException;
 
     /** Column name M_Locator_ID */
     public static final String COLUMNNAME_M_Locator_ID = "M_Locator_ID";
@@ -582,7 +582,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getM_MatchInv_ID();
 
-	public org.compiere.model.I_M_MatchInv getM_MatchInv() throws RuntimeException;
+	public I_M_MatchInv getM_MatchInv() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -597,7 +597,7 @@ public interface I_A_Asset_Addition
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Posted */
     public static final String COLUMNNAME_Posted = "Posted";

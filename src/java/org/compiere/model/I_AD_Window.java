@@ -42,8 +42,8 @@ public interface I_AD_Window
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -63,7 +63,7 @@ public interface I_AD_Window
 	  */
 	public int getAD_Color_ID();
 
-	public org.compiere.model.I_AD_Color getAD_Color() throws RuntimeException;
+	public I_AD_Color getAD_Color() throws RuntimeException;
 
     /** Column name AD_Image_ID */
     public static final String COLUMNNAME_AD_Image_ID = "AD_Image_ID";
@@ -78,7 +78,7 @@ public interface I_AD_Window
 	  */
 	public int getAD_Image_ID();
 
-	public org.compiere.model.I_AD_Image getAD_Image() throws RuntimeException;
+	public I_AD_Image getAD_Image() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";

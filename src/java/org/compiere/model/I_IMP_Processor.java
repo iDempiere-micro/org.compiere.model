@@ -50,8 +50,8 @@ public interface I_IMP_Processor
 	/** Get Account	  */
 	public String getAccount();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -192,7 +192,7 @@ public interface I_IMP_Processor
 	/** Get Import Processor Type	  */
 	public int getIMP_Processor_Type_ID();
 
-	public org.compiere.model.I_IMP_Processor_Type getIMP_Processor_Type() throws RuntimeException;
+	public I_IMP_Processor_Type getIMP_Processor_Type() throws RuntimeException;
 
     /** Column name IMP_Processor_UU */
     public static final String COLUMNNAME_IMP_Processor_UU = "IMP_Processor_UU";

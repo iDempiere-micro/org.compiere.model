@@ -42,8 +42,8 @@ public interface I_C_Region
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -76,7 +76,7 @@ public interface I_C_Region
 	  */
 	public int getC_Country_ID();
 
-	public org.compiere.model.I_C_Country getC_Country() throws RuntimeException;
+	public I_C_Country getC_Country() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

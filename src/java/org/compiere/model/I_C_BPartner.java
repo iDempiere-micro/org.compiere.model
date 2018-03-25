@@ -19,13 +19,15 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
-import software.hsharp.business.models.IBusinessPartner;
+import software.hsharp.business.models.IClientBound;
+import software.hsharp.core.models.ISearchableByKey;
+import software.hsharp.core.models.INamedEntity;
 
 /** Generated Interface for C_BPartner
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_BPartner extends IBusinessPartner
+public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEntity
 {
 
     /** TableName=C_BPartner */
@@ -68,16 +70,8 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public BigDecimal getActualLifeTimeValue();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
-
-	/** Get Client.
-	  * Client/Tenant for this installation.
-	  */
-	public int getAD_Client_ID();
-
-    /** Column name AD_Language */
-    public static final String COLUMNNAME_AD_Language = "AD_Language";
+  /** Column name AD_Language */
+  public static final String COLUMNNAME_AD_Language = "AD_Language";
 
 	/** Set Language.
 	  * Language for this entity
@@ -163,7 +157,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getC_BP_Group_ID();
 
-	public org.compiere.model.I_C_BP_Group getC_BP_Group() throws RuntimeException;
+	public I_C_BP_Group getC_BP_Group() throws RuntimeException;
 
     /** Column name C_Dunning_ID */
     public static final String COLUMNNAME_C_Dunning_ID = "C_Dunning_ID";
@@ -178,7 +172,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getC_Dunning_ID();
 
-	public org.compiere.model.I_C_Dunning getC_Dunning() throws RuntimeException;
+	public I_C_Dunning getC_Dunning() throws RuntimeException;
 
     /** Column name C_Greeting_ID */
     public static final String COLUMNNAME_C_Greeting_ID = "C_Greeting_ID";
@@ -193,7 +187,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getC_Greeting_ID();
 
-	public org.compiere.model.I_C_Greeting getC_Greeting() throws RuntimeException;
+	public I_C_Greeting getC_Greeting() throws RuntimeException;
 
     /** Column name C_InvoiceSchedule_ID */
     public static final String COLUMNNAME_C_InvoiceSchedule_ID = "C_InvoiceSchedule_ID";
@@ -208,7 +202,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getC_InvoiceSchedule_ID();
 
-	public org.compiere.model.I_C_InvoiceSchedule getC_InvoiceSchedule() throws RuntimeException;
+	public I_C_InvoiceSchedule getC_InvoiceSchedule() throws RuntimeException;
 
     /** Column name C_PaymentTerm_ID */
     public static final String COLUMNNAME_C_PaymentTerm_ID = "C_PaymentTerm_ID";
@@ -223,7 +217,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getC_PaymentTerm_ID();
 
-	public org.compiere.model.I_C_PaymentTerm getC_PaymentTerm() throws RuntimeException;
+	public I_C_PaymentTerm getC_PaymentTerm() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -270,7 +264,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	/** Get Default 1099 Box	  */
 	public int getDefault1099Box_ID();
 
-	public org.compiere.model.I_C_1099Box getDefault1099Box() throws RuntimeException;
+	public I_C_1099Box getDefault1099Box() throws RuntimeException;
 
     /** Column name DeliveryRule */
     public static final String COLUMNNAME_DeliveryRule = "DeliveryRule";
@@ -398,7 +392,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getInvoice_PrintFormat_ID();
 
-	public org.compiere.model.I_AD_PrintFormat getInvoice_PrintFormat() throws RuntimeException;
+	public I_AD_PrintFormat getInvoice_PrintFormat() throws RuntimeException;
 
     /** Column name InvoiceRule */
     public static final String COLUMNNAME_InvoiceRule = "InvoiceRule";
@@ -596,7 +590,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getM_DiscountSchema_ID();
 
-	public org.compiere.model.I_M_DiscountSchema getM_DiscountSchema() throws RuntimeException;
+	public I_M_DiscountSchema getM_DiscountSchema() throws RuntimeException;
 
     /** Column name M_PriceList_ID */
     public static final String COLUMNNAME_M_PriceList_ID = "M_PriceList_ID";
@@ -611,7 +605,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getM_PriceList_ID();
 
-	public org.compiere.model.I_M_PriceList getM_PriceList() throws RuntimeException;
+	public I_M_PriceList getM_PriceList() throws RuntimeException;
 
     /** Column name NAICS */
     public static final String COLUMNNAME_NAICS = "NAICS";
@@ -699,7 +693,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getPO_DiscountSchema_ID();
 
-	public org.compiere.model.I_M_DiscountSchema getPO_DiscountSchema() throws RuntimeException;
+	public I_M_DiscountSchema getPO_DiscountSchema() throws RuntimeException;
 
     /** Column name PO_PaymentTerm_ID */
     public static final String COLUMNNAME_PO_PaymentTerm_ID = "PO_PaymentTerm_ID";
@@ -714,7 +708,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getPO_PaymentTerm_ID();
 
-	public org.compiere.model.I_C_PaymentTerm getPO_PaymentTerm() throws RuntimeException;
+	public I_C_PaymentTerm getPO_PaymentTerm() throws RuntimeException;
 
     /** Column name PO_PriceList_ID */
     public static final String COLUMNNAME_PO_PriceList_ID = "PO_PriceList_ID";
@@ -729,7 +723,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getPO_PriceList_ID();
 
-	public org.compiere.model.I_M_PriceList getPO_PriceList() throws RuntimeException;
+	public I_M_PriceList getPO_PriceList() throws RuntimeException;
 
     /** Column name POReference */
     public static final String COLUMNNAME_POReference = "POReference";
@@ -796,7 +790,7 @@ public interface I_C_BPartner extends IBusinessPartner
 	  */
 	public int getSalesRep_ID();
 
-	public org.compiere.model.I_AD_User getSalesRep() throws RuntimeException;
+	public I_AD_User getSalesRep() throws RuntimeException;
 
     /** Column name SalesVolume */
     public static final String COLUMNNAME_SalesVolume = "SalesVolume";

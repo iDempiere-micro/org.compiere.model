@@ -41,8 +41,8 @@ public interface I_C_AllocationLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_AllocationHdr_ID();
 
-	public org.compiere.model.I_C_AllocationHdr getC_AllocationHdr() throws RuntimeException;
+	public I_C_AllocationHdr getC_AllocationHdr() throws RuntimeException;
 
     /** Column name C_AllocationLine_ID */
     public static final String COLUMNNAME_C_AllocationLine_ID = "C_AllocationLine_ID";
@@ -125,7 +125,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_CashLine_ID */
     public static final String COLUMNNAME_C_CashLine_ID = "C_CashLine_ID";
@@ -140,7 +140,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_CashLine_ID();
 
-	public org.compiere.model.I_C_CashLine getC_CashLine() throws RuntimeException;
+	public I_C_CashLine getC_CashLine() throws RuntimeException;
 
     /** Column name C_Charge_ID */
     public static final String COLUMNNAME_C_Charge_ID = "C_Charge_ID";
@@ -155,7 +155,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name C_Invoice_ID */
     public static final String COLUMNNAME_C_Invoice_ID = "C_Invoice_ID";
@@ -170,7 +170,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_Order_ID */
     public static final String COLUMNNAME_C_Order_ID = "C_Order_ID";
@@ -185,7 +185,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_Order_ID();
 
-	public org.compiere.model.I_C_Order getC_Order() throws RuntimeException;
+	public I_C_Order getC_Order() throws RuntimeException;
 
     /** Column name C_Payment_ID */
     public static final String COLUMNNAME_C_Payment_ID = "C_Payment_ID";
@@ -200,7 +200,7 @@ public interface I_C_AllocationLine
 	  */
 	public int getC_Payment_ID();
 
-	public org.compiere.model.I_C_Payment getC_Payment() throws RuntimeException;
+	public I_C_Payment getC_Payment() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

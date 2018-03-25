@@ -41,8 +41,8 @@ public interface I_CM_CStage_Element
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_CM_CStage_Element
 	  */
 	public int getCM_CStage_ID();
 
-	public org.compiere.model.I_CM_CStage getCM_CStage() throws RuntimeException;
+	public I_CM_CStage getCM_CStage() throws RuntimeException;
 
     /** Column name ContentHTML */
     public static final String COLUMNNAME_ContentHTML = "ContentHTML";

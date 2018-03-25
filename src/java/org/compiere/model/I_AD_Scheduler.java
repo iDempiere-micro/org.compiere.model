@@ -41,8 +41,8 @@ public interface I_AD_Scheduler
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_Scheduler
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Schedule_ID */
     public static final String COLUMNNAME_AD_Schedule_ID = "AD_Schedule_ID";
@@ -86,7 +86,7 @@ public interface I_AD_Scheduler
 	/** Get Schedule	  */
 	public int getAD_Schedule_ID();
 
-	public org.compiere.model.I_AD_Schedule getAD_Schedule() throws RuntimeException;
+	public I_AD_Schedule getAD_Schedule() throws RuntimeException;
 
     /** Column name AD_Scheduler_ID */
     public static final String COLUMNNAME_AD_Scheduler_ID = "AD_Scheduler_ID";
@@ -123,7 +123,7 @@ public interface I_AD_Scheduler
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -254,7 +254,7 @@ public interface I_AD_Scheduler
 	  */
 	public int getR_MailText_ID();
 
-	public org.compiere.model.I_R_MailText getR_MailText() throws RuntimeException;
+	public I_R_MailText getR_MailText() throws RuntimeException;
 
     /** Column name Supervisor_ID */
     public static final String COLUMNNAME_Supervisor_ID = "Supervisor_ID";
@@ -269,7 +269,7 @@ public interface I_AD_Scheduler
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

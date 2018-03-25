@@ -41,8 +41,8 @@ public interface I_PA_Achievement
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -204,7 +204,7 @@ public interface I_PA_Achievement
 	  */
 	public int getPA_Measure_ID();
 
-	public org.compiere.model.I_PA_Measure getPA_Measure() throws RuntimeException;
+	public I_PA_Measure getPA_Measure() throws RuntimeException;
 
     /** Column name SeqNo */
     public static final String COLUMNNAME_SeqNo = "SeqNo";

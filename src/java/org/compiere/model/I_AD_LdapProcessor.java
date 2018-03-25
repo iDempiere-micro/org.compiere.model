@@ -41,8 +41,8 @@ public interface I_AD_LdapProcessor
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -213,7 +213,7 @@ public interface I_AD_LdapProcessor
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

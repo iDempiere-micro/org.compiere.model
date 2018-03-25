@@ -41,8 +41,8 @@ public interface I_GL_FundRestriction
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_GL_FundRestriction
 	  */
 	public int getC_ElementValue_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValue() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValue() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -119,7 +119,7 @@ public interface I_GL_FundRestriction
 	  */
 	public int getGL_Fund_ID();
 
-	public org.compiere.model.I_GL_Fund getGL_Fund() throws RuntimeException;
+	public I_GL_Fund getGL_Fund() throws RuntimeException;
 
     /** Column name GL_FundRestriction_ID */
     public static final String COLUMNNAME_GL_FundRestriction_ID = "GL_FundRestriction_ID";

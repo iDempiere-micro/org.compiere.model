@@ -41,8 +41,8 @@ public interface I_GL_BudgetControl
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_GL_BudgetControl
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name CommitmentType */
     public static final String COLUMNNAME_CommitmentType = "CommitmentType";
@@ -167,7 +167,7 @@ public interface I_GL_BudgetControl
 	  */
 	public int getGL_Budget_ID();
 
-	public org.compiere.model.I_GL_Budget getGL_Budget() throws RuntimeException;
+	public I_GL_Budget getGL_Budget() throws RuntimeException;
 
     /** Column name Help */
     public static final String COLUMNNAME_Help = "Help";

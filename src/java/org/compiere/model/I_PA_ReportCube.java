@@ -41,8 +41,8 @@ public interface I_PA_ReportCube
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_PA_ReportCube
 	  */
 	public int getC_Calendar_ID();
 
-	public org.compiere.model.I_C_Calendar getC_Calendar() throws RuntimeException;
+	public I_C_Calendar getC_Calendar() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

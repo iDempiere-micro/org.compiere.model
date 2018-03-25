@@ -41,8 +41,8 @@ public interface I_C_PaySelection
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_PaySelection
 	  */
 	public int getC_BankAccount_ID();
 
-	public org.compiere.model.I_C_BankAccount getC_BankAccount() throws RuntimeException;
+	public I_C_BankAccount getC_BankAccount() throws RuntimeException;
 
     /** Column name C_PaySelection_ID */
     public static final String COLUMNNAME_C_PaySelection_ID = "C_PaySelection_ID";

@@ -50,7 +50,7 @@ public interface I_AD_AllUsers_V
 	/** Get All Clients	  */
 	public int getAD_AllClients_V_ID();
 
-	public org.compiere.model.I_AD_AllClients_V getAD_AllClients_V() throws RuntimeException;
+	public I_AD_AllClients_V getAD_AllClients_V() throws RuntimeException;
 
     /** Column name AD_AllUsers_V_ID */
     public static final String COLUMNNAME_AD_AllUsers_V_ID = "AD_AllUsers_V_ID";
@@ -70,8 +70,8 @@ public interface I_AD_AllUsers_V
 	/** Get AD_AllUsers_V_UU	  */
 	public String getAD_AllUsers_V_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

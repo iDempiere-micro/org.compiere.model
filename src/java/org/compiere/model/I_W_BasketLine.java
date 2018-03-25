@@ -41,8 +41,8 @@ public interface I_W_BasketLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -130,7 +130,7 @@ public interface I_W_BasketLine
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Price */
     public static final String COLUMNNAME_Price = "Price";
@@ -196,7 +196,7 @@ public interface I_W_BasketLine
 	  */
 	public int getW_Basket_ID();
 
-	public org.compiere.model.I_W_Basket getW_Basket() throws RuntimeException;
+	public I_W_Basket getW_Basket() throws RuntimeException;
 
     /** Column name W_BasketLine_ID */
     public static final String COLUMNNAME_W_BasketLine_ID = "W_BasketLine_ID";

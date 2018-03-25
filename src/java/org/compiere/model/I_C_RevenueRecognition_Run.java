@@ -41,8 +41,8 @@ public interface I_C_RevenueRecognition_Run
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_C_RevenueRecognition_Run
 	  */
 	public int getC_RevenueRecognition_Plan_ID();
 
-	public org.compiere.model.I_C_RevenueRecognition_Plan getC_RevenueRecognition_Plan() throws RuntimeException;
+	public I_C_RevenueRecognition_Plan getC_RevenueRecognition_Plan() throws RuntimeException;
 
     /** Column name C_RevenueRecognition_Run_ID */
     public static final String COLUMNNAME_C_RevenueRecognition_Run_ID = "C_RevenueRecognition_Run_ID";
@@ -128,7 +128,7 @@ public interface I_C_RevenueRecognition_Run
 	  */
 	public int getGL_Journal_ID();
 
-	public org.compiere.model.I_GL_Journal getGL_Journal() throws RuntimeException;
+	public I_GL_Journal getGL_Journal() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

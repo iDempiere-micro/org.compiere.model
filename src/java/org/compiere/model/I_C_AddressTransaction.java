@@ -41,8 +41,8 @@ public interface I_C_AddressTransaction
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -154,7 +154,7 @@ public interface I_C_AddressTransaction
 	/** Get Address Validation	  */
 	public int getC_AddressValidation_ID();
 
-	public org.compiere.model.I_C_AddressValidation getC_AddressValidation() throws RuntimeException;
+	public I_C_AddressValidation getC_AddressValidation() throws RuntimeException;
 
     /** Column name City */
     public static final String COLUMNNAME_City = "City";

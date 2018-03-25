@@ -63,8 +63,8 @@ public interface I_AD_BroadcastMessage
 	/** Get AD_BroadcastMessage_UU	  */
 	public String getAD_BroadcastMessage_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_AD_BroadcastMessage
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -112,7 +112,7 @@ public interface I_AD_BroadcastMessage
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name BroadcastFrequency */
     public static final String COLUMNNAME_BroadcastFrequency = "BroadcastFrequency";

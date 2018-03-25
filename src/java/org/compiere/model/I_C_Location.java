@@ -20,12 +20,14 @@ import org.idempiere.common.util.KeyNamePair;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import software.hsharp.business.models.ILocation;
+import software.hsharp.business.models.IClientBound;
 
 /** Generated Interface for C_Location
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_Location 
+public interface I_C_Location extends ILocation, IClientBound
 {
 
     /** TableName=C_Location */
@@ -42,14 +44,6 @@ public interface I_C_Location
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
-
-	/** Get Client.
-	  * Client/Tenant for this installation.
-	  */
-	public int getAD_Client_ID();
-
     /** Column name Address1 */
     public static final String COLUMNNAME_Address1 = "Address1";
 
@@ -57,11 +51,6 @@ public interface I_C_Location
 	  * Address line 1 for this location
 	  */
 	public void setAddress1 (String Address1);
-
-	/** Get Address 1.
-	  * Address line 1 for this location
-	  */
-	public String getAddress1();
 
     /** Column name Address2 */
     public static final String COLUMNNAME_Address2 = "Address2";
@@ -71,11 +60,6 @@ public interface I_C_Location
 	  */
 	public void setAddress2 (String Address2);
 
-	/** Get Address 2.
-	  * Address line 2 for this location
-	  */
-	public String getAddress2();
-
     /** Column name Address3 */
     public static final String COLUMNNAME_Address3 = "Address3";
 
@@ -83,11 +67,6 @@ public interface I_C_Location
 	  * Address Line 3 for the location
 	  */
 	public void setAddress3 (String Address3);
-
-	/** Get Address 3.
-	  * Address Line 3 for the location
-	  */
-	public String getAddress3();
 
     /** Column name Address4 */
     public static final String COLUMNNAME_Address4 = "Address4";
@@ -97,11 +76,6 @@ public interface I_C_Location
 	  */
 	public void setAddress4 (String Address4);
 
-	/** Get Address 4.
-	  * Address Line 4 for the location
-	  */
-	public String getAddress4();
-
     /** Column name Address5 */
     public static final String COLUMNNAME_Address5 = "Address5";
 
@@ -109,11 +83,6 @@ public interface I_C_Location
 	  * Address Line 5 for the location
 	  */
 	public void setAddress5 (String Address5);
-
-	/** Get Address 5.
-	  * Address Line 5 for the location
-	  */
-	public String getAddress5();
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -137,7 +106,7 @@ public interface I_C_Location
 	/** Get Address Validation	  */
 	public int getC_AddressValidation_ID();
 
-	public org.compiere.model.I_C_AddressValidation getC_AddressValidation() throws RuntimeException;
+	public I_C_AddressValidation getC_AddressValidation() throws RuntimeException;
 
     /** Column name C_City_ID */
     public static final String COLUMNNAME_C_City_ID = "C_City_ID";
@@ -152,7 +121,7 @@ public interface I_C_Location
 	  */
 	public int getC_City_ID();
 
-	public org.compiere.model.I_C_City getC_City() throws RuntimeException;
+	public I_C_City getC_City() throws RuntimeException;
 
     /** Column name C_Country_ID */
     public static final String COLUMNNAME_C_Country_ID = "C_Country_ID";
@@ -167,7 +136,7 @@ public interface I_C_Location
 	  */
 	public int getC_Country_ID();
 
-	public org.compiere.model.I_C_Country getC_Country() throws RuntimeException;
+	public I_C_Country getC_Country() throws RuntimeException;
 
     /** Column name City */
     public static final String COLUMNNAME_City = "City";
@@ -176,11 +145,6 @@ public interface I_C_Location
 	  * Identifies a City
 	  */
 	public void setCity (String City);
-
-	/** Get City.
-	  * Identifies a City
-	  */
-	public String getCity();
 
     /** Column name C_Location_ID */
     public static final String COLUMNNAME_C_Location_ID = "C_Location_ID";
@@ -246,7 +210,7 @@ public interface I_C_Location
 	  */
 	public int getC_Region_ID();
 
-	public org.compiere.model.I_C_Region getC_Region() throws RuntimeException;
+	public I_C_Region getC_Region() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

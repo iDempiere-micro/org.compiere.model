@@ -41,8 +41,8 @@ public interface I_C_POS
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_C_POS
 	  */
 	public int getC_BankAccount_ID();
 
-	public org.compiere.model.I_C_BankAccount getC_BankAccount() throws RuntimeException;
+	public I_C_BankAccount getC_BankAccount() throws RuntimeException;
 
     /** Column name C_BPartnerCashTrx_ID */
     public static final String COLUMNNAME_C_BPartnerCashTrx_ID = "C_BPartnerCashTrx_ID";
@@ -112,7 +112,7 @@ public interface I_C_POS
 	  */
 	public int getC_BPartnerCashTrx_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartnerCashTrx() throws RuntimeException;
+	public I_C_BPartner getC_BPartnerCashTrx() throws RuntimeException;
 
     /** Column name C_CashBook_ID */
     public static final String COLUMNNAME_C_CashBook_ID = "C_CashBook_ID";
@@ -127,7 +127,7 @@ public interface I_C_POS
 	  */
 	public int getC_CashBook_ID();
 
-	public org.compiere.model.I_C_CashBook getC_CashBook() throws RuntimeException;
+	public I_C_CashBook getC_CashBook() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -142,7 +142,7 @@ public interface I_C_POS
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name C_POS_ID */
     public static final String COLUMNNAME_C_POS_ID = "C_POS_ID";
@@ -170,7 +170,7 @@ public interface I_C_POS
 	  */
 	public int getC_POSKeyLayout_ID();
 
-	public org.compiere.model.I_C_POSKeyLayout getC_POSKeyLayout() throws RuntimeException;
+	public I_C_POSKeyLayout getC_POSKeyLayout() throws RuntimeException;
 
     /** Column name C_POS_UU */
     public static final String COLUMNNAME_C_POS_UU = "C_POS_UU";
@@ -262,7 +262,7 @@ public interface I_C_POS
 	  */
 	public int getM_PriceList_ID();
 
-	public org.compiere.model.I_M_PriceList getM_PriceList() throws RuntimeException;
+	public I_M_PriceList getM_PriceList() throws RuntimeException;
 
     /** Column name M_Warehouse_ID */
     public static final String COLUMNNAME_M_Warehouse_ID = "M_Warehouse_ID";
@@ -277,7 +277,7 @@ public interface I_C_POS
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -305,7 +305,7 @@ public interface I_C_POS
 	  */
 	public int getOSK_KeyLayout_ID();
 
-	public org.compiere.model.I_C_POSKeyLayout getOSK_KeyLayout() throws RuntimeException;
+	public I_C_POSKeyLayout getOSK_KeyLayout() throws RuntimeException;
 
     /** Column name OSNP_KeyLayout_ID */
     public static final String COLUMNNAME_OSNP_KeyLayout_ID = "OSNP_KeyLayout_ID";
@@ -320,7 +320,7 @@ public interface I_C_POS
 	  */
 	public int getOSNP_KeyLayout_ID();
 
-	public org.compiere.model.I_C_POSKeyLayout getOSNP_KeyLayout() throws RuntimeException;
+	public I_C_POSKeyLayout getOSNP_KeyLayout() throws RuntimeException;
 
     /** Column name PrinterName */
     public static final String COLUMNNAME_PrinterName = "PrinterName";
@@ -348,7 +348,7 @@ public interface I_C_POS
 	  */
 	public int getSalesRep_ID();
 
-	public org.compiere.model.I_AD_User getSalesRep() throws RuntimeException;
+	public I_AD_User getSalesRep() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

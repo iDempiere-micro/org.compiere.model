@@ -41,8 +41,8 @@ public interface I_M_Product_BOM
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -191,7 +191,7 @@ public interface I_M_Product_BOM
 	/** Get Part Type	  */
 	public int getM_PartType_ID();
 
-	public org.compiere.model.I_M_PartType getM_PartType() throws RuntimeException;
+	public I_M_PartType getM_PartType() throws RuntimeException;
 
     /** Column name M_Product_BOM_ID */
     public static final String COLUMNNAME_M_Product_BOM_ID = "M_Product_BOM_ID";
@@ -215,7 +215,7 @@ public interface I_M_Product_BOM
 	  */
 	public int getM_ProductBOM_ID();
 
-	public org.compiere.model.I_M_Product getM_ProductBOM() throws RuntimeException;
+	public I_M_Product getM_ProductBOM() throws RuntimeException;
 
     /** Column name M_Product_BOM_UU */
     public static final String COLUMNNAME_M_Product_BOM_UU = "M_Product_BOM_UU";
@@ -239,7 +239,7 @@ public interface I_M_Product_BOM
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

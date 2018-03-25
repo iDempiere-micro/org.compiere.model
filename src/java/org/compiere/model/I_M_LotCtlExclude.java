@@ -41,8 +41,8 @@ public interface I_M_LotCtlExclude
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_LotCtlExclude
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -154,7 +154,7 @@ public interface I_M_LotCtlExclude
 	  */
 	public int getM_LotCtl_ID();
 
-	public org.compiere.model.I_M_LotCtl getM_LotCtl() throws RuntimeException;
+	public I_M_LotCtl getM_LotCtl() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

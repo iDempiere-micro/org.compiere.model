@@ -41,8 +41,8 @@ public interface I_M_ProductionLineMA
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -145,7 +145,7 @@ public interface I_M_ProductionLineMA
 	  */
 	public int getM_ProductionLine_ID();
 
-	public org.compiere.model.I_M_ProductionLine getM_ProductionLine() throws RuntimeException;
+	public I_M_ProductionLine getM_ProductionLine() throws RuntimeException;
 
     /** Column name M_ProductionLineMA_UU */
     public static final String COLUMNNAME_M_ProductionLineMA_UU = "M_ProductionLineMA_UU";

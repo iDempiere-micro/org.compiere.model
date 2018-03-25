@@ -41,8 +41,8 @@ public interface I_C_PaySelectionCheck
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_PaySelectionCheck
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BP_BankAccount_ID */
     public static final String COLUMNNAME_C_BP_BankAccount_ID = "C_BP_BankAccount_ID";
@@ -90,7 +90,7 @@ public interface I_C_PaySelectionCheck
 	  */
 	public int getC_BP_BankAccount_ID();
 
-	public org.compiere.model.I_C_BP_BankAccount getC_BP_BankAccount() throws RuntimeException;
+	public I_C_BP_BankAccount getC_BP_BankAccount() throws RuntimeException;
 
     /** Column name C_Payment_ID */
     public static final String COLUMNNAME_C_Payment_ID = "C_Payment_ID";
@@ -105,7 +105,7 @@ public interface I_C_PaySelectionCheck
 	  */
 	public int getC_Payment_ID();
 
-	public org.compiere.model.I_C_Payment getC_Payment() throws RuntimeException;
+	public I_C_Payment getC_Payment() throws RuntimeException;
 
     /** Column name C_PaySelectionCheck_ID */
     public static final String COLUMNNAME_C_PaySelectionCheck_ID = "C_PaySelectionCheck_ID";
@@ -142,7 +142,7 @@ public interface I_C_PaySelectionCheck
 	  */
 	public int getC_PaySelection_ID();
 
-	public org.compiere.model.I_C_PaySelection getC_PaySelection() throws RuntimeException;
+	public I_C_PaySelection getC_PaySelection() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

@@ -54,8 +54,8 @@ public interface I_W_Counter
 	  */
 	public String getAcceptLanguage();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -233,7 +233,7 @@ public interface I_W_Counter
 	  */
 	public int getW_CounterCount_ID();
 
-	public org.compiere.model.I_W_CounterCount getW_CounterCount() throws RuntimeException;
+	public I_W_CounterCount getW_CounterCount() throws RuntimeException;
 
     /** Column name W_Counter_ID */
     public static final String COLUMNNAME_W_Counter_ID = "W_Counter_ID";

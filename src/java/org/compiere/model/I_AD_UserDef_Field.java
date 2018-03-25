@@ -41,8 +41,8 @@ public interface I_AD_UserDef_Field
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_Field_ID();
 
-	public org.compiere.model.I_AD_Field getAD_Field() throws RuntimeException;
+	public I_AD_Field getAD_Field() throws RuntimeException;
 
     /** Column name AD_FieldStyle_ID */
     public static final String COLUMNNAME_AD_FieldStyle_ID = "AD_FieldStyle_ID";
@@ -77,7 +77,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_FieldStyle_ID();
 
-	public org.compiere.model.I_AD_Style getAD_FieldStyle() throws RuntimeException;
+	public I_AD_Style getAD_FieldStyle() throws RuntimeException;
 
     /** Column name AD_LabelStyle_ID */
     public static final String COLUMNNAME_AD_LabelStyle_ID = "AD_LabelStyle_ID";
@@ -92,7 +92,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_LabelStyle_ID();
 
-	public org.compiere.model.I_AD_Style getAD_LabelStyle() throws RuntimeException;
+	public I_AD_Style getAD_LabelStyle() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -120,7 +120,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_Reference_ID();
 
-	public org.compiere.model.I_AD_Reference getAD_Reference() throws RuntimeException;
+	public I_AD_Reference getAD_Reference() throws RuntimeException;
 
     /** Column name AD_Reference_Value_ID */
     public static final String COLUMNNAME_AD_Reference_Value_ID = "AD_Reference_Value_ID";
@@ -135,7 +135,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_Reference_Value_ID();
 
-	public org.compiere.model.I_AD_Reference getAD_Reference_Value() throws RuntimeException;
+	public I_AD_Reference getAD_Reference_Value() throws RuntimeException;
 
     /** Column name AD_UserDef_Field_ID */
     public static final String COLUMNNAME_AD_UserDef_Field_ID = "AD_UserDef_Field_ID";
@@ -164,7 +164,7 @@ public interface I_AD_UserDef_Field
 	/** Get User defined Tab	  */
 	public int getAD_UserDef_Tab_ID();
 
-	public org.compiere.model.I_AD_UserDef_Tab getAD_UserDef_Tab() throws RuntimeException;
+	public I_AD_UserDef_Tab getAD_UserDef_Tab() throws RuntimeException;
 
     /** Column name AD_Val_Rule_ID */
     public static final String COLUMNNAME_AD_Val_Rule_ID = "AD_Val_Rule_ID";
@@ -179,7 +179,7 @@ public interface I_AD_UserDef_Field
 	  */
 	public int getAD_Val_Rule_ID();
 
-	public org.compiere.model.I_AD_Val_Rule getAD_Val_Rule() throws RuntimeException;
+	public I_AD_Val_Rule getAD_Val_Rule() throws RuntimeException;
 
     /** Column name ColumnSpan */
     public static final String COLUMNNAME_ColumnSpan = "ColumnSpan";
@@ -425,7 +425,7 @@ public interface I_AD_UserDef_Field
 	/** Get Dashboard Content	  */
 	public int getPA_DashboardContent_ID();
 
-	public org.compiere.model.I_PA_DashboardContent getPA_DashboardContent() throws RuntimeException;
+	public I_PA_DashboardContent getPA_DashboardContent() throws RuntimeException;
 
     /** Column name ReadOnlyLogic */
     public static final String COLUMNNAME_ReadOnlyLogic = "ReadOnlyLogic";

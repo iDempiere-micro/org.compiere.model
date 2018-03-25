@@ -41,8 +41,8 @@ public interface I_M_ShippingTransactionLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_M_ShippingTransactionLine
 	  */
 	public int getC_UOM_Length_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Length() throws RuntimeException;
+	public I_C_UOM getC_UOM_Length() throws RuntimeException;
 
     /** Column name C_UOM_Weight_ID */
     public static final String COLUMNNAME_C_UOM_Weight_ID = "C_UOM_Weight_ID";
@@ -106,7 +106,7 @@ public interface I_M_ShippingTransactionLine
 	  */
 	public int getC_UOM_Weight_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Weight() throws RuntimeException;
+	public I_C_UOM getC_UOM_Weight() throws RuntimeException;
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";
@@ -170,7 +170,7 @@ public interface I_M_ShippingTransactionLine
 	/** Get Package MPS	  */
 	public int getM_PackageMPS_ID();
 
-	public org.compiere.model.I_M_PackageMPS getM_PackageMPS() throws RuntimeException;
+	public I_M_PackageMPS getM_PackageMPS() throws RuntimeException;
 
     /** Column name M_ShippingTransaction_ID */
     public static final String COLUMNNAME_M_ShippingTransaction_ID = "M_ShippingTransaction_ID";
@@ -181,7 +181,7 @@ public interface I_M_ShippingTransactionLine
 	/** Get Shipping Transaction	  */
 	public int getM_ShippingTransaction_ID();
 
-	public org.compiere.model.I_M_ShippingTransaction getM_ShippingTransaction() throws RuntimeException;
+	public I_M_ShippingTransaction getM_ShippingTransaction() throws RuntimeException;
 
     /** Column name M_ShippingTransactionLine_ID */
     public static final String COLUMNNAME_M_ShippingTransactionLine_ID = "M_ShippingTransactionLine_ID";

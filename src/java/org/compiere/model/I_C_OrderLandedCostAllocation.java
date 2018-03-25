@@ -41,8 +41,8 @@ public interface I_C_OrderLandedCostAllocation
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -115,7 +115,7 @@ public interface I_C_OrderLandedCostAllocation
 	/** Get Estimated Landed Cost	  */
 	public int getC_OrderLandedCost_ID();
 
-	public org.compiere.model.I_C_OrderLandedCost getC_OrderLandedCost() throws RuntimeException;
+	public I_C_OrderLandedCost getC_OrderLandedCost() throws RuntimeException;
 
     /** Column name C_OrderLine_ID */
     public static final String COLUMNNAME_C_OrderLine_ID = "C_OrderLine_ID";
@@ -130,7 +130,7 @@ public interface I_C_OrderLandedCostAllocation
 	  */
 	public int getC_OrderLine_ID();
 
-	public org.compiere.model.I_C_OrderLine getC_OrderLine() throws RuntimeException;
+	public I_C_OrderLine getC_OrderLine() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

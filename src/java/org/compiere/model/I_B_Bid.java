@@ -41,8 +41,8 @@ public interface I_B_Bid
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_B_Bid
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name B_Bid_ID */
     public static final String COLUMNNAME_B_Bid_ID = "B_Bid_ID";
@@ -112,7 +112,7 @@ public interface I_B_Bid
 	  */
 	public int getB_BuyerFunds_ID();
 
-	public org.compiere.model.I_B_BuyerFunds getB_BuyerFunds() throws RuntimeException;
+	public I_B_BuyerFunds getB_BuyerFunds() throws RuntimeException;
 
     /** Column name B_Topic_ID */
     public static final String COLUMNNAME_B_Topic_ID = "B_Topic_ID";
@@ -127,7 +127,7 @@ public interface I_B_Bid
 	  */
 	public int getB_Topic_ID();
 
-	public org.compiere.model.I_B_Topic getB_Topic() throws RuntimeException;
+	public I_B_Topic getB_Topic() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

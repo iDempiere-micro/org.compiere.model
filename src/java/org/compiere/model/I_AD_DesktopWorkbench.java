@@ -41,8 +41,8 @@ public interface I_AD_DesktopWorkbench
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_DesktopWorkbench
 	  */
 	public int getAD_Desktop_ID();
 
-	public org.compiere.model.I_AD_Desktop getAD_Desktop() throws RuntimeException;
+	public I_AD_Desktop getAD_Desktop() throws RuntimeException;
 
     /** Column name AD_DesktopWorkbench_ID */
     public static final String COLUMNNAME_AD_DesktopWorkbench_ID = "AD_DesktopWorkbench_ID";
@@ -108,7 +108,7 @@ public interface I_AD_DesktopWorkbench
 	  */
 	public int getAD_Workbench_ID();
 
-	public org.compiere.model.I_AD_Workbench getAD_Workbench() throws RuntimeException;
+	public I_AD_Workbench getAD_Workbench() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

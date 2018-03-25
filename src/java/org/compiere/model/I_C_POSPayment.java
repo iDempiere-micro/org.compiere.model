@@ -54,8 +54,8 @@ public interface I_C_POSPayment
 	  */
 	public String getAccountNo();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -123,7 +123,7 @@ public interface I_C_POSPayment
 	  */
 	public int getC_Order_ID();
 
-	public org.compiere.model.I_C_Order getC_Order() throws RuntimeException;
+	public I_C_Order getC_Order() throws RuntimeException;
 
     /** Column name C_Payment_ID */
     public static final String COLUMNNAME_C_Payment_ID = "C_Payment_ID";
@@ -138,7 +138,7 @@ public interface I_C_POSPayment
 	  */
 	public int getC_Payment_ID();
 
-	public org.compiere.model.I_C_Payment getC_Payment() throws RuntimeException;
+	public I_C_Payment getC_Payment() throws RuntimeException;
 
     /** Column name C_POSPayment_ID */
     public static final String COLUMNNAME_C_POSPayment_ID = "C_POSPayment_ID";
@@ -167,7 +167,7 @@ public interface I_C_POSPayment
 	/** Get POS Tender Type	  */
 	public int getC_POSTenderType_ID();
 
-	public org.compiere.model.I_C_POSTenderType getC_POSTenderType() throws RuntimeException;
+	public I_C_POSTenderType getC_POSTenderType() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

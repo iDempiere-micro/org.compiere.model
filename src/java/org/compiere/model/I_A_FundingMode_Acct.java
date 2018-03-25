@@ -41,8 +41,8 @@ public interface I_A_FundingMode_Acct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_A_FundingMode_Acct
 	/** Get Asset Funding Mode	  */
 	public int getA_FundingMode_ID();
 
-	public org.compiere.model.I_A_FundingMode getA_FundingMode() throws RuntimeException;
+	public I_A_FundingMode getA_FundingMode() throws RuntimeException;
 
     /** Column name C_AcctSchema_ID */
     public static final String COLUMNNAME_C_AcctSchema_ID = "C_AcctSchema_ID";
@@ -106,7 +106,7 @@ public interface I_A_FundingMode_Acct
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

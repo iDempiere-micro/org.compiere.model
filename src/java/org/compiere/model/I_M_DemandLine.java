@@ -41,8 +41,8 @@ public interface I_M_DemandLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_DemandLine
 	  */
 	public int getC_Period_ID();
 
-	public org.compiere.model.I_C_Period getC_Period() throws RuntimeException;
+	public I_C_Period getC_Period() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -119,7 +119,7 @@ public interface I_M_DemandLine
 	  */
 	public int getM_Demand_ID();
 
-	public org.compiere.model.I_M_Demand getM_Demand() throws RuntimeException;
+	public I_M_Demand getM_Demand() throws RuntimeException;
 
     /** Column name M_DemandLine_ID */
     public static final String COLUMNNAME_M_DemandLine_ID = "M_DemandLine_ID";
@@ -156,7 +156,7 @@ public interface I_M_DemandLine
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Qty */
     public static final String COLUMNNAME_Qty = "Qty";

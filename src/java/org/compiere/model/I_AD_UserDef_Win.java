@@ -41,8 +41,8 @@ public interface I_AD_UserDef_Win
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_AD_UserDef_Win
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_UserDef_Win_ID */
     public static final String COLUMNNAME_AD_UserDef_Win_ID = "AD_UserDef_Win_ID";
@@ -121,7 +121,7 @@ public interface I_AD_UserDef_Win
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -136,7 +136,7 @@ public interface I_AD_UserDef_Win
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

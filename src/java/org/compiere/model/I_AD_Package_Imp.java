@@ -41,8 +41,8 @@ public interface I_AD_Package_Imp
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -80,7 +80,7 @@ public interface I_AD_Package_Imp
 	/** Get Package Imp. Proc.	  */
 	public int getAD_Package_Imp_Proc_ID();
 
-	public org.compiere.model.I_AD_Package_Imp_Proc getAD_Package_Imp_Proc() throws RuntimeException;
+	public I_AD_Package_Imp_Proc getAD_Package_Imp_Proc() throws RuntimeException;
 
     /** Column name AD_Package_Imp_UU */
     public static final String COLUMNNAME_AD_Package_Imp_UU = "AD_Package_Imp_UU";

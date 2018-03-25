@@ -41,8 +41,8 @@ public interface I_M_BOM
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -178,7 +178,7 @@ public interface I_M_BOM
 	  */
 	public int getM_ChangeNotice_ID();
 
-	public org.compiere.model.I_M_ChangeNotice getM_ChangeNotice() throws RuntimeException;
+	public I_M_ChangeNotice getM_ChangeNotice() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -193,7 +193,7 @@ public interface I_M_BOM
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

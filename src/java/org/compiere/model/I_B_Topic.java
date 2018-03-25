@@ -41,8 +41,8 @@ public interface I_B_Topic
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_B_Topic
 	  */
 	public int getB_TopicCategory_ID();
 
-	public org.compiere.model.I_B_TopicCategory getB_TopicCategory() throws RuntimeException;
+	public I_B_TopicCategory getB_TopicCategory() throws RuntimeException;
 
     /** Column name B_Topic_ID */
     public static final String COLUMNNAME_B_Topic_ID = "B_Topic_ID";
@@ -103,7 +103,7 @@ public interface I_B_Topic
 	  */
 	public int getB_TopicType_ID();
 
-	public org.compiere.model.I_B_TopicType getB_TopicType() throws RuntimeException;
+	public I_B_TopicType getB_TopicType() throws RuntimeException;
 
     /** Column name B_Topic_UU */
     public static final String COLUMNNAME_B_Topic_UU = "B_Topic_UU";

@@ -54,7 +54,7 @@ public interface I_A_Asset_Product
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Product_ID */
     public static final String COLUMNNAME_A_Asset_Product_ID = "A_Asset_Product_ID";
@@ -74,8 +74,8 @@ public interface I_A_Asset_Product
 	/** Get A_Asset_Product_UU	  */
 	public String getA_Asset_Product_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -189,7 +189,7 @@ public interface I_A_Asset_Product
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

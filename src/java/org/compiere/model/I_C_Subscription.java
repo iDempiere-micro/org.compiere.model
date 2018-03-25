@@ -41,8 +41,8 @@ public interface I_C_Subscription
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_Subscription
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -119,7 +119,7 @@ public interface I_C_Subscription
 	  */
 	public int getC_SubscriptionType_ID();
 
-	public org.compiere.model.I_C_SubscriptionType getC_SubscriptionType() throws RuntimeException;
+	public I_C_SubscriptionType getC_SubscriptionType() throws RuntimeException;
 
     /** Column name C_Subscription_UU */
     public static final String COLUMNNAME_C_Subscription_UU = "C_Subscription_UU";
@@ -169,7 +169,7 @@ public interface I_C_Subscription
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

@@ -41,8 +41,8 @@ public interface I_AD_Registration
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_AD_Registration
 	  */
 	public int getAD_System_ID();
 
-	public org.compiere.model.I_AD_System getAD_System() throws RuntimeException;
+	public I_AD_System getAD_System() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -112,7 +112,7 @@ public interface I_AD_Registration
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_Location_ID */
     public static final String COLUMNNAME_C_Location_ID = "C_Location_ID";

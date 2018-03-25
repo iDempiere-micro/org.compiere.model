@@ -41,8 +41,8 @@ public interface I_M_Locator
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -126,7 +126,7 @@ public interface I_M_Locator
 	/** Get Locator Type	  */
 	public int getM_LocatorType_ID();
 
-	public org.compiere.model.I_M_LocatorType getM_LocatorType() throws RuntimeException;
+	public I_M_LocatorType getM_LocatorType() throws RuntimeException;
 
     /** Column name M_Locator_UU */
     public static final String COLUMNNAME_M_Locator_UU = "M_Locator_UU";
@@ -150,7 +150,7 @@ public interface I_M_Locator
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name PriorityNo */
     public static final String COLUMNNAME_PriorityNo = "PriorityNo";

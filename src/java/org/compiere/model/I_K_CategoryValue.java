@@ -41,8 +41,8 @@ public interface I_K_CategoryValue
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_K_CategoryValue
 	  */
 	public int getK_Category_ID();
 
-	public org.compiere.model.I_K_Category getK_Category() throws RuntimeException;
+	public I_K_Category getK_Category() throws RuntimeException;
 
     /** Column name K_CategoryValue_ID */
     public static final String COLUMNNAME_K_CategoryValue_ID = "K_CategoryValue_ID";

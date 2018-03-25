@@ -56,8 +56,8 @@ public interface I_HR_Movement
 	  */
 	public String getAccountSign();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

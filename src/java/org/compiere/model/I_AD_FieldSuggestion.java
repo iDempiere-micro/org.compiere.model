@@ -54,8 +54,8 @@ public interface I_AD_FieldSuggestion
 	  */
 	public String getAcceptSuggestion();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_FieldSuggestion
 	  */
 	public int getAD_Field_ID();
 
-	public org.compiere.model.I_AD_Field getAD_Field() throws RuntimeException;
+	public I_AD_Field getAD_Field() throws RuntimeException;
 
     /** Column name AD_FieldSuggestion_ID */
     public static final String COLUMNNAME_AD_FieldSuggestion_ID = "AD_FieldSuggestion_ID";
@@ -134,7 +134,7 @@ public interface I_AD_FieldSuggestion
 	  */
 	public int getAD_Tab_ID();
 
-	public org.compiere.model.I_AD_Tab getAD_Tab() throws RuntimeException;
+	public I_AD_Tab getAD_Tab() throws RuntimeException;
 
     /** Column name AD_UserClient_ID */
     public static final String COLUMNNAME_AD_UserClient_ID = "AD_UserClient_ID";
@@ -145,7 +145,7 @@ public interface I_AD_FieldSuggestion
 	/** Get Tenant of User	  */
 	public int getAD_UserClient_ID();
 
-	public org.compiere.model.I_AD_AllClients_V getAD_UserClient() throws RuntimeException;
+	public I_AD_AllClients_V getAD_UserClient() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -160,7 +160,7 @@ public interface I_AD_FieldSuggestion
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_AllUsers_V getAD_User() throws RuntimeException;
+	public I_AD_AllUsers_V getAD_User() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -175,7 +175,7 @@ public interface I_AD_FieldSuggestion
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name CompareSuggestion */
     public static final String COLUMNNAME_CompareSuggestion = "CompareSuggestion";

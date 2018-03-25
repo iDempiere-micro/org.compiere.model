@@ -80,8 +80,8 @@ public interface I_C_PaymentTransaction
 	  */
 	public String getA_Country();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -218,7 +218,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Activity_ID();
 
-	public org.compiere.model.I_C_Activity getC_Activity() throws RuntimeException;
+	public I_C_Activity getC_Activity() throws RuntimeException;
 
     /** Column name C_BankAccount_ID */
     public static final String COLUMNNAME_C_BankAccount_ID = "C_BankAccount_ID";
@@ -233,7 +233,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_BankAccount_ID();
 
-	public org.compiere.model.I_C_BankAccount getC_BankAccount() throws RuntimeException;
+	public I_C_BankAccount getC_BankAccount() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -248,7 +248,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BP_BankAccount_ID */
     public static final String COLUMNNAME_C_BP_BankAccount_ID = "C_BP_BankAccount_ID";
@@ -263,7 +263,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_BP_BankAccount_ID();
 
-	public org.compiere.model.I_C_BP_BankAccount getC_BP_BankAccount() throws RuntimeException;
+	public I_C_BP_BankAccount getC_BP_BankAccount() throws RuntimeException;
 
     /** Column name C_Campaign_ID */
     public static final String COLUMNNAME_C_Campaign_ID = "C_Campaign_ID";
@@ -278,7 +278,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Campaign_ID();
 
-	public org.compiere.model.I_C_Campaign getC_Campaign() throws RuntimeException;
+	public I_C_Campaign getC_Campaign() throws RuntimeException;
 
     /** Column name C_CashBook_ID */
     public static final String COLUMNNAME_C_CashBook_ID = "C_CashBook_ID";
@@ -293,7 +293,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_CashBook_ID();
 
-	public org.compiere.model.I_C_CashBook getC_CashBook() throws RuntimeException;
+	public I_C_CashBook getC_CashBook() throws RuntimeException;
 
     /** Column name C_Charge_ID */
     public static final String COLUMNNAME_C_Charge_ID = "C_Charge_ID";
@@ -308,7 +308,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name C_ConversionType_ID */
     public static final String COLUMNNAME_C_ConversionType_ID = "C_ConversionType_ID";
@@ -323,7 +323,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_ConversionType_ID();
 
-	public org.compiere.model.I_C_ConversionType getC_ConversionType() throws RuntimeException;
+	public I_C_ConversionType getC_ConversionType() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -338,7 +338,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name CheckNo */
     public static final String COLUMNNAME_CheckNo = "CheckNo";
@@ -366,7 +366,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_Order_ID */
     public static final String COLUMNNAME_C_Order_ID = "C_Order_ID";
@@ -381,7 +381,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Order_ID();
 
-	public org.compiere.model.I_C_Order getC_Order() throws RuntimeException;
+	public I_C_Order getC_Order() throws RuntimeException;
 
     /** Column name C_PaymentBatch_ID */
     public static final String COLUMNNAME_C_PaymentBatch_ID = "C_PaymentBatch_ID";
@@ -396,7 +396,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_PaymentBatch_ID();
 
-	public org.compiere.model.I_C_PaymentBatch getC_PaymentBatch() throws RuntimeException;
+	public I_C_PaymentBatch getC_PaymentBatch() throws RuntimeException;
 
     /** Column name C_Payment_ID */
     public static final String COLUMNNAME_C_Payment_ID = "C_Payment_ID";
@@ -411,7 +411,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Payment_ID();
 
-	public org.compiere.model.I_C_Payment getC_Payment() throws RuntimeException;
+	public I_C_Payment getC_Payment() throws RuntimeException;
 
     /** Column name C_PaymentProcessor_ID */
     public static final String COLUMNNAME_C_PaymentProcessor_ID = "C_PaymentProcessor_ID";
@@ -426,7 +426,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_PaymentProcessor_ID();
 
-	public org.compiere.model.I_C_PaymentProcessor getC_PaymentProcessor() throws RuntimeException;
+	public I_C_PaymentProcessor getC_PaymentProcessor() throws RuntimeException;
 
     /** Column name C_PaymentTransaction_ID */
     public static final String COLUMNNAME_C_PaymentTransaction_ID = "C_PaymentTransaction_ID";
@@ -455,7 +455,7 @@ public interface I_C_PaymentTransaction
 	/** Get POS Tender Type	  */
 	public int getC_POSTenderType_ID();
 
-	public org.compiere.model.I_C_POSTenderType getC_POSTenderType() throws RuntimeException;
+	public I_C_POSTenderType getC_POSTenderType() throws RuntimeException;
 
     /** Column name C_Project_ID */
     public static final String COLUMNNAME_C_Project_ID = "C_Project_ID";
@@ -470,7 +470,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getC_Project_ID();
 
-	public org.compiere.model.I_C_Project getC_Project() throws RuntimeException;
+	public I_C_Project getC_Project() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -832,7 +832,7 @@ public interface I_C_PaymentTransaction
 	/** Get Referenced Payment Transaction	  */
 	public int getRef_PaymentTransaction_ID();
 
-	public org.compiere.model.I_C_PaymentTransaction getRef_PaymentTransaction() throws RuntimeException;
+	public I_C_PaymentTransaction getRef_PaymentTransaction() throws RuntimeException;
 
     /** Column name R_Info */
     public static final String COLUMNNAME_R_Info = "R_Info";
@@ -989,7 +989,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getUser1_ID();
 
-	public org.compiere.model.I_C_ElementValue getUser1() throws RuntimeException;
+	public I_C_ElementValue getUser1() throws RuntimeException;
 
     /** Column name User2_ID */
     public static final String COLUMNNAME_User2_ID = "User2_ID";
@@ -1004,7 +1004,7 @@ public interface I_C_PaymentTransaction
 	  */
 	public int getUser2_ID();
 
-	public org.compiere.model.I_C_ElementValue getUser2() throws RuntimeException;
+	public I_C_ElementValue getUser2() throws RuntimeException;
 
     /** Column name VoiceAuthCode */
     public static final String COLUMNNAME_VoiceAuthCode = "VoiceAuthCode";

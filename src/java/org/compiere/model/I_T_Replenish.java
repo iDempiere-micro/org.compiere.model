@@ -41,8 +41,8 @@ public interface I_T_Replenish
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_T_Replenish
 	  */
 	public int getAD_PInstance_ID();
 
-	public org.compiere.model.I_AD_PInstance getAD_PInstance() throws RuntimeException;
+	public I_AD_PInstance getAD_PInstance() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -90,7 +90,7 @@ public interface I_T_Replenish
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -105,7 +105,7 @@ public interface I_T_Replenish
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name Level_Max */
     public static final String COLUMNNAME_Level_Max = "Level_Max";
@@ -146,7 +146,7 @@ public interface I_T_Replenish
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name M_Warehouse_ID */
     public static final String COLUMNNAME_M_Warehouse_ID = "M_Warehouse_ID";
@@ -161,7 +161,7 @@ public interface I_T_Replenish
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name M_WarehouseSource_ID */
     public static final String COLUMNNAME_M_WarehouseSource_ID = "M_WarehouseSource_ID";
@@ -176,7 +176,7 @@ public interface I_T_Replenish
 	  */
 	public int getM_WarehouseSource_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_WarehouseSource() throws RuntimeException;
+	public I_M_Warehouse getM_WarehouseSource() throws RuntimeException;
 
     /** Column name Order_Min */
     public static final String COLUMNNAME_Order_Min = "Order_Min";

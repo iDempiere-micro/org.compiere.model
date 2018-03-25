@@ -41,8 +41,8 @@ public interface I_M_ShipperPickupTypes
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_M_ShipperPickupTypes
 	  */
 	public int getM_Shipper_ID();
 
-	public org.compiere.model.I_M_Shipper getM_Shipper() throws RuntimeException;
+	public I_M_Shipper getM_Shipper() throws RuntimeException;
 
     /** Column name M_ShipperPickupTypesCfg_ID */
     public static final String COLUMNNAME_M_ShipperPickupTypesCfg_ID = "M_ShipperPickupTypesCfg_ID";
@@ -128,7 +128,7 @@ public interface I_M_ShipperPickupTypes
 	/** Get Shipper Pickup Types Configuration	  */
 	public int getM_ShipperPickupTypesCfg_ID();
 
-	public org.compiere.model.I_M_ShipperPickupTypesCfg getM_ShipperPickupTypesCfg() throws RuntimeException;
+	public I_M_ShipperPickupTypesCfg getM_ShipperPickupTypesCfg() throws RuntimeException;
 
     /** Column name M_ShipperPickupTypes_ID */
     public static final String COLUMNNAME_M_ShipperPickupTypes_ID = "M_ShipperPickupTypes_ID";

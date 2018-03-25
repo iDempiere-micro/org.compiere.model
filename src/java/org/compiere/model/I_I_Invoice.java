@@ -54,8 +54,8 @@ public interface I_I_Invoice
 	  */
 	public String getActivityValue();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -127,7 +127,7 @@ public interface I_I_Invoice
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name BPartnerValue */
     public static final String COLUMNNAME_BPartnerValue = "BPartnerValue";
@@ -151,7 +151,7 @@ public interface I_I_Invoice
 	/** Get 1099 Box	  */
 	public int getC_1099Box_ID();
 
-	public org.compiere.model.I_C_1099Box getC_1099Box() throws RuntimeException;
+	public I_C_1099Box getC_1099Box() throws RuntimeException;
 
     /** Column name C_1099Box_Value */
     public static final String COLUMNNAME_C_1099Box_Value = "C_1099Box_Value";
@@ -175,7 +175,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Activity_ID();
 
-	public org.compiere.model.I_C_Activity getC_Activity() throws RuntimeException;
+	public I_C_Activity getC_Activity() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -190,7 +190,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BPartner_Location_ID */
     public static final String COLUMNNAME_C_BPartner_Location_ID = "C_BPartner_Location_ID";
@@ -205,7 +205,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_BPartner_Location_ID();
 
-	public org.compiere.model.I_C_BPartner_Location getC_BPartner_Location() throws RuntimeException;
+	public I_C_BPartner_Location getC_BPartner_Location() throws RuntimeException;
 
     /** Column name C_Campaign_ID */
     public static final String COLUMNNAME_C_Campaign_ID = "C_Campaign_ID";
@@ -220,7 +220,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Campaign_ID();
 
-	public org.compiere.model.I_C_Campaign getC_Campaign() throws RuntimeException;
+	public I_C_Campaign getC_Campaign() throws RuntimeException;
 
     /** Column name C_Charge_ID */
     public static final String COLUMNNAME_C_Charge_ID = "C_Charge_ID";
@@ -235,7 +235,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name C_Country_ID */
     public static final String COLUMNNAME_C_Country_ID = "C_Country_ID";
@@ -250,7 +250,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Country_ID();
 
-	public org.compiere.model.I_C_Country getC_Country() throws RuntimeException;
+	public I_C_Country getC_Country() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -265,7 +265,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -280,7 +280,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name ChargeName */
     public static final String COLUMNNAME_ChargeName = "ChargeName";
@@ -308,7 +308,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_InvoiceLine_ID */
     public static final String COLUMNNAME_C_InvoiceLine_ID = "C_InvoiceLine_ID";
@@ -323,7 +323,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name City */
     public static final String COLUMNNAME_City = "City";
@@ -351,7 +351,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Location_ID();
 
-	public org.compiere.model.I_C_Location getC_Location() throws RuntimeException;
+	public I_C_Location getC_Location() throws RuntimeException;
 
     /** Column name ContactName */
     public static final String COLUMNNAME_ContactName = "ContactName";
@@ -392,7 +392,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_PaymentTerm_ID();
 
-	public org.compiere.model.I_C_PaymentTerm getC_PaymentTerm() throws RuntimeException;
+	public I_C_PaymentTerm getC_PaymentTerm() throws RuntimeException;
 
     /** Column name C_Project_ID */
     public static final String COLUMNNAME_C_Project_ID = "C_Project_ID";
@@ -407,7 +407,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Project_ID();
 
-	public org.compiere.model.I_C_Project getC_Project() throws RuntimeException;
+	public I_C_Project getC_Project() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -438,7 +438,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Region_ID();
 
-	public org.compiere.model.I_C_Region getC_Region() throws RuntimeException;
+	public I_C_Region getC_Region() throws RuntimeException;
 
     /** Column name C_Tax_ID */
     public static final String COLUMNNAME_C_Tax_ID = "C_Tax_ID";
@@ -453,7 +453,7 @@ public interface I_I_Invoice
 	  */
 	public int getC_Tax_ID();
 
-	public org.compiere.model.I_C_Tax getC_Tax() throws RuntimeException;
+	public I_C_Tax getC_Tax() throws RuntimeException;
 
     /** Column name DateAcct */
     public static final String COLUMNNAME_DateAcct = "DateAcct";
@@ -633,7 +633,7 @@ public interface I_I_Invoice
 	  */
 	public int getM_PriceList_ID();
 
-	public org.compiere.model.I_M_PriceList getM_PriceList() throws RuntimeException;
+	public I_M_PriceList getM_PriceList() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -648,7 +648,7 @@ public interface I_I_Invoice
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -802,7 +802,7 @@ public interface I_I_Invoice
 	  */
 	public int getSalesRep_ID();
 
-	public org.compiere.model.I_AD_User getSalesRep() throws RuntimeException;
+	public I_AD_User getSalesRep() throws RuntimeException;
 
     /** Column name SKU */
     public static final String COLUMNNAME_SKU = "SKU";

@@ -81,7 +81,7 @@ public interface I_A_Depreciation_Workfile
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Life_Current_Year */
     public static final String COLUMNNAME_A_Asset_Life_Current_Year = "A_Asset_Life_Current_Year";
@@ -164,8 +164,8 @@ public interface I_A_Depreciation_Workfile
 	/** Get Current Period	  */
 	public int getA_Current_Period();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -230,7 +230,7 @@ public interface I_A_Depreciation_Workfile
 	/** Get Asset Funding Mode	  */
 	public int getA_FundingMode_ID();
 
-	public org.compiere.model.I_A_FundingMode getA_FundingMode() throws RuntimeException;
+	public I_A_FundingMode getA_FundingMode() throws RuntimeException;
 
     /** Column name A_Life_Period */
     public static final String COLUMNNAME_A_Life_Period = "A_Life_Period";

@@ -41,8 +41,8 @@ public interface I_C_Campaign
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_C_Campaign
 	  */
 	public int getC_Channel_ID();
 
-	public org.compiere.model.I_C_Channel getC_Channel() throws RuntimeException;
+	public I_C_Channel getC_Channel() throws RuntimeException;
 
     /** Column name Costs */
     public static final String COLUMNNAME_Costs = "Costs";

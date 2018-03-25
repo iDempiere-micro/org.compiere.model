@@ -41,8 +41,8 @@ public interface I_M_InOutLineConfirm
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_InOutLineConfirm
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name ConfirmationNo */
     public static final String COLUMNNAME_ConfirmationNo = "ConfirmationNo";
@@ -171,7 +171,7 @@ public interface I_M_InOutLineConfirm
 	  */
 	public int getM_InOutConfirm_ID();
 
-	public org.compiere.model.I_M_InOutConfirm getM_InOutConfirm() throws RuntimeException;
+	public I_M_InOutConfirm getM_InOutConfirm() throws RuntimeException;
 
     /** Column name M_InOutLineConfirm_ID */
     public static final String COLUMNNAME_M_InOutLineConfirm_ID = "M_InOutLineConfirm_ID";
@@ -208,7 +208,7 @@ public interface I_M_InOutLineConfirm
 	  */
 	public int getM_InOutLine_ID();
 
-	public org.compiere.model.I_M_InOutLine getM_InOutLine() throws RuntimeException;
+	public I_M_InOutLine getM_InOutLine() throws RuntimeException;
 
     /** Column name M_InventoryLine_ID */
     public static final String COLUMNNAME_M_InventoryLine_ID = "M_InventoryLine_ID";
@@ -223,7 +223,7 @@ public interface I_M_InOutLineConfirm
 	  */
 	public int getM_InventoryLine_ID();
 
-	public org.compiere.model.I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
+	public I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";

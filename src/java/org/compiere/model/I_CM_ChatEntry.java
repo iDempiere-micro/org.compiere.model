@@ -41,8 +41,8 @@ public interface I_CM_ChatEntry
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_ChatEntry
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name CharacterData */
     public static final String COLUMNNAME_CharacterData = "CharacterData";
@@ -116,7 +116,7 @@ public interface I_CM_ChatEntry
 	  */
 	public int getCM_ChatEntryGrandParent_ID();
 
-	public org.compiere.model.I_CM_ChatEntry getCM_ChatEntryGrandParent() throws RuntimeException;
+	public I_CM_ChatEntry getCM_ChatEntryGrandParent() throws RuntimeException;
 
     /** Column name CM_ChatEntry_ID */
     public static final String COLUMNNAME_CM_ChatEntry_ID = "CM_ChatEntry_ID";
@@ -144,7 +144,7 @@ public interface I_CM_ChatEntry
 	  */
 	public int getCM_ChatEntryParent_ID();
 
-	public org.compiere.model.I_CM_ChatEntry getCM_ChatEntryParent() throws RuntimeException;
+	public I_CM_ChatEntry getCM_ChatEntryParent() throws RuntimeException;
 
     /** Column name CM_ChatEntry_UU */
     public static final String COLUMNNAME_CM_ChatEntry_UU = "CM_ChatEntry_UU";
@@ -168,7 +168,7 @@ public interface I_CM_ChatEntry
 	  */
 	public int getCM_Chat_ID();
 
-	public org.compiere.model.I_CM_Chat getCM_Chat() throws RuntimeException;
+	public I_CM_Chat getCM_Chat() throws RuntimeException;
 
     /** Column name ConfidentialType */
     public static final String COLUMNNAME_ConfidentialType = "ConfidentialType";

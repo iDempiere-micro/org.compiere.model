@@ -54,7 +54,7 @@ public interface I_A_Asset_Retirement
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Retirement_ID */
     public static final String COLUMNNAME_A_Asset_Retirement_ID = "A_Asset_Retirement_ID";
@@ -78,8 +78,8 @@ public interface I_A_Asset_Retirement
 	/** Get A_Asset_Retirement_UU	  */
 	public String getA_Asset_Retirement_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -138,7 +138,7 @@ public interface I_A_Asset_Retirement
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

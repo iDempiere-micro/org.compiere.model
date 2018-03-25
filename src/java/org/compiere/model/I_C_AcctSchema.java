@@ -42,8 +42,8 @@ public interface I_C_AcctSchema
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -124,7 +124,7 @@ public interface I_C_AcctSchema
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name CommitmentType */
     public static final String COLUMNNAME_CommitmentType = "CommitmentType";
@@ -178,7 +178,7 @@ public interface I_C_AcctSchema
 	  */
 	public int getC_Period_ID();
 
-	public org.compiere.model.I_C_Period getC_Period() throws RuntimeException;
+	public I_C_Period getC_Period() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -378,7 +378,7 @@ public interface I_C_AcctSchema
 	  */
 	public int getM_CostType_ID();
 
-	public org.compiere.model.I_M_CostType getM_CostType() throws RuntimeException;
+	public I_M_CostType getM_CostType() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

@@ -41,8 +41,8 @@ public interface I_AD_Preference
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_Preference
 	  */
 	public int getAD_InfoWindow_ID();
 
-	public org.compiere.model.I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
+	public I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -112,7 +112,7 @@ public interface I_AD_Preference
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -127,7 +127,7 @@ public interface I_AD_Preference
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -142,7 +142,7 @@ public interface I_AD_Preference
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name Attribute */
     public static final String COLUMNNAME_Attribute = "Attribute";

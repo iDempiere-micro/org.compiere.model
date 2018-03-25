@@ -41,8 +41,8 @@ public interface I_PA_DocumentStatus
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -90,7 +90,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_Table_ID */
     public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
@@ -105,7 +105,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -120,7 +120,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -135,7 +135,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name C_Project_ID */
     public static final String COLUMNNAME_C_Project_ID = "C_Project_ID";
@@ -150,7 +150,7 @@ public interface I_PA_DocumentStatus
 	  */
 	public int getC_Project_ID();
 
-	public org.compiere.model.I_C_Project getC_Project() throws RuntimeException;
+	public I_C_Project getC_Project() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -216,7 +216,7 @@ public interface I_PA_DocumentStatus
 	/** Get Print Color for Name	  */
 	public int getName_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getName_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getName_PrintColor() throws RuntimeException;
 
     /** Column name Name_PrintFont_ID */
     public static final String COLUMNNAME_Name_PrintFont_ID = "Name_PrintFont_ID";
@@ -227,7 +227,7 @@ public interface I_PA_DocumentStatus
 	/** Get Print Font for Name	  */
 	public int getName_PrintFont_ID();
 
-	public org.compiere.model.I_AD_PrintFont getName_PrintFont() throws RuntimeException;
+	public I_AD_PrintFont getName_PrintFont() throws RuntimeException;
 
     /** Column name Number_PrintColor_ID */
     public static final String COLUMNNAME_Number_PrintColor_ID = "Number_PrintColor_ID";
@@ -238,7 +238,7 @@ public interface I_PA_DocumentStatus
 	/** Get Print Color for Number	  */
 	public int getNumber_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getNumber_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getNumber_PrintColor() throws RuntimeException;
 
     /** Column name Number_PrintFont_ID */
     public static final String COLUMNNAME_Number_PrintFont_ID = "Number_PrintFont_ID";
@@ -249,7 +249,7 @@ public interface I_PA_DocumentStatus
 	/** Get Print Font for Number	  */
 	public int getNumber_PrintFont_ID();
 
-	public org.compiere.model.I_AD_PrintFont getNumber_PrintFont() throws RuntimeException;
+	public I_AD_PrintFont getNumber_PrintFont() throws RuntimeException;
 
     /** Column name PA_DocumentStatus_ID */
     public static final String COLUMNNAME_PA_DocumentStatus_ID = "PA_DocumentStatus_ID";

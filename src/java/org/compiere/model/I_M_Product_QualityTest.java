@@ -41,8 +41,8 @@ public interface I_M_Product_QualityTest
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -113,7 +113,7 @@ public interface I_M_Product_QualityTest
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name M_Product_QualityTest_ID */
     public static final String COLUMNNAME_M_Product_QualityTest_ID = "M_Product_QualityTest_ID";
@@ -142,7 +142,7 @@ public interface I_M_Product_QualityTest
 	/** Get Quality Test	  */
 	public int getM_QualityTest_ID();
 
-	public org.compiere.model.I_M_QualityTest getM_QualityTest() throws RuntimeException;
+	public I_M_QualityTest getM_QualityTest() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

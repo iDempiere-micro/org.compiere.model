@@ -41,8 +41,8 @@ public interface I_M_MovementLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -214,7 +214,7 @@ public interface I_M_MovementLine
 	  */
 	public int getM_Movement_ID();
 
-	public org.compiere.model.I_M_Movement getM_Movement() throws RuntimeException;
+	public I_M_Movement getM_Movement() throws RuntimeException;
 
     /** Column name M_MovementLine_ID */
     public static final String COLUMNNAME_M_MovementLine_ID = "M_MovementLine_ID";
@@ -264,7 +264,7 @@ public interface I_M_MovementLine
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";
@@ -292,7 +292,7 @@ public interface I_M_MovementLine
 	  */
 	public int getReversalLine_ID();
 
-	public org.compiere.model.I_M_MovementLine getReversalLine() throws RuntimeException;
+	public I_M_MovementLine getReversalLine() throws RuntimeException;
 
     /** Column name ScrappedQty */
     public static final String COLUMNNAME_ScrappedQty = "ScrappedQty";

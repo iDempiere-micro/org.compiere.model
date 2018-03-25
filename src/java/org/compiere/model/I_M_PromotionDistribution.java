@@ -41,8 +41,8 @@ public interface I_M_PromotionDistribution
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -144,7 +144,7 @@ public interface I_M_PromotionDistribution
 	/** Get Promotion	  */
 	public int getM_Promotion_ID();
 
-	public org.compiere.model.I_M_Promotion getM_Promotion() throws RuntimeException;
+	public I_M_Promotion getM_Promotion() throws RuntimeException;
 
     /** Column name M_PromotionLine_ID */
     public static final String COLUMNNAME_M_PromotionLine_ID = "M_PromotionLine_ID";
@@ -155,7 +155,7 @@ public interface I_M_PromotionDistribution
 	/** Get Promotion Line	  */
 	public int getM_PromotionLine_ID();
 
-	public org.compiere.model.I_M_PromotionLine getM_PromotionLine() throws RuntimeException;
+	public I_M_PromotionLine getM_PromotionLine() throws RuntimeException;
 
     /** Column name Operation */
     public static final String COLUMNNAME_Operation = "Operation";

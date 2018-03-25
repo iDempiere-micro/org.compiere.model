@@ -41,8 +41,8 @@ public interface I_M_RMA
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_M_RMA
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_Currency_ID */
     public static final String COLUMNNAME_C_Currency_ID = "C_Currency_ID";
@@ -103,7 +103,7 @@ public interface I_M_RMA
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -118,7 +118,7 @@ public interface I_M_RMA
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name C_Order_ID */
     public static final String COLUMNNAME_C_Order_ID = "C_Order_ID";
@@ -133,7 +133,7 @@ public interface I_M_RMA
 	  */
 	public int getC_Order_ID();
 
-	public org.compiere.model.I_C_Order getC_Order() throws RuntimeException;
+	public I_C_Order getC_Order() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -255,7 +255,7 @@ public interface I_M_RMA
 	  */
 	public int getInOut_ID();
 
-	public org.compiere.model.I_M_InOut getInOut() throws RuntimeException;
+	public I_M_InOut getInOut() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";
@@ -322,7 +322,7 @@ public interface I_M_RMA
 	  */
 	public int getM_RMAType_ID();
 
-	public org.compiere.model.I_M_RMAType getM_RMAType() throws RuntimeException;
+	public I_M_RMAType getM_RMAType() throws RuntimeException;
 
     /** Column name M_RMA_UU */
     public static final String COLUMNNAME_M_RMA_UU = "M_RMA_UU";
@@ -377,7 +377,7 @@ public interface I_M_RMA
 	/** Get Referenced RMA	  */
 	public int getRef_RMA_ID();
 
-	public org.compiere.model.I_M_RMA getRef_RMA() throws RuntimeException;
+	public I_M_RMA getRef_RMA() throws RuntimeException;
 
     /** Column name SalesRep_ID */
     public static final String COLUMNNAME_SalesRep_ID = "SalesRep_ID";
@@ -392,7 +392,7 @@ public interface I_M_RMA
 	  */
 	public int getSalesRep_ID();
 
-	public org.compiere.model.I_AD_User getSalesRep() throws RuntimeException;
+	public I_AD_User getSalesRep() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

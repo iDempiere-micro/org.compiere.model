@@ -41,8 +41,8 @@ public interface I_CM_Container
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_CM_Container
 	  */
 	public int getCM_ContainerLink_ID();
 
-	public org.compiere.model.I_CM_Container getCM_ContainerLink() throws RuntimeException;
+	public I_CM_Container getCM_ContainerLink() throws RuntimeException;
 
     /** Column name CM_Container_UU */
     public static final String COLUMNNAME_CM_Container_UU = "CM_Container_UU";
@@ -112,7 +112,7 @@ public interface I_CM_Container
 	  */
 	public int getCM_Template_ID();
 
-	public org.compiere.model.I_CM_Template getCM_Template() throws RuntimeException;
+	public I_CM_Template getCM_Template() throws RuntimeException;
 
     /** Column name CM_WebProject_ID */
     public static final String COLUMNNAME_CM_WebProject_ID = "CM_WebProject_ID";
@@ -127,7 +127,7 @@ public interface I_CM_Container
 	  */
 	public int getCM_WebProject_ID();
 
-	public org.compiere.model.I_CM_WebProject getCM_WebProject() throws RuntimeException;
+	public I_CM_WebProject getCM_WebProject() throws RuntimeException;
 
     /** Column name ContainerLinkURL */
     public static final String COLUMNNAME_ContainerLinkURL = "ContainerLinkURL";

@@ -41,8 +41,8 @@ public interface I_M_MovementLineConfirm
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -143,7 +143,7 @@ public interface I_M_MovementLineConfirm
 	  */
 	public int getM_InventoryLine_ID();
 
-	public org.compiere.model.I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
+	public I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
 
     /** Column name M_MovementConfirm_ID */
     public static final String COLUMNNAME_M_MovementConfirm_ID = "M_MovementConfirm_ID";
@@ -158,7 +158,7 @@ public interface I_M_MovementLineConfirm
 	  */
 	public int getM_MovementConfirm_ID();
 
-	public org.compiere.model.I_M_MovementConfirm getM_MovementConfirm() throws RuntimeException;
+	public I_M_MovementConfirm getM_MovementConfirm() throws RuntimeException;
 
     /** Column name M_MovementLineConfirm_ID */
     public static final String COLUMNNAME_M_MovementLineConfirm_ID = "M_MovementLineConfirm_ID";
@@ -195,7 +195,7 @@ public interface I_M_MovementLineConfirm
 	  */
 	public int getM_MovementLine_ID();
 
-	public org.compiere.model.I_M_MovementLine getM_MovementLine() throws RuntimeException;
+	public I_M_MovementLine getM_MovementLine() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";

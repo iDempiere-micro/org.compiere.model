@@ -41,8 +41,8 @@ public interface I_C_AcctSchema_Element
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getAD_Column_ID();
 
-	public org.compiere.model.I_AD_Column getAD_Column() throws RuntimeException;
+	public I_AD_Column getAD_Column() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -108,7 +108,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name C_Activity_ID */
     public static final String COLUMNNAME_C_Activity_ID = "C_Activity_ID";
@@ -123,7 +123,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_Activity_ID();
 
-	public org.compiere.model.I_C_Activity getC_Activity() throws RuntimeException;
+	public I_C_Activity getC_Activity() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -138,7 +138,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_Campaign_ID */
     public static final String COLUMNNAME_C_Campaign_ID = "C_Campaign_ID";
@@ -153,7 +153,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_Campaign_ID();
 
-	public org.compiere.model.I_C_Campaign getC_Campaign() throws RuntimeException;
+	public I_C_Campaign getC_Campaign() throws RuntimeException;
 
     /** Column name C_Element_ID */
     public static final String COLUMNNAME_C_Element_ID = "C_Element_ID";
@@ -168,7 +168,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_Element_ID();
 
-	public org.compiere.model.I_C_Element getC_Element() throws RuntimeException;
+	public I_C_Element getC_Element() throws RuntimeException;
 
     /** Column name C_ElementValue_ID */
     public static final String COLUMNNAME_C_ElementValue_ID = "C_ElementValue_ID";
@@ -183,7 +183,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_ElementValue_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValue() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValue() throws RuntimeException;
 
     /** Column name C_Location_ID */
     public static final String COLUMNNAME_C_Location_ID = "C_Location_ID";
@@ -213,7 +213,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_Project_ID();
 
-	public org.compiere.model.I_C_Project getC_Project() throws RuntimeException;
+	public I_C_Project getC_Project() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -244,7 +244,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getC_SalesRegion_ID();
 
-	public org.compiere.model.I_C_SalesRegion getC_SalesRegion() throws RuntimeException;
+	public I_C_SalesRegion getC_SalesRegion() throws RuntimeException;
 
     /** Column name ElementType */
     public static final String COLUMNNAME_ElementType = "ElementType";
@@ -307,7 +307,7 @@ public interface I_C_AcctSchema_Element
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

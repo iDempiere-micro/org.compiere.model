@@ -108,7 +108,7 @@ public interface I_A_Asset_Disposed
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Status */
     public static final String COLUMNNAME_A_Asset_Status = "A_Asset_Status";
@@ -128,10 +128,10 @@ public interface I_A_Asset_Disposed
 	/** Get Asset Trade	  */
 	public int getA_Asset_Trade_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset_Trade() throws RuntimeException;
+	public I_A_Asset getA_Asset_Trade() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -209,7 +209,7 @@ public interface I_A_Asset_Disposed
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name C_Invoice_ID */
     public static final String COLUMNNAME_C_Invoice_ID = "C_Invoice_ID";
@@ -224,7 +224,7 @@ public interface I_A_Asset_Disposed
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_InvoiceLine_ID */
     public static final String COLUMNNAME_C_InvoiceLine_ID = "C_InvoiceLine_ID";
@@ -239,7 +239,7 @@ public interface I_A_Asset_Disposed
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name C_Period_ID */
     public static final String COLUMNNAME_C_Period_ID = "C_Period_ID";
@@ -254,7 +254,7 @@ public interface I_A_Asset_Disposed
 	  */
 	public int getC_Period_ID();
 
-	public org.compiere.model.I_C_Period getC_Period() throws RuntimeException;
+	public I_C_Period getC_Period() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

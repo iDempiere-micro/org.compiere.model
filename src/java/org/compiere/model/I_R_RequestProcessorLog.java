@@ -41,8 +41,8 @@ public interface I_R_RequestProcessorLog
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -156,7 +156,7 @@ public interface I_R_RequestProcessorLog
 	  */
 	public int getR_RequestProcessor_ID();
 
-	public org.compiere.model.I_R_RequestProcessor getR_RequestProcessor() throws RuntimeException;
+	public I_R_RequestProcessor getR_RequestProcessor() throws RuntimeException;
 
     /** Column name R_RequestProcessorLog_ID */
     public static final String COLUMNNAME_R_RequestProcessorLog_ID = "R_RequestProcessorLog_ID";

@@ -54,8 +54,8 @@ public interface I_AD_Process
 	  */
 	public String getAccessLevel();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_Process
 	/** Get Context Help	  */
 	public int getAD_CtxHelp_ID();
 
-	public org.compiere.model.I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
+	public I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
 
     /** Column name AD_Form_ID */
     public static final String COLUMNNAME_AD_Form_ID = "AD_Form_ID";
@@ -86,7 +86,7 @@ public interface I_AD_Process
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -114,7 +114,7 @@ public interface I_AD_Process
 	  */
 	public int getAD_PrintFormat_ID();
 
-	public org.compiere.model.I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
+	public I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
 
     /** Column name AD_Process_ID */
     public static final String COLUMNNAME_AD_Process_ID = "AD_Process_ID";
@@ -151,7 +151,7 @@ public interface I_AD_Process
 	  */
 	public int getAD_ReportView_ID();
 
-	public org.compiere.model.I_AD_ReportView getAD_ReportView() throws RuntimeException;
+	public I_AD_ReportView getAD_ReportView() throws RuntimeException;
 
     /** Column name AD_Workflow_ID */
     public static final String COLUMNNAME_AD_Workflow_ID = "AD_Workflow_ID";
@@ -166,7 +166,7 @@ public interface I_AD_Process
 	  */
 	public int getAD_Workflow_ID();
 
-	public org.compiere.model.I_AD_Workflow getAD_Workflow() throws RuntimeException;
+	public I_AD_Workflow getAD_Workflow() throws RuntimeException;
 
     /** Column name Classname */
     public static final String COLUMNNAME_Classname = "Classname";

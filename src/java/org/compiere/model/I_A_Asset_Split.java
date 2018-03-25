@@ -90,7 +90,7 @@ public interface I_A_Asset_Split
 	/** Get To Asset ID	  */
 	public int getA_Asset_ID_To();
 
-	public org.compiere.model.I_A_Asset getA_Asset_To() throws RuntimeException;
+	public I_A_Asset getA_Asset_To() throws RuntimeException;
 
     /** Column name A_Asset_Split_ID */
     public static final String COLUMNNAME_A_Asset_Split_ID = "A_Asset_Split_ID";
@@ -110,8 +110,8 @@ public interface I_A_Asset_Split
 	/** Get A_Asset_Split_UU	  */
 	public String getA_Asset_Split_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -207,7 +207,7 @@ public interface I_A_Asset_Split
 	  */
 	public int getC_Period_ID();
 
-	public org.compiere.model.I_C_Period getC_Period() throws RuntimeException;
+	public I_C_Period getC_Period() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

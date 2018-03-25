@@ -41,8 +41,8 @@ public interface I_I_InOutLineConfirm
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -204,7 +204,7 @@ public interface I_I_InOutLineConfirm
 	  */
 	public int getM_InOutLineConfirm_ID();
 
-	public org.compiere.model.I_M_InOutLineConfirm getM_InOutLineConfirm() throws RuntimeException;
+	public I_M_InOutLineConfirm getM_InOutLineConfirm() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";

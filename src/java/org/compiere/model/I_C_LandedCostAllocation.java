@@ -41,8 +41,8 @@ public interface I_C_LandedCostAllocation
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -101,7 +101,7 @@ public interface I_C_LandedCostAllocation
 	  */
 	public int getC_InvoiceLine_ID();
 
-	public org.compiere.model.I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
+	public I_C_InvoiceLine getC_InvoiceLine() throws RuntimeException;
 
     /** Column name C_LandedCostAllocation_ID */
     public static final String COLUMNNAME_C_LandedCostAllocation_ID = "C_LandedCostAllocation_ID";
@@ -169,7 +169,7 @@ public interface I_C_LandedCostAllocation
 	  */
 	public int getM_CostElement_ID();
 
-	public org.compiere.model.I_M_CostElement getM_CostElement() throws RuntimeException;
+	public I_M_CostElement getM_CostElement() throws RuntimeException;
 
     /** Column name M_InOutLine_ID */
     public static final String COLUMNNAME_M_InOutLine_ID = "M_InOutLine_ID";
@@ -184,7 +184,7 @@ public interface I_C_LandedCostAllocation
 	  */
 	public int getM_InOutLine_ID();
 
-	public org.compiere.model.I_M_InOutLine getM_InOutLine() throws RuntimeException;
+	public I_M_InOutLine getM_InOutLine() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -199,7 +199,7 @@ public interface I_C_LandedCostAllocation
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Qty */
     public static final String COLUMNNAME_Qty = "Qty";

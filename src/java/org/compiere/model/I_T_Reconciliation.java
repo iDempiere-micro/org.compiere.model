@@ -41,8 +41,8 @@ public interface I_T_Reconciliation
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_T_Reconciliation
 	  */
 	public int getAD_PInstance_ID();
 
-	public org.compiere.model.I_AD_PInstance getAD_PInstance() throws RuntimeException;
+	public I_AD_PInstance getAD_PInstance() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

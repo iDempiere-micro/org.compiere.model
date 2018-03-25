@@ -41,8 +41,8 @@ public interface I_M_BOMProduct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -210,7 +210,7 @@ public interface I_M_BOMProduct
 	  */
 	public int getM_BOMAlternative_ID();
 
-	public org.compiere.model.I_M_BOMAlternative getM_BOMAlternative() throws RuntimeException;
+	public I_M_BOMAlternative getM_BOMAlternative() throws RuntimeException;
 
     /** Column name M_BOM_ID */
     public static final String COLUMNNAME_M_BOM_ID = "M_BOM_ID";
@@ -225,7 +225,7 @@ public interface I_M_BOMProduct
 	  */
 	public int getM_BOM_ID();
 
-	public org.compiere.model.I_M_BOM getM_BOM() throws RuntimeException;
+	public I_M_BOM getM_BOM() throws RuntimeException;
 
     /** Column name M_BOMProduct_ID */
     public static final String COLUMNNAME_M_BOMProduct_ID = "M_BOMProduct_ID";
@@ -262,7 +262,7 @@ public interface I_M_BOMProduct
 	  */
 	public int getM_ChangeNotice_ID();
 
-	public org.compiere.model.I_M_ChangeNotice getM_ChangeNotice() throws RuntimeException;
+	public I_M_ChangeNotice getM_ChangeNotice() throws RuntimeException;
 
     /** Column name M_ProductBOM_ID */
     public static final String COLUMNNAME_M_ProductBOM_ID = "M_ProductBOM_ID";
@@ -277,7 +277,7 @@ public interface I_M_BOMProduct
 	  */
 	public int getM_ProductBOM_ID();
 
-	public org.compiere.model.I_M_Product getM_ProductBOM() throws RuntimeException;
+	public I_M_Product getM_ProductBOM() throws RuntimeException;
 
     /** Column name M_ProductOperation_ID */
     public static final String COLUMNNAME_M_ProductOperation_ID = "M_ProductOperation_ID";
@@ -292,7 +292,7 @@ public interface I_M_BOMProduct
 	  */
 	public int getM_ProductOperation_ID();
 
-	public org.compiere.model.I_M_ProductOperation getM_ProductOperation() throws RuntimeException;
+	public I_M_ProductOperation getM_ProductOperation() throws RuntimeException;
 
     /** Column name SeqNo */
     public static final String COLUMNNAME_SeqNo = "SeqNo";

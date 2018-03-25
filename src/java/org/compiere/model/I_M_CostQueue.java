@@ -41,8 +41,8 @@ public interface I_M_CostQueue
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_CostQueue
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -160,7 +160,7 @@ public interface I_M_CostQueue
 	  */
 	public int getM_CostElement_ID();
 
-	public org.compiere.model.I_M_CostElement getM_CostElement() throws RuntimeException;
+	public I_M_CostElement getM_CostElement() throws RuntimeException;
 
     /** Column name M_CostQueue_ID */
     public static final String COLUMNNAME_M_CostQueue_ID = "M_CostQueue_ID";
@@ -197,7 +197,7 @@ public interface I_M_CostQueue
 	  */
 	public int getM_CostType_ID();
 
-	public org.compiere.model.I_M_CostType getM_CostType() throws RuntimeException;
+	public I_M_CostType getM_CostType() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -212,7 +212,7 @@ public interface I_M_CostQueue
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

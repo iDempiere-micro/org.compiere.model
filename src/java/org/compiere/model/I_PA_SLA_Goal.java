@@ -41,8 +41,8 @@ public interface I_PA_SLA_Goal
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_PA_SLA_Goal
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -197,7 +197,7 @@ public interface I_PA_SLA_Goal
 	  */
 	public int getPA_SLA_Criteria_ID();
 
-	public org.compiere.model.I_PA_SLA_Criteria getPA_SLA_Criteria() throws RuntimeException;
+	public I_PA_SLA_Criteria getPA_SLA_Criteria() throws RuntimeException;
 
     /** Column name PA_SLA_Goal_ID */
     public static final String COLUMNNAME_PA_SLA_Goal_ID = "PA_SLA_Goal_ID";

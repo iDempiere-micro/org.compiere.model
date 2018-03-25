@@ -41,8 +41,8 @@ public interface I_AD_TreeNodeU4
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_TreeNodeU4
 	  */
 	public int getAD_Tree_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree() throws RuntimeException;
+	public I_AD_Tree getAD_Tree() throws RuntimeException;
 
     /** Column name AD_TreeNodeU4_UU */
     public static final String COLUMNNAME_AD_TreeNodeU4_UU = "AD_TreeNodeU4_UU";

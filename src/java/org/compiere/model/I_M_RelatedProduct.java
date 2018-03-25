@@ -41,8 +41,8 @@ public interface I_M_RelatedProduct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_M_RelatedProduct
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name M_RelatedProduct_UU */
     public static final String COLUMNNAME_M_RelatedProduct_UU = "M_RelatedProduct_UU";
@@ -154,7 +154,7 @@ public interface I_M_RelatedProduct
 	  */
 	public int getRelatedProduct_ID();
 
-	public org.compiere.model.I_M_Product getRelatedProduct() throws RuntimeException;
+	public I_M_Product getRelatedProduct() throws RuntimeException;
 
     /** Column name RelatedProductType */
     public static final String COLUMNNAME_RelatedProductType = "RelatedProductType";

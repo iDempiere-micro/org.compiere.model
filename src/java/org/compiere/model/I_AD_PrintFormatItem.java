@@ -41,8 +41,8 @@ public interface I_AD_PrintFormatItem
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_Column_ID();
 
-	public org.compiere.model.I_AD_Column getAD_Column() throws RuntimeException;
+	public I_AD_Column getAD_Column() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -90,7 +90,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
 
     /** Column name AD_PrintFont_ID */
     public static final String COLUMNNAME_AD_PrintFont_ID = "AD_PrintFont_ID";
@@ -105,7 +105,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_PrintFont_ID();
 
-	public org.compiere.model.I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
+	public I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
 
     /** Column name AD_PrintFormatChild_ID */
     public static final String COLUMNNAME_AD_PrintFormatChild_ID = "AD_PrintFormatChild_ID";
@@ -120,7 +120,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_PrintFormatChild_ID();
 
-	public org.compiere.model.I_AD_PrintFormat getAD_PrintFormatChild() throws RuntimeException;
+	public I_AD_PrintFormat getAD_PrintFormatChild() throws RuntimeException;
 
     /** Column name AD_PrintFormat_ID */
     public static final String COLUMNNAME_AD_PrintFormat_ID = "AD_PrintFormat_ID";
@@ -135,7 +135,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_PrintFormat_ID();
 
-	public org.compiere.model.I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
+	public I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
 
     /** Column name AD_PrintFormatItem_ID */
     public static final String COLUMNNAME_AD_PrintFormatItem_ID = "AD_PrintFormatItem_ID";
@@ -172,7 +172,7 @@ public interface I_AD_PrintFormatItem
 	  */
 	public int getAD_PrintGraph_ID();
 
-	public org.compiere.model.I_AD_PrintGraph getAD_PrintGraph() throws RuntimeException;
+	public I_AD_PrintGraph getAD_PrintGraph() throws RuntimeException;
 
     /** Column name ArcDiameter */
     public static final String COLUMNNAME_ArcDiameter = "ArcDiameter";

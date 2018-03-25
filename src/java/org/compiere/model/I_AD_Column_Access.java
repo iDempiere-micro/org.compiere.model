@@ -41,8 +41,8 @@ public interface I_AD_Column_Access
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_Column_Access
 	  */
 	public int getAD_Column_ID();
 
-	public org.compiere.model.I_AD_Column getAD_Column() throws RuntimeException;
+	public I_AD_Column getAD_Column() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -99,7 +99,7 @@ public interface I_AD_Column_Access
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_Table_ID */
     public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
@@ -114,7 +114,7 @@ public interface I_AD_Column_Access
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

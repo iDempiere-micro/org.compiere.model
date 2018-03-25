@@ -41,8 +41,8 @@ public interface I_C_DunningRun
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_DunningRun
 	  */
 	public int getC_Dunning_ID();
 
-	public org.compiere.model.I_C_Dunning getC_Dunning() throws RuntimeException;
+	public I_C_Dunning getC_Dunning() throws RuntimeException;
 
     /** Column name C_DunningLevel_ID */
     public static final String COLUMNNAME_C_DunningLevel_ID = "C_DunningLevel_ID";
@@ -86,7 +86,7 @@ public interface I_C_DunningRun
 	/** Get Dunning Level	  */
 	public int getC_DunningLevel_ID();
 
-	public org.compiere.model.I_C_DunningLevel getC_DunningLevel() throws RuntimeException;
+	public I_C_DunningLevel getC_DunningLevel() throws RuntimeException;
 
     /** Column name C_DunningRun_ID */
     public static final String COLUMNNAME_C_DunningRun_ID = "C_DunningRun_ID";

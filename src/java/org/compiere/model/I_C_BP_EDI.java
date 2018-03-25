@@ -41,8 +41,8 @@ public interface I_C_BP_EDI
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_BP_EDI
 	  */
 	public int getAD_Sequence_ID();
 
-	public org.compiere.model.I_AD_Sequence getAD_Sequence() throws RuntimeException;
+	public I_AD_Sequence getAD_Sequence() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -90,7 +90,7 @@ public interface I_C_BP_EDI
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BP_EDI_ID */
     public static final String COLUMNNAME_C_BP_EDI_ID = "C_BP_EDI_ID";
@@ -295,7 +295,7 @@ public interface I_C_BP_EDI
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

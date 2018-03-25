@@ -41,8 +41,8 @@ public interface I_S_ResourceUnAvailable
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -143,7 +143,7 @@ public interface I_S_ResourceUnAvailable
 	  */
 	public int getS_Resource_ID();
 
-	public org.compiere.model.I_S_Resource getS_Resource() throws RuntimeException;
+	public I_S_Resource getS_Resource() throws RuntimeException;
 
     /** Column name S_ResourceUnAvailable_ID */
     public static final String COLUMNNAME_S_ResourceUnAvailable_ID = "S_ResourceUnAvailable_ID";

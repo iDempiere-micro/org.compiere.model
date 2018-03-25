@@ -41,8 +41,8 @@ public interface I_I_ReportLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -84,7 +84,7 @@ public interface I_I_ReportLine
 	  */
 	public int getC_ElementValue_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValue() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValue() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -272,7 +272,7 @@ public interface I_I_ReportLine
 	/** Get Report Line	  */
 	public int getPA_ReportLine_ID();
 
-	public org.compiere.model.I_PA_ReportLine getPA_ReportLine() throws RuntimeException;
+	public I_PA_ReportLine getPA_ReportLine() throws RuntimeException;
 
     /** Column name PA_ReportLineSet_ID */
     public static final String COLUMNNAME_PA_ReportLineSet_ID = "PA_ReportLineSet_ID";
@@ -283,7 +283,7 @@ public interface I_I_ReportLine
 	/** Get Report Line Set	  */
 	public int getPA_ReportLineSet_ID();
 
-	public org.compiere.model.I_PA_ReportLineSet getPA_ReportLineSet() throws RuntimeException;
+	public I_PA_ReportLineSet getPA_ReportLineSet() throws RuntimeException;
 
     /** Column name PA_ReportSource_ID */
     public static final String COLUMNNAME_PA_ReportSource_ID = "PA_ReportSource_ID";
@@ -298,7 +298,7 @@ public interface I_I_ReportLine
 	  */
 	public int getPA_ReportSource_ID();
 
-	public org.compiere.model.I_PA_ReportSource getPA_ReportSource() throws RuntimeException;
+	public I_PA_ReportSource getPA_ReportSource() throws RuntimeException;
 
     /** Column name PostingType */
     public static final String COLUMNNAME_PostingType = "PostingType";

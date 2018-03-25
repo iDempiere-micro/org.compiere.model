@@ -41,8 +41,8 @@ public interface I_M_RMATax
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_M_RMATax
 	  */
 	public int getC_Tax_ID();
 
-	public org.compiere.model.I_C_Tax getC_Tax() throws RuntimeException;
+	public I_C_Tax getC_Tax() throws RuntimeException;
 
     /** Column name C_TaxProvider_ID */
     public static final String COLUMNNAME_C_TaxProvider_ID = "C_TaxProvider_ID";
@@ -102,7 +102,7 @@ public interface I_M_RMATax
 	/** Get Tax Provider	  */
 	public int getC_TaxProvider_ID();
 
-	public org.compiere.model.I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
+	public I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";
@@ -143,7 +143,7 @@ public interface I_M_RMATax
 	  */
 	public int getM_RMA_ID();
 
-	public org.compiere.model.I_M_RMA getM_RMA() throws RuntimeException;
+	public I_M_RMA getM_RMA() throws RuntimeException;
 
     /** Column name M_RMATax_UU */
     public static final String COLUMNNAME_M_RMATax_UU = "M_RMATax_UU";

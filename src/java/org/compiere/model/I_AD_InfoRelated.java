@@ -41,8 +41,8 @@ public interface I_AD_InfoRelated
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -80,7 +80,7 @@ public interface I_AD_InfoRelated
 	  */
 	public int getAD_InfoWindow_ID();
 
-	public org.compiere.model.I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
+	public I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -176,7 +176,7 @@ public interface I_AD_InfoRelated
 	  */
 	public int getParentRelatedColumn_ID();
 
-	public org.compiere.model.I_AD_InfoColumn getParentRelatedColumn() throws RuntimeException;
+	public I_AD_InfoColumn getParentRelatedColumn() throws RuntimeException;
 
     /** Column name RelatedColumn_ID */
     public static final String COLUMNNAME_RelatedColumn_ID = "RelatedColumn_ID";
@@ -187,7 +187,7 @@ public interface I_AD_InfoRelated
 	/** Get Related Info Column	  */
 	public int getRelatedColumn_ID();
 
-	public org.compiere.model.I_AD_InfoColumn getRelatedColumn() throws RuntimeException;
+	public I_AD_InfoColumn getRelatedColumn() throws RuntimeException;
 
     /** Column name RelatedInfo_ID */
     public static final String COLUMNNAME_RelatedInfo_ID = "RelatedInfo_ID";
@@ -198,7 +198,7 @@ public interface I_AD_InfoRelated
 	/** Get Related Info Window	  */
 	public int getRelatedInfo_ID();
 
-	public org.compiere.model.I_AD_InfoWindow getRelatedInfo() throws RuntimeException;
+	public I_AD_InfoWindow getRelatedInfo() throws RuntimeException;
 
     /** Column name SeqNo */
     public static final String COLUMNNAME_SeqNo = "SeqNo";

@@ -50,8 +50,8 @@ public interface I_EXP_Processor
 	/** Get Account	  */
 	public String getAccount();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -118,7 +118,7 @@ public interface I_EXP_Processor
 	/** Get Export Processor Type	  */
 	public int getEXP_Processor_Type_ID();
 
-	public org.compiere.model.I_EXP_Processor_Type getEXP_Processor_Type() throws RuntimeException;
+	public I_EXP_Processor_Type getEXP_Processor_Type() throws RuntimeException;
 
     /** Column name EXP_Processor_UU */
     public static final String COLUMNNAME_EXP_Processor_UU = "EXP_Processor_UU";

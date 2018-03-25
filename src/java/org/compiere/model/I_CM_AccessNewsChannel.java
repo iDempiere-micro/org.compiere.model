@@ -41,8 +41,8 @@ public interface I_CM_AccessNewsChannel
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -84,7 +84,7 @@ public interface I_CM_AccessNewsChannel
 	  */
 	public int getCM_AccessProfile_ID();
 
-	public org.compiere.model.I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
+	public I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
 
     /** Column name CM_NewsChannel_ID */
     public static final String COLUMNNAME_CM_NewsChannel_ID = "CM_NewsChannel_ID";
@@ -99,7 +99,7 @@ public interface I_CM_AccessNewsChannel
 	  */
 	public int getCM_NewsChannel_ID();
 
-	public org.compiere.model.I_CM_NewsChannel getCM_NewsChannel() throws RuntimeException;
+	public I_CM_NewsChannel getCM_NewsChannel() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

@@ -41,8 +41,8 @@ public interface I_C_InvoicePaySchedule
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_InvoicePaySchedule
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_InvoicePaySchedule_ID */
     public static final String COLUMNNAME_C_InvoicePaySchedule_ID = "C_InvoicePaySchedule_ID";
@@ -112,7 +112,7 @@ public interface I_C_InvoicePaySchedule
 	  */
 	public int getC_PaySchedule_ID();
 
-	public org.compiere.model.I_C_PaySchedule getC_PaySchedule() throws RuntimeException;
+	public I_C_PaySchedule getC_PaySchedule() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

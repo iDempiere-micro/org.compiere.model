@@ -41,8 +41,8 @@ public interface I_AD_ClientInfo
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -80,7 +80,7 @@ public interface I_AD_ClientInfo
 	/** Get Storage Provider	  */
 	public int getAD_StorageProvider_ID();
 
-	public org.compiere.model.I_AD_StorageProvider getAD_StorageProvider() throws RuntimeException;
+	public I_AD_StorageProvider getAD_StorageProvider() throws RuntimeException;
 
     /** Column name AD_Tree_Activity_ID */
     public static final String COLUMNNAME_AD_Tree_Activity_ID = "AD_Tree_Activity_ID";
@@ -95,7 +95,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Activity_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Activity() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Activity() throws RuntimeException;
 
     /** Column name AD_Tree_BPartner_ID */
     public static final String COLUMNNAME_AD_Tree_BPartner_ID = "AD_Tree_BPartner_ID";
@@ -110,7 +110,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_BPartner_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_BPartner() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_BPartner() throws RuntimeException;
 
     /** Column name AD_Tree_Campaign_ID */
     public static final String COLUMNNAME_AD_Tree_Campaign_ID = "AD_Tree_Campaign_ID";
@@ -125,7 +125,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Campaign_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Campaign() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Campaign() throws RuntimeException;
 
     /** Column name AD_Tree_Menu_ID */
     public static final String COLUMNNAME_AD_Tree_Menu_ID = "AD_Tree_Menu_ID";
@@ -140,7 +140,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Menu_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Menu() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Menu() throws RuntimeException;
 
     /** Column name AD_Tree_Org_ID */
     public static final String COLUMNNAME_AD_Tree_Org_ID = "AD_Tree_Org_ID";
@@ -155,7 +155,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Org_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Org() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Org() throws RuntimeException;
 
     /** Column name AD_Tree_Product_ID */
     public static final String COLUMNNAME_AD_Tree_Product_ID = "AD_Tree_Product_ID";
@@ -170,7 +170,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Product_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Product() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Product() throws RuntimeException;
 
     /** Column name AD_Tree_Project_ID */
     public static final String COLUMNNAME_AD_Tree_Project_ID = "AD_Tree_Project_ID";
@@ -185,7 +185,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_Project_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_Project() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_Project() throws RuntimeException;
 
     /** Column name AD_Tree_SalesRegion_ID */
     public static final String COLUMNNAME_AD_Tree_SalesRegion_ID = "AD_Tree_SalesRegion_ID";
@@ -200,7 +200,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getAD_Tree_SalesRegion_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree_SalesRegion() throws RuntimeException;
+	public I_AD_Tree getAD_Tree_SalesRegion() throws RuntimeException;
 
     /** Column name C_AcctSchema1_ID */
     public static final String COLUMNNAME_C_AcctSchema1_ID = "C_AcctSchema1_ID";
@@ -215,7 +215,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_AcctSchema1_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema1() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema1() throws RuntimeException;
 
     /** Column name C_BPartnerCashTrx_ID */
     public static final String COLUMNNAME_C_BPartnerCashTrx_ID = "C_BPartnerCashTrx_ID";
@@ -230,7 +230,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_BPartnerCashTrx_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartnerCashTrx() throws RuntimeException;
+	public I_C_BPartner getC_BPartnerCashTrx() throws RuntimeException;
 
     /** Column name C_Calendar_ID */
     public static final String COLUMNNAME_C_Calendar_ID = "C_Calendar_ID";
@@ -245,7 +245,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_Calendar_ID();
 
-	public org.compiere.model.I_C_Calendar getC_Calendar() throws RuntimeException;
+	public I_C_Calendar getC_Calendar() throws RuntimeException;
 
     /** Column name C_ChargeFreight_ID */
     public static final String COLUMNNAME_C_ChargeFreight_ID = "C_ChargeFreight_ID";
@@ -256,7 +256,7 @@ public interface I_AD_ClientInfo
 	/** Get Charge for Freight	  */
 	public int getC_ChargeFreight_ID();
 
-	public org.compiere.model.I_C_Charge getC_ChargeFreight() throws RuntimeException;
+	public I_C_Charge getC_ChargeFreight() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -287,7 +287,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_UOM_Length_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Length() throws RuntimeException;
+	public I_C_UOM getC_UOM_Length() throws RuntimeException;
 
     /** Column name C_UOM_Time_ID */
     public static final String COLUMNNAME_C_UOM_Time_ID = "C_UOM_Time_ID";
@@ -302,7 +302,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_UOM_Time_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Time() throws RuntimeException;
+	public I_C_UOM getC_UOM_Time() throws RuntimeException;
 
     /** Column name C_UOM_Volume_ID */
     public static final String COLUMNNAME_C_UOM_Volume_ID = "C_UOM_Volume_ID";
@@ -317,7 +317,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_UOM_Volume_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Volume() throws RuntimeException;
+	public I_C_UOM getC_UOM_Volume() throws RuntimeException;
 
     /** Column name C_UOM_Weight_ID */
     public static final String COLUMNNAME_C_UOM_Weight_ID = "C_UOM_Weight_ID";
@@ -332,7 +332,7 @@ public interface I_AD_ClientInfo
 	  */
 	public int getC_UOM_Weight_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Weight() throws RuntimeException;
+	public I_C_UOM getC_UOM_Weight() throws RuntimeException;
 
     /** Column name FY_StartDate */
     public static final String COLUMNNAME_FY_StartDate = "FY_StartDate";
@@ -436,7 +436,7 @@ public interface I_AD_ClientInfo
 	/** Get Product for Freight	  */
 	public int getM_ProductFreight_ID();
 
-	public org.compiere.model.I_M_Product getM_ProductFreight() throws RuntimeException;
+	public I_M_Product getM_ProductFreight() throws RuntimeException;
 
     /** Column name StorageArchive_ID */
     public static final String COLUMNNAME_StorageArchive_ID = "StorageArchive_ID";
@@ -447,7 +447,7 @@ public interface I_AD_ClientInfo
 	/** Get Archive Store	  */
 	public int getStorageArchive_ID();
 
-	public org.compiere.model.I_AD_StorageProvider getStorageArchive() throws RuntimeException;
+	public I_AD_StorageProvider getStorageArchive() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

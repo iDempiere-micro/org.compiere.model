@@ -41,8 +41,8 @@ public interface I_CM_AccessListRole
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_AccessListRole
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name CM_AccessListRole_UU */
     public static final String COLUMNNAME_CM_AccessListRole_UU = "CM_AccessListRole_UU";
@@ -99,7 +99,7 @@ public interface I_CM_AccessListRole
 	  */
 	public int getCM_AccessProfile_ID();
 
-	public org.compiere.model.I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
+	public I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

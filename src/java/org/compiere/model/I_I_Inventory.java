@@ -41,8 +41,8 @@ public interface I_I_Inventory
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_I_Inventory
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -90,7 +90,7 @@ public interface I_I_Inventory
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name ChargeName */
     public static final String COLUMNNAME_ChargeName = "ChargeName";
@@ -260,7 +260,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_CostingLine_ID();
 
-	public org.compiere.model.I_M_InventoryLine getM_CostingLine() throws RuntimeException;
+	public I_M_InventoryLine getM_CostingLine() throws RuntimeException;
 
     /** Column name M_Inventory_ID */
     public static final String COLUMNNAME_M_Inventory_ID = "M_Inventory_ID";
@@ -275,7 +275,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_Inventory_ID();
 
-	public org.compiere.model.I_M_Inventory getM_Inventory() throws RuntimeException;
+	public I_M_Inventory getM_Inventory() throws RuntimeException;
 
     /** Column name M_InventoryLine_ID */
     public static final String COLUMNNAME_M_InventoryLine_ID = "M_InventoryLine_ID";
@@ -290,7 +290,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_InventoryLine_ID();
 
-	public org.compiere.model.I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
+	public I_M_InventoryLine getM_InventoryLine() throws RuntimeException;
 
     /** Column name M_Locator_ID */
     public static final String COLUMNNAME_M_Locator_ID = "M_Locator_ID";
@@ -305,7 +305,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_Locator_ID();
 
-	public org.compiere.model.I_M_Locator getM_Locator() throws RuntimeException;
+	public I_M_Locator getM_Locator() throws RuntimeException;
 
     /** Column name MovementDate */
     public static final String COLUMNNAME_MovementDate = "MovementDate";
@@ -333,7 +333,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name M_Warehouse_ID */
     public static final String COLUMNNAME_M_Warehouse_ID = "M_Warehouse_ID";
@@ -348,7 +348,7 @@ public interface I_I_Inventory
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";

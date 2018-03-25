@@ -41,8 +41,8 @@ public interface I_M_PackageMPS
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -104,7 +104,7 @@ public interface I_M_PackageMPS
 	  */
 	public int getC_UOM_Length_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Length() throws RuntimeException;
+	public I_C_UOM getC_UOM_Length() throws RuntimeException;
 
     /** Column name C_UOM_Weight_ID */
     public static final String COLUMNNAME_C_UOM_Weight_ID = "C_UOM_Weight_ID";
@@ -119,7 +119,7 @@ public interface I_M_PackageMPS
 	  */
 	public int getC_UOM_Weight_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM_Weight() throws RuntimeException;
+	public I_C_UOM getC_UOM_Weight() throws RuntimeException;
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";
@@ -196,7 +196,7 @@ public interface I_M_PackageMPS
 	  */
 	public int getM_Package_ID();
 
-	public org.compiere.model.I_M_Package getM_Package() throws RuntimeException;
+	public I_M_Package getM_Package() throws RuntimeException;
 
     /** Column name M_PackageMPS_ID */
     public static final String COLUMNNAME_M_PackageMPS_ID = "M_PackageMPS_ID";

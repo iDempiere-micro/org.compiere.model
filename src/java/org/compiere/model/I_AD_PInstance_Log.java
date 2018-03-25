@@ -54,7 +54,7 @@ public interface I_AD_PInstance_Log
 	  */
 	public int getAD_PInstance_ID();
 
-	public org.compiere.model.I_AD_PInstance getAD_PInstance() throws RuntimeException;
+	public I_AD_PInstance getAD_PInstance() throws RuntimeException;
 
     /** Column name AD_PInstance_Log_UU */
     public static final String COLUMNNAME_AD_PInstance_Log_UU = "AD_PInstance_Log_UU";
@@ -78,7 +78,7 @@ public interface I_AD_PInstance_Log
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name Log_ID */
     public static final String COLUMNNAME_Log_ID = "Log_ID";

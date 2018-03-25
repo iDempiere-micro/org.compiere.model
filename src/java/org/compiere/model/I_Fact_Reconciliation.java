@@ -54,10 +54,10 @@ public interface I_Fact_Reconciliation
 	  */
 	public int getAccount_ID();
 
-	public org.compiere.model.I_C_ElementValue getAccount() throws RuntimeException;
+	public I_C_ElementValue getAccount() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -103,7 +103,7 @@ public interface I_Fact_Reconciliation
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -143,7 +143,7 @@ public interface I_Fact_Reconciliation
 	/** Get Accounting Fact	  */
 	public int getFact_Acct_ID();
 
-	public org.compiere.model.I_Fact_Acct getFact_Acct() throws RuntimeException;
+	public I_Fact_Acct getFact_Acct() throws RuntimeException;
 
     /** Column name Fact_Reconciliation_ID */
     public static final String COLUMNNAME_Fact_Reconciliation_ID = "Fact_Reconciliation_ID";

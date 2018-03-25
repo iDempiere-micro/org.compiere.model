@@ -55,8 +55,8 @@ public interface I_AD_Table
 	  */
 	public String getAccessLevel();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -111,7 +111,7 @@ public interface I_AD_Table
 	  */
 	public int getAD_Val_Rule_ID();
 
-	public org.compiere.model.I_AD_Val_Rule getAD_Val_Rule() throws RuntimeException;
+	public I_AD_Val_Rule getAD_Val_Rule() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -126,7 +126,7 @@ public interface I_AD_Table
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name CopyColumnsFromTable */
     public static final String COLUMNNAME_CopyColumnsFromTable = "CopyColumnsFromTable";
@@ -351,7 +351,7 @@ public interface I_AD_Table
 	  */
 	public int getPO_Window_ID();
 
-	public org.compiere.model.I_AD_Window getPO_Window() throws RuntimeException;
+	public I_AD_Window getPO_Window() throws RuntimeException;
 
     /** Column name Processing */
     public static final String COLUMNNAME_Processing = "Processing";

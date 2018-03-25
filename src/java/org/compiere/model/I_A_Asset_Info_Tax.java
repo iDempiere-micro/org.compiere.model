@@ -72,8 +72,8 @@ public interface I_A_Asset_Info_Tax
 	/** Get A_Asset_Info_Tax_UU	  */
 	public String getA_Asset_Info_Tax_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

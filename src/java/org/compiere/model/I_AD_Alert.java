@@ -67,7 +67,7 @@ public interface I_AD_Alert
 	  */
 	public int getAD_AlertProcessor_ID();
 
-	public org.compiere.model.I_AD_AlertProcessor getAD_AlertProcessor() throws RuntimeException;
+	public I_AD_AlertProcessor getAD_AlertProcessor() throws RuntimeException;
 
     /** Column name AD_Alert_UU */
     public static final String COLUMNNAME_AD_Alert_UU = "AD_Alert_UU";
@@ -78,8 +78,8 @@ public interface I_AD_Alert
 	/** Get AD_Alert_UU	  */
 	public String getAD_Alert_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

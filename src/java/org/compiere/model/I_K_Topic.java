@@ -41,8 +41,8 @@ public interface I_K_Topic
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -178,7 +178,7 @@ public interface I_K_Topic
 	  */
 	public int getK_Type_ID();
 
-	public org.compiere.model.I_K_Type getK_Type() throws RuntimeException;
+	public I_K_Type getK_Type() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

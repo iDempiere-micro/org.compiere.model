@@ -41,8 +41,8 @@ public interface I_CM_AccessContainer
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -84,7 +84,7 @@ public interface I_CM_AccessContainer
 	  */
 	public int getCM_AccessProfile_ID();
 
-	public org.compiere.model.I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
+	public I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
 
     /** Column name CM_Container_ID */
     public static final String COLUMNNAME_CM_Container_ID = "CM_Container_ID";
@@ -99,7 +99,7 @@ public interface I_CM_AccessContainer
 	  */
 	public int getCM_Container_ID();
 
-	public org.compiere.model.I_CM_Container getCM_Container() throws RuntimeException;
+	public I_CM_Container getCM_Container() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

@@ -41,8 +41,8 @@ public interface I_AD_StatusLineUsedIn
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_StatusLineUsedIn
 	/** Get Status Line	  */
 	public int getAD_StatusLine_ID();
 
-	public org.compiere.model.I_AD_StatusLine getAD_StatusLine() throws RuntimeException;
+	public I_AD_StatusLine getAD_StatusLine() throws RuntimeException;
 
     /** Column name AD_StatusLineUsedIn_ID */
     public static final String COLUMNNAME_AD_StatusLineUsedIn_ID = "AD_StatusLineUsedIn_ID";
@@ -104,7 +104,7 @@ public interface I_AD_StatusLineUsedIn
 	  */
 	public int getAD_Tab_ID();
 
-	public org.compiere.model.I_AD_Tab getAD_Tab() throws RuntimeException;
+	public I_AD_Tab getAD_Tab() throws RuntimeException;
 
     /** Column name AD_Table_ID */
     public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
@@ -119,7 +119,7 @@ public interface I_AD_StatusLineUsedIn
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -134,7 +134,7 @@ public interface I_AD_StatusLineUsedIn
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

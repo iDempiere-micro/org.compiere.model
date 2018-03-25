@@ -54,7 +54,7 @@ public interface I_AD_AlertRule
 	  */
 	public int getAD_Alert_ID();
 
-	public org.compiere.model.I_AD_Alert getAD_Alert() throws RuntimeException;
+	public I_AD_Alert getAD_Alert() throws RuntimeException;
 
     /** Column name AD_AlertRule_ID */
     public static final String COLUMNNAME_AD_AlertRule_ID = "AD_AlertRule_ID";
@@ -78,8 +78,8 @@ public interface I_AD_AlertRule
 	/** Get AD_AlertRule_UU	  */
 	public String getAD_AlertRule_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -112,7 +112,7 @@ public interface I_AD_AlertRule
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

@@ -63,8 +63,8 @@ public interface I_AD_AlertProcessor
 	/** Get AD_AlertProcessor_UU	  */
 	public String getAD_AlertProcessor_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -93,7 +93,7 @@ public interface I_AD_AlertProcessor
 	/** Get Schedule	  */
 	public int getAD_Schedule_ID();
 
-	public org.compiere.model.I_AD_Schedule getAD_Schedule() throws RuntimeException;
+	public I_AD_Schedule getAD_Schedule() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -211,7 +211,7 @@ public interface I_AD_AlertProcessor
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

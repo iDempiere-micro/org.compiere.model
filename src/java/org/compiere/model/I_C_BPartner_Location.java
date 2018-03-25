@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import software.hsharp.business.models.IClientBound;
 
 /** Generated Interface for C_BPartner_Location
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_BPartner_Location 
+public interface I_C_BPartner_Location extends IClientBound
 {
 
     /** TableName=C_BPartner_Location */
@@ -40,14 +41,6 @@ public interface I_C_BPartner_Location
     BigDecimal accessLevel = BigDecimal.valueOf(3);
 
     /** Load Meta Data */
-
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
-
-	/** Get Client.
-	  * Client/Tenant for this installation.
-	  */
-	public int getAD_Client_ID();
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -75,7 +68,7 @@ public interface I_C_BPartner_Location
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BPartner_Location_ID */
     public static final String COLUMNNAME_C_BPartner_Location_ID = "C_BPartner_Location_ID";
@@ -143,7 +136,7 @@ public interface I_C_BPartner_Location
 	  */
 	public int getC_SalesRegion_ID();
 
-	public org.compiere.model.I_C_SalesRegion getC_SalesRegion() throws RuntimeException;
+	public I_C_SalesRegion getC_SalesRegion() throws RuntimeException;
 
     /** Column name CustomerAddressID */
     public static final String COLUMNNAME_CustomerAddressID = "CustomerAddressID";

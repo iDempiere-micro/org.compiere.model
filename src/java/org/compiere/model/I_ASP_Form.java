@@ -41,8 +41,8 @@ public interface I_ASP_Form
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_ASP_Form
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -104,7 +104,7 @@ public interface I_ASP_Form
 	/** Get ASP Level	  */
 	public int getASP_Level_ID();
 
-	public org.compiere.model.I_ASP_Level getASP_Level() throws RuntimeException;
+	public I_ASP_Level getASP_Level() throws RuntimeException;
 
     /** Column name ASP_Status */
     public static final String COLUMNNAME_ASP_Status = "ASP_Status";

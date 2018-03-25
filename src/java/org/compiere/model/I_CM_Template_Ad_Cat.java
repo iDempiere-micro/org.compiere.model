@@ -41,8 +41,8 @@ public interface I_CM_Template_Ad_Cat
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_Template_Ad_Cat
 	  */
 	public int getCM_Ad_Cat_ID();
 
-	public org.compiere.model.I_CM_Ad_Cat getCM_Ad_Cat() throws RuntimeException;
+	public I_CM_Ad_Cat getCM_Ad_Cat() throws RuntimeException;
 
     /** Column name CM_Template_Ad_Cat_UU */
     public static final String COLUMNNAME_CM_Template_Ad_Cat_UU = "CM_Template_Ad_Cat_UU";
@@ -99,7 +99,7 @@ public interface I_CM_Template_Ad_Cat
 	  */
 	public int getCM_Template_ID();
 
-	public org.compiere.model.I_CM_Template getCM_Template() throws RuntimeException;
+	public I_CM_Template getCM_Template() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

@@ -41,8 +41,8 @@ public interface I_AD_WorkbenchWindow
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_WorkbenchWindow
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -90,7 +90,7 @@ public interface I_AD_WorkbenchWindow
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Task_ID */
     public static final String COLUMNNAME_AD_Task_ID = "AD_Task_ID";
@@ -105,7 +105,7 @@ public interface I_AD_WorkbenchWindow
 	  */
 	public int getAD_Task_ID();
 
-	public org.compiere.model.I_AD_Task getAD_Task() throws RuntimeException;
+	public I_AD_Task getAD_Task() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -120,7 +120,7 @@ public interface I_AD_WorkbenchWindow
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name AD_Workbench_ID */
     public static final String COLUMNNAME_AD_Workbench_ID = "AD_Workbench_ID";
@@ -135,7 +135,7 @@ public interface I_AD_WorkbenchWindow
 	  */
 	public int getAD_Workbench_ID();
 
-	public org.compiere.model.I_AD_Workbench getAD_Workbench() throws RuntimeException;
+	public I_AD_Workbench getAD_Workbench() throws RuntimeException;
 
     /** Column name AD_WorkbenchWindow_ID */
     public static final String COLUMNNAME_AD_WorkbenchWindow_ID = "AD_WorkbenchWindow_ID";

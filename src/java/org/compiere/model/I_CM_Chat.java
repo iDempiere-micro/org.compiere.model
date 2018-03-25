@@ -41,8 +41,8 @@ public interface I_CM_Chat
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_Chat
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name CM_Chat_ID */
     public static final String COLUMNNAME_CM_Chat_ID = "CM_Chat_ID";
@@ -103,7 +103,7 @@ public interface I_CM_Chat
 	  */
 	public int getCM_ChatType_ID();
 
-	public org.compiere.model.I_CM_ChatType getCM_ChatType() throws RuntimeException;
+	public I_CM_ChatType getCM_ChatType() throws RuntimeException;
 
     /** Column name CM_Chat_UU */
     public static final String COLUMNNAME_CM_Chat_UU = "CM_Chat_UU";

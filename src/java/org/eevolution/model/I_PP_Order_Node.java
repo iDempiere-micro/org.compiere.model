@@ -56,8 +56,8 @@ public interface I_PP_Order_Node
 	  */
 	public String getAction();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

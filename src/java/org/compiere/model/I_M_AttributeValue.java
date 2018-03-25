@@ -41,8 +41,8 @@ public interface I_M_AttributeValue
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_M_AttributeValue
 	  */
 	public int getM_Attribute_ID();
 
-	public org.compiere.model.I_M_Attribute getM_Attribute() throws RuntimeException;
+	public I_M_Attribute getM_Attribute() throws RuntimeException;
 
     /** Column name M_AttributeValue_ID */
     public static final String COLUMNNAME_M_AttributeValue_ID = "M_AttributeValue_ID";

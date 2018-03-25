@@ -41,8 +41,8 @@ public interface I_C_RfQLineQty
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_C_RfQLineQty
 	  */
 	public int getC_RfQLine_ID();
 
-	public org.compiere.model.I_C_RfQLine getC_RfQLine() throws RuntimeException;
+	public I_C_RfQLine getC_RfQLine() throws RuntimeException;
 
     /** Column name C_RfQLineQty_ID */
     public static final String COLUMNNAME_C_RfQLineQty_ID = "C_RfQLineQty_ID";
@@ -154,7 +154,7 @@ public interface I_C_RfQLineQty
 	  */
 	public int getC_UOM_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM() throws RuntimeException;
+	public I_C_UOM getC_UOM() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

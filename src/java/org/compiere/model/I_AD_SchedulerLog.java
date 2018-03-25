@@ -41,8 +41,8 @@ public interface I_AD_SchedulerLog
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_SchedulerLog
 	  */
 	public int getAD_Scheduler_ID();
 
-	public org.compiere.model.I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
+	public I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
 
     /** Column name AD_SchedulerLog_ID */
     public static final String COLUMNNAME_AD_SchedulerLog_ID = "AD_SchedulerLog_ID";

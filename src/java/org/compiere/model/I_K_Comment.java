@@ -41,8 +41,8 @@ public interface I_K_Comment
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_K_Comment
 	  */
 	public int getAD_Session_ID();
 
-	public org.compiere.model.I_AD_Session getAD_Session() throws RuntimeException;
+	public I_AD_Session getAD_Session() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -154,7 +154,7 @@ public interface I_K_Comment
 	  */
 	public int getK_Entry_ID();
 
-	public org.compiere.model.I_K_Entry getK_Entry() throws RuntimeException;
+	public I_K_Entry getK_Entry() throws RuntimeException;
 
     /** Column name Rating */
     public static final String COLUMNNAME_Rating = "Rating";

@@ -41,8 +41,8 @@ public interface I_AD_ImpFormat_Row
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_ImpFormat_Row
 	  */
 	public int getAD_Column_ID();
 
-	public org.compiere.model.I_AD_Column getAD_Column() throws RuntimeException;
+	public I_AD_Column getAD_Column() throws RuntimeException;
 
     /** Column name AD_ImpFormat_ID */
     public static final String COLUMNNAME_AD_ImpFormat_ID = "AD_ImpFormat_ID";
@@ -73,7 +73,7 @@ public interface I_AD_ImpFormat_Row
 	/** Get Import Format	  */
 	public int getAD_ImpFormat_ID();
 
-	public org.compiere.model.I_AD_ImpFormat getAD_ImpFormat() throws RuntimeException;
+	public I_AD_ImpFormat getAD_ImpFormat() throws RuntimeException;
 
     /** Column name AD_ImpFormat_Row_ID */
     public static final String COLUMNNAME_AD_ImpFormat_Row_ID = "AD_ImpFormat_Row_ID";

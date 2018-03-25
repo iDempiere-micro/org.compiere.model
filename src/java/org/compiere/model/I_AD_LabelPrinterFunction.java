@@ -41,8 +41,8 @@ public interface I_AD_LabelPrinterFunction
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -84,7 +84,7 @@ public interface I_AD_LabelPrinterFunction
 	  */
 	public int getAD_LabelPrinter_ID();
 
-	public org.compiere.model.I_AD_LabelPrinter getAD_LabelPrinter() throws RuntimeException;
+	public I_AD_LabelPrinter getAD_LabelPrinter() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";

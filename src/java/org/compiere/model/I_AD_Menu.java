@@ -54,8 +54,8 @@ public interface I_AD_Menu
 	  */
 	public String getAction();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_InfoWindow_ID */
     public static final String COLUMNNAME_AD_InfoWindow_ID = "AD_InfoWindow_ID";
@@ -90,7 +90,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_InfoWindow_ID();
 
-	public org.compiere.model.I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
+	public I_AD_InfoWindow getAD_InfoWindow() throws RuntimeException;
 
     /** Column name AD_Menu_ID */
     public static final String COLUMNNAME_AD_Menu_ID = "AD_Menu_ID";
@@ -140,7 +140,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Task_ID */
     public static final String COLUMNNAME_AD_Task_ID = "AD_Task_ID";
@@ -155,7 +155,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_Task_ID();
 
-	public org.compiere.model.I_AD_Task getAD_Task() throws RuntimeException;
+	public I_AD_Task getAD_Task() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -170,7 +170,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name AD_Workflow_ID */
     public static final String COLUMNNAME_AD_Workflow_ID = "AD_Workflow_ID";
@@ -185,7 +185,7 @@ public interface I_AD_Menu
 	  */
 	public int getAD_Workflow_ID();
 
-	public org.compiere.model.I_AD_Workflow getAD_Workflow() throws RuntimeException;
+	public I_AD_Workflow getAD_Workflow() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

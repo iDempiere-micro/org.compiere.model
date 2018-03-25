@@ -41,8 +41,8 @@ public interface I_M_AttributeSetInstance
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -143,7 +143,7 @@ public interface I_M_AttributeSetInstance
 	  */
 	public int getM_AttributeSet_ID();
 
-	public org.compiere.model.I_M_AttributeSet getM_AttributeSet() throws RuntimeException;
+	public I_M_AttributeSet getM_AttributeSet() throws RuntimeException;
 
     /** Column name M_AttributeSetInstance_ID */
     public static final String COLUMNNAME_M_AttributeSetInstance_ID = "M_AttributeSetInstance_ID";
@@ -180,7 +180,7 @@ public interface I_M_AttributeSetInstance
 	  */
 	public int getM_Lot_ID();
 
-	public org.compiere.model.I_M_Lot getM_Lot() throws RuntimeException;
+	public I_M_Lot getM_Lot() throws RuntimeException;
 
     /** Column name SerNo */
     public static final String COLUMNNAME_SerNo = "SerNo";

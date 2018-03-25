@@ -54,8 +54,8 @@ public interface I_AD_Workflow
 	  */
 	public String getAccessLevel();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_Workflow
 	/** Get Context Help	  */
 	public int getAD_CtxHelp_ID();
 
-	public org.compiere.model.I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
+	public I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -99,7 +99,7 @@ public interface I_AD_Workflow
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name AD_WF_Node_ID */
     public static final String COLUMNNAME_AD_WF_Node_ID = "AD_WF_Node_ID";
@@ -114,7 +114,7 @@ public interface I_AD_Workflow
 	  */
 	public int getAD_WF_Node_ID();
 
-	public org.compiere.model.I_AD_WF_Node getAD_WF_Node() throws RuntimeException;
+	public I_AD_WF_Node getAD_WF_Node() throws RuntimeException;
 
     /** Column name AD_WF_Responsible_ID */
     public static final String COLUMNNAME_AD_WF_Responsible_ID = "AD_WF_Responsible_ID";
@@ -129,7 +129,7 @@ public interface I_AD_Workflow
 	  */
 	public int getAD_WF_Responsible_ID();
 
-	public org.compiere.model.I_AD_WF_Responsible getAD_WF_Responsible() throws RuntimeException;
+	public I_AD_WF_Responsible getAD_WF_Responsible() throws RuntimeException;
 
     /** Column name AD_Workflow_ID */
     public static final String COLUMNNAME_AD_Workflow_ID = "AD_Workflow_ID";
@@ -157,7 +157,7 @@ public interface I_AD_Workflow
 	  */
 	public int getAD_WorkflowProcessor_ID();
 
-	public org.compiere.model.I_AD_WorkflowProcessor getAD_WorkflowProcessor() throws RuntimeException;
+	public I_AD_WorkflowProcessor getAD_WorkflowProcessor() throws RuntimeException;
 
     /** Column name AD_Workflow_UU */
     public static final String COLUMNNAME_AD_Workflow_UU = "AD_Workflow_UU";
@@ -486,7 +486,7 @@ public interface I_AD_Workflow
 	  */
 	public int getS_Resource_ID();
 
-	public org.compiere.model.I_S_Resource getS_Resource() throws RuntimeException;
+	public I_S_Resource getS_Resource() throws RuntimeException;
 
     /** Column name UnitsCycles */
     public static final String COLUMNNAME_UnitsCycles = "UnitsCycles";

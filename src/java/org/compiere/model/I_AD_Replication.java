@@ -41,8 +41,8 @@ public interface I_AD_Replication
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_AD_Replication
 	  */
 	public int getAD_ReplicationStrategy_ID();
 
-	public org.compiere.model.I_AD_ReplicationStrategy getAD_ReplicationStrategy() throws RuntimeException;
+	public I_AD_ReplicationStrategy getAD_ReplicationStrategy() throws RuntimeException;
 
     /** Column name AD_Replication_UU */
     public static final String COLUMNNAME_AD_Replication_UU = "AD_Replication_UU";

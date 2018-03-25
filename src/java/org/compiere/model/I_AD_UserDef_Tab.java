@@ -41,8 +41,8 @@ public interface I_AD_UserDef_Tab
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_UserDef_Tab
 	  */
 	public int getAD_Tab_ID();
 
-	public org.compiere.model.I_AD_Tab getAD_Tab() throws RuntimeException;
+	public I_AD_Tab getAD_Tab() throws RuntimeException;
 
     /** Column name AD_UserDef_Tab_ID */
     public static final String COLUMNNAME_AD_UserDef_Tab_ID = "AD_UserDef_Tab_ID";
@@ -104,7 +104,7 @@ public interface I_AD_UserDef_Tab
 	/** Get User defined Window	  */
 	public int getAD_UserDef_Win_ID();
 
-	public org.compiere.model.I_AD_UserDef_Win getAD_UserDef_Win() throws RuntimeException;
+	public I_AD_UserDef_Win getAD_UserDef_Win() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

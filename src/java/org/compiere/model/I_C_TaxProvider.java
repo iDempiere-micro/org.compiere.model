@@ -50,8 +50,8 @@ public interface I_C_TaxProvider
 	/** Get Account	  */
 	public String getAccount();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -105,7 +105,7 @@ public interface I_C_TaxProvider
 	/** Get Tax Provider Configuration	  */
 	public int getC_TaxProviderCfg_ID();
 
-	public org.compiere.model.I_C_TaxProviderCfg getC_TaxProviderCfg() throws RuntimeException;
+	public I_C_TaxProviderCfg getC_TaxProviderCfg() throws RuntimeException;
 
     /** Column name C_TaxProvider_ID */
     public static final String COLUMNNAME_C_TaxProvider_ID = "C_TaxProvider_ID";

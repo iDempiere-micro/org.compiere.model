@@ -76,10 +76,10 @@ public interface I_A_Asset_Delivery
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -112,7 +112,7 @@ public interface I_A_Asset_Delivery
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -221,7 +221,7 @@ public interface I_A_Asset_Delivery
 	  */
 	public int getM_InOutLine_ID();
 
-	public org.compiere.model.I_M_InOutLine getM_InOutLine() throws RuntimeException;
+	public I_M_InOutLine getM_InOutLine() throws RuntimeException;
 
     /** Column name MovementDate */
     public static final String COLUMNNAME_MovementDate = "MovementDate";
@@ -249,7 +249,7 @@ public interface I_A_Asset_Delivery
 	  */
 	public int getM_ProductDownload_ID();
 
-	public org.compiere.model.I_M_ProductDownload getM_ProductDownload() throws RuntimeException;
+	public I_M_ProductDownload getM_ProductDownload() throws RuntimeException;
 
     /** Column name Referrer */
     public static final String COLUMNNAME_Referrer = "Referrer";

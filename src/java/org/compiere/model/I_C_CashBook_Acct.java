@@ -41,8 +41,8 @@ public interface I_C_CashBook_Acct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_CashBook_Acct
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name CB_Asset_Acct */
     public static final String COLUMNNAME_CB_Asset_Acct = "CB_Asset_Acct";
@@ -174,7 +174,7 @@ public interface I_C_CashBook_Acct
 	  */
 	public int getC_CashBook_ID();
 
-	public org.compiere.model.I_C_CashBook getC_CashBook() throws RuntimeException;
+	public I_C_CashBook getC_CashBook() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

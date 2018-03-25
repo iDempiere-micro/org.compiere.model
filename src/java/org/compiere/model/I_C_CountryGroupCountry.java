@@ -41,8 +41,8 @@ public interface I_C_CountryGroupCountry
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -89,7 +89,7 @@ public interface I_C_CountryGroupCountry
 	/** Get Country Group	  */
 	public int getC_CountryGroup_ID();
 
-	public org.compiere.model.I_C_CountryGroup getC_CountryGroup() throws RuntimeException;
+	public I_C_CountryGroup getC_CountryGroup() throws RuntimeException;
 
     /** Column name C_Country_ID */
     public static final String COLUMNNAME_C_Country_ID = "C_Country_ID";
@@ -104,7 +104,7 @@ public interface I_C_CountryGroupCountry
 	  */
 	public int getC_Country_ID();
 
-	public org.compiere.model.I_C_Country getC_Country() throws RuntimeException;
+	public I_C_Country getC_Country() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

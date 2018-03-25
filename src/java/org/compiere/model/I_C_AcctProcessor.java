@@ -41,8 +41,8 @@ public interface I_C_AcctProcessor
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_C_AcctProcessor
 	/** Get Schedule	  */
 	public int getAD_Schedule_ID();
 
-	public org.compiere.model.I_AD_Schedule getAD_Schedule() throws RuntimeException;
+	public I_AD_Schedule getAD_Schedule() throws RuntimeException;
 
     /** Column name AD_Table_ID */
     public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
@@ -86,7 +86,7 @@ public interface I_C_AcctProcessor
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name C_AcctProcessor_ID */
     public static final String COLUMNNAME_C_AcctProcessor_ID = "C_AcctProcessor_ID";
@@ -123,7 +123,7 @@ public interface I_C_AcctProcessor
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -241,7 +241,7 @@ public interface I_C_AcctProcessor
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

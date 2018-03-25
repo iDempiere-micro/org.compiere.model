@@ -41,8 +41,8 @@ public interface I_C_POSKey
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_C_POSKey
 	  */
 	public int getAD_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
 
     /** Column name AD_PrintFont_ID */
     public static final String COLUMNNAME_AD_PrintFont_ID = "AD_PrintFont_ID";
@@ -103,7 +103,7 @@ public interface I_C_POSKey
 	  */
 	public int getAD_PrintFont_ID();
 
-	public org.compiere.model.I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
+	public I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
 
     /** Column name C_POSKey_ID */
     public static final String COLUMNNAME_C_POSKey_ID = "C_POSKey_ID";
@@ -131,7 +131,7 @@ public interface I_C_POSKey
 	  */
 	public int getC_POSKeyLayout_ID();
 
-	public org.compiere.model.I_C_POSKeyLayout getC_POSKeyLayout() throws RuntimeException;
+	public I_C_POSKeyLayout getC_POSKeyLayout() throws RuntimeException;
 
     /** Column name C_POSKey_UU */
     public static final String COLUMNNAME_C_POSKey_UU = "C_POSKey_UU";
@@ -197,7 +197,7 @@ public interface I_C_POSKey
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -279,7 +279,7 @@ public interface I_C_POSKey
 	  */
 	public int getSubKeyLayout_ID();
 
-	public org.compiere.model.I_C_POSKeyLayout getSubKeyLayout() throws RuntimeException;
+	public I_C_POSKeyLayout getSubKeyLayout() throws RuntimeException;
 
     /** Column name Text */
     public static final String COLUMNNAME_Text = "Text";

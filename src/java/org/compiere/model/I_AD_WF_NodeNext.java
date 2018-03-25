@@ -41,8 +41,8 @@ public interface I_AD_WF_NodeNext
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_WF_NodeNext
 	  */
 	public int getAD_WF_Next_ID();
 
-	public org.compiere.model.I_AD_WF_Node getAD_WF_Next() throws RuntimeException;
+	public I_AD_WF_Node getAD_WF_Next() throws RuntimeException;
 
     /** Column name AD_WF_Node_ID */
     public static final String COLUMNNAME_AD_WF_Node_ID = "AD_WF_Node_ID";
@@ -90,7 +90,7 @@ public interface I_AD_WF_NodeNext
 	  */
 	public int getAD_WF_Node_ID();
 
-	public org.compiere.model.I_AD_WF_Node getAD_WF_Node() throws RuntimeException;
+	public I_AD_WF_Node getAD_WF_Node() throws RuntimeException;
 
     /** Column name AD_WF_NodeNext_ID */
     public static final String COLUMNNAME_AD_WF_NodeNext_ID = "AD_WF_NodeNext_ID";

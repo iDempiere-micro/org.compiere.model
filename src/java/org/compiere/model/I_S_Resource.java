@@ -41,8 +41,8 @@ public interface I_S_Resource
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_S_Resource
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name ChargeableQty */
     public static final String COLUMNNAME_ChargeableQty = "ChargeableQty";
@@ -181,7 +181,7 @@ public interface I_S_Resource
 	  */
 	public int getM_Warehouse_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_Warehouse() throws RuntimeException;
+	public I_M_Warehouse getM_Warehouse() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";
@@ -253,7 +253,7 @@ public interface I_S_Resource
 	/** Get Resource Type	  */
 	public int getS_ResourceType_ID();
 
-	public org.compiere.model.I_S_ResourceType getS_ResourceType() throws RuntimeException;
+	public I_S_ResourceType getS_ResourceType() throws RuntimeException;
 
     /** Column name S_Resource_UU */
     public static final String COLUMNNAME_S_Resource_UU = "S_Resource_UU";

@@ -41,8 +41,8 @@ public interface I_C_Tax
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_C_Tax
 	/** Get Rule	  */
 	public int getAD_Rule_ID();
 
-	public org.compiere.model.I_AD_Rule getAD_Rule() throws RuntimeException;
+	public I_AD_Rule getAD_Rule() throws RuntimeException;
 
     /** Column name C_CountryGroupFrom_ID */
     public static final String COLUMNNAME_C_CountryGroupFrom_ID = "C_CountryGroupFrom_ID";
@@ -82,7 +82,7 @@ public interface I_C_Tax
 	/** Get Country Group From	  */
 	public int getC_CountryGroupFrom_ID();
 
-	public org.compiere.model.I_C_CountryGroup getC_CountryGroupFrom() throws RuntimeException;
+	public I_C_CountryGroup getC_CountryGroupFrom() throws RuntimeException;
 
     /** Column name C_CountryGroupTo_ID */
     public static final String COLUMNNAME_C_CountryGroupTo_ID = "C_CountryGroupTo_ID";
@@ -93,7 +93,7 @@ public interface I_C_Tax
 	/** Get Country Group To	  */
 	public int getC_CountryGroupTo_ID();
 
-	public org.compiere.model.I_C_CountryGroup getC_CountryGroupTo() throws RuntimeException;
+	public I_C_CountryGroup getC_CountryGroupTo() throws RuntimeException;
 
     /** Column name C_Country_ID */
     public static final String COLUMNNAME_C_Country_ID = "C_Country_ID";
@@ -137,7 +137,7 @@ public interface I_C_Tax
 	  */
 	public int getC_Region_ID();
 
-	public org.compiere.model.I_C_Region getC_Region() throws RuntimeException;
+	public I_C_Region getC_Region() throws RuntimeException;
 
     /** Column name C_TaxCategory_ID */
     public static final String COLUMNNAME_C_TaxCategory_ID = "C_TaxCategory_ID";
@@ -152,7 +152,7 @@ public interface I_C_Tax
 	  */
 	public int getC_TaxCategory_ID();
 
-	public org.compiere.model.I_C_TaxCategory getC_TaxCategory() throws RuntimeException;
+	public I_C_TaxCategory getC_TaxCategory() throws RuntimeException;
 
     /** Column name C_Tax_ID */
     public static final String COLUMNNAME_C_Tax_ID = "C_Tax_ID";
@@ -176,7 +176,7 @@ public interface I_C_Tax
 	/** Get Tax Provider	  */
 	public int getC_TaxProvider_ID();
 
-	public org.compiere.model.I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
+	public I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
 
     /** Column name C_Tax_UU */
     public static final String COLUMNNAME_C_Tax_UU = "C_Tax_UU";
@@ -304,7 +304,7 @@ public interface I_C_Tax
 	  */
 	public int getParent_Tax_ID();
 
-	public org.compiere.model.I_C_Tax getParent_Tax() throws RuntimeException;
+	public I_C_Tax getParent_Tax() throws RuntimeException;
 
     /** Column name Rate */
     public static final String COLUMNNAME_Rate = "Rate";
@@ -384,7 +384,7 @@ public interface I_C_Tax
 	  */
 	public int getTo_Region_ID();
 
-	public org.compiere.model.I_C_Region getTo_Region() throws RuntimeException;
+	public I_C_Region getTo_Region() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

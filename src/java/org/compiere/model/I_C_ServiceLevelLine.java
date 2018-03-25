@@ -41,8 +41,8 @@ public interface I_C_ServiceLevelLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_C_ServiceLevelLine
 	  */
 	public int getC_ServiceLevel_ID();
 
-	public org.compiere.model.I_C_ServiceLevel getC_ServiceLevel() throws RuntimeException;
+	public I_C_ServiceLevel getC_ServiceLevel() throws RuntimeException;
 
     /** Column name C_ServiceLevelLine_ID */
     public static final String COLUMNNAME_C_ServiceLevelLine_ID = "C_ServiceLevelLine_ID";

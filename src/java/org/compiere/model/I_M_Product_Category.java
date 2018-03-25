@@ -54,10 +54,10 @@ public interface I_M_Product_Category
 	  */
 	public int getA_Asset_Group_ID();
 
-	public org.compiere.model.I_A_Asset_Group getA_Asset_Group() throws RuntimeException;
+	public I_A_Asset_Group getA_Asset_Group() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -90,7 +90,7 @@ public interface I_M_Product_Category
 	  */
 	public int getAD_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -195,7 +195,7 @@ public interface I_M_Product_Category
 	/** Get Parent Product Category	  */
 	public int getM_Product_Category_Parent_ID();
 
-	public org.compiere.model.I_M_Product_Category getM_Product_Category_Parent() throws RuntimeException;
+	public I_M_Product_Category getM_Product_Category_Parent() throws RuntimeException;
 
     /** Column name M_Product_Category_UU */
     public static final String COLUMNNAME_M_Product_Category_UU = "M_Product_Category_UU";

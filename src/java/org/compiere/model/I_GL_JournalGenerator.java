@@ -41,8 +41,8 @@ public interface I_GL_JournalGenerator
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_GL_JournalGenerator
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -90,7 +90,7 @@ public interface I_GL_JournalGenerator
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name C_ElementValueAdjustCR_ID */
     public static final String COLUMNNAME_C_ElementValueAdjustCR_ID = "C_ElementValueAdjustCR_ID";
@@ -101,7 +101,7 @@ public interface I_GL_JournalGenerator
 	/** Get Account Adjust CR	  */
 	public int getC_ElementValueAdjustCR_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValueAdjustCR() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValueAdjustCR() throws RuntimeException;
 
     /** Column name C_ElementValueAdjustDR_ID */
     public static final String COLUMNNAME_C_ElementValueAdjustDR_ID = "C_ElementValueAdjustDR_ID";
@@ -112,7 +112,7 @@ public interface I_GL_JournalGenerator
 	/** Get Account Adjust DR	  */
 	public int getC_ElementValueAdjustDR_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValueAdjustDR() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValueAdjustDR() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -165,7 +165,7 @@ public interface I_GL_JournalGenerator
 	  */
 	public int getGL_Category_ID();
 
-	public org.compiere.model.I_GL_Category getGL_Category() throws RuntimeException;
+	public I_GL_Category getGL_Category() throws RuntimeException;
 
     /** Column name GL_JournalGenerator_ID */
     public static final String COLUMNNAME_GL_JournalGenerator_ID = "GL_JournalGenerator_ID";

@@ -41,8 +41,8 @@ public interface I_PA_Goal
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_PA_Goal
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -90,7 +90,7 @@ public interface I_PA_Goal
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name ChartType */
     public static final String COLUMNNAME_ChartType = "ChartType";
@@ -303,7 +303,7 @@ public interface I_PA_Goal
 	  */
 	public int getPA_ColorSchema_ID();
 
-	public org.compiere.model.I_PA_ColorSchema getPA_ColorSchema() throws RuntimeException;
+	public I_PA_ColorSchema getPA_ColorSchema() throws RuntimeException;
 
     /** Column name PA_Goal_ID */
     public static final String COLUMNNAME_PA_Goal_ID = "PA_Goal_ID";
@@ -331,7 +331,7 @@ public interface I_PA_Goal
 	  */
 	public int getPA_GoalParent_ID();
 
-	public org.compiere.model.I_PA_Goal getPA_GoalParent() throws RuntimeException;
+	public I_PA_Goal getPA_GoalParent() throws RuntimeException;
 
     /** Column name PA_Goal_UU */
     public static final String COLUMNNAME_PA_Goal_UU = "PA_Goal_UU";
@@ -355,7 +355,7 @@ public interface I_PA_Goal
 	  */
 	public int getPA_Measure_ID();
 
-	public org.compiere.model.I_PA_Measure getPA_Measure() throws RuntimeException;
+	public I_PA_Measure getPA_Measure() throws RuntimeException;
 
     /** Column name RelativeWeight */
     public static final String COLUMNNAME_RelativeWeight = "RelativeWeight";

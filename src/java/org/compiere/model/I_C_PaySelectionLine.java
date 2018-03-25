@@ -41,8 +41,8 @@ public interface I_C_PaySelectionLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_PaySelectionLine
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_PaySelectionCheck_ID */
     public static final String COLUMNNAME_C_PaySelectionCheck_ID = "C_PaySelectionCheck_ID";
@@ -90,7 +90,7 @@ public interface I_C_PaySelectionLine
 	  */
 	public int getC_PaySelectionCheck_ID();
 
-	public org.compiere.model.I_C_PaySelectionCheck getC_PaySelectionCheck() throws RuntimeException;
+	public I_C_PaySelectionCheck getC_PaySelectionCheck() throws RuntimeException;
 
     /** Column name C_PaySelection_ID */
     public static final String COLUMNNAME_C_PaySelection_ID = "C_PaySelection_ID";
@@ -105,7 +105,7 @@ public interface I_C_PaySelectionLine
 	  */
 	public int getC_PaySelection_ID();
 
-	public org.compiere.model.I_C_PaySelection getC_PaySelection() throws RuntimeException;
+	public I_C_PaySelection getC_PaySelection() throws RuntimeException;
 
     /** Column name C_PaySelectionLine_ID */
     public static final String COLUMNNAME_C_PaySelectionLine_ID = "C_PaySelectionLine_ID";

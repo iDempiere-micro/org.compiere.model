@@ -81,7 +81,7 @@ public interface I_A_Asset_Reval
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Reval_ID */
     public static final String COLUMNNAME_A_Asset_Reval_ID = "A_Asset_Reval_ID";
@@ -110,8 +110,8 @@ public interface I_A_Asset_Reval
 	/** Get Change Acumulated Depreciation	  */
 	public BigDecimal getA_Change_Acumulated_Depr();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

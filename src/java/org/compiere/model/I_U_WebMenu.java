@@ -41,8 +41,8 @@ public interface I_U_WebMenu
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -184,7 +184,7 @@ public interface I_U_WebMenu
 	/** Get Parent Menu	  */
 	public int getParentMenu_ID();
 
-	public org.compiere.model.I_U_WebMenu getParentMenu() throws RuntimeException;
+	public I_U_WebMenu getParentMenu() throws RuntimeException;
 
     /** Column name Position */
     public static final String COLUMNNAME_Position = "Position";

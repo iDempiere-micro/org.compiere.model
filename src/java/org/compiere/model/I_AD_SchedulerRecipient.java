@@ -41,8 +41,8 @@ public interface I_AD_SchedulerRecipient
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_SchedulerRecipient
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_Scheduler_ID */
     public static final String COLUMNNAME_AD_Scheduler_ID = "AD_Scheduler_ID";
@@ -90,7 +90,7 @@ public interface I_AD_SchedulerRecipient
 	  */
 	public int getAD_Scheduler_ID();
 
-	public org.compiere.model.I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
+	public I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
 
     /** Column name AD_SchedulerRecipient_ID */
     public static final String COLUMNNAME_AD_SchedulerRecipient_ID = "AD_SchedulerRecipient_ID";
@@ -127,7 +127,7 @@ public interface I_AD_SchedulerRecipient
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

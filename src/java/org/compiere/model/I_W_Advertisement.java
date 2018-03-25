@@ -41,8 +41,8 @@ public interface I_W_Advertisement
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_W_Advertisement
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name C_BPartner_ID */
     public static final String COLUMNNAME_C_BPartner_ID = "C_BPartner_ID";
@@ -103,7 +103,7 @@ public interface I_W_Advertisement
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -311,7 +311,7 @@ public interface I_W_Advertisement
 	  */
 	public int getW_ClickCount_ID();
 
-	public org.compiere.model.I_W_ClickCount getW_ClickCount() throws RuntimeException;
+	public I_W_ClickCount getW_ClickCount() throws RuntimeException;
 
     /** Column name W_CounterCount_ID */
     public static final String COLUMNNAME_W_CounterCount_ID = "W_CounterCount_ID";
@@ -326,7 +326,7 @@ public interface I_W_Advertisement
 	  */
 	public int getW_CounterCount_ID();
 
-	public org.compiere.model.I_W_CounterCount getW_CounterCount() throws RuntimeException;
+	public I_W_CounterCount getW_CounterCount() throws RuntimeException;
 
     /** Column name WebParam1 */
     public static final String COLUMNNAME_WebParam1 = "WebParam1";

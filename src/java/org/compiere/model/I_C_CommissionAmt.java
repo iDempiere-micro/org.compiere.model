@@ -54,8 +54,8 @@ public interface I_C_CommissionAmt
 	  */
 	public BigDecimal getActualQty();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -110,7 +110,7 @@ public interface I_C_CommissionAmt
 	  */
 	public int getC_CommissionLine_ID();
 
-	public org.compiere.model.I_C_CommissionLine getC_CommissionLine() throws RuntimeException;
+	public I_C_CommissionLine getC_CommissionLine() throws RuntimeException;
 
     /** Column name C_CommissionRun_ID */
     public static final String COLUMNNAME_C_CommissionRun_ID = "C_CommissionRun_ID";
@@ -125,7 +125,7 @@ public interface I_C_CommissionAmt
 	  */
 	public int getC_CommissionRun_ID();
 
-	public org.compiere.model.I_C_CommissionRun getC_CommissionRun() throws RuntimeException;
+	public I_C_CommissionRun getC_CommissionRun() throws RuntimeException;
 
     /** Column name CommissionAmt */
     public static final String COLUMNNAME_CommissionAmt = "CommissionAmt";

@@ -41,8 +41,8 @@ public interface I_AD_IndexColumn
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_IndexColumn
 	  */
 	public int getAD_Column_ID();
 
-	public org.compiere.model.I_AD_Column getAD_Column() throws RuntimeException;
+	public I_AD_Column getAD_Column() throws RuntimeException;
 
     /** Column name AD_IndexColumn_ID */
     public static final String COLUMNNAME_AD_IndexColumn_ID = "AD_IndexColumn_ID";
@@ -104,7 +104,7 @@ public interface I_AD_IndexColumn
 	/** Get Table Index	  */
 	public int getAD_TableIndex_ID();
 
-	public org.compiere.model.I_AD_TableIndex getAD_TableIndex() throws RuntimeException;
+	public I_AD_TableIndex getAD_TableIndex() throws RuntimeException;
 
     /** Column name ColumnSQL */
     public static final String COLUMNNAME_ColumnSQL = "ColumnSQL";

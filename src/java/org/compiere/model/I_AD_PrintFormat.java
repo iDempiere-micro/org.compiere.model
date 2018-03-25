@@ -41,8 +41,8 @@ public interface I_AD_PrintFormat
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_PrintColor_ID();
 
-	public org.compiere.model.I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
+	public I_AD_PrintColor getAD_PrintColor() throws RuntimeException;
 
     /** Column name AD_PrintFont_ID */
     public static final String COLUMNNAME_AD_PrintFont_ID = "AD_PrintFont_ID";
@@ -90,7 +90,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_PrintFont_ID();
 
-	public org.compiere.model.I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
+	public I_AD_PrintFont getAD_PrintFont() throws RuntimeException;
 
     /** Column name AD_PrintFormat_ID */
     public static final String COLUMNNAME_AD_PrintFormat_ID = "AD_PrintFormat_ID";
@@ -127,7 +127,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_PrintPaper_ID();
 
-	public org.compiere.model.I_AD_PrintPaper getAD_PrintPaper() throws RuntimeException;
+	public I_AD_PrintPaper getAD_PrintPaper() throws RuntimeException;
 
     /** Column name AD_PrintTableFormat_ID */
     public static final String COLUMNNAME_AD_PrintTableFormat_ID = "AD_PrintTableFormat_ID";
@@ -142,7 +142,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_PrintTableFormat_ID();
 
-	public org.compiere.model.I_AD_PrintTableFormat getAD_PrintTableFormat() throws RuntimeException;
+	public I_AD_PrintTableFormat getAD_PrintTableFormat() throws RuntimeException;
 
     /** Column name AD_ReportView_ID */
     public static final String COLUMNNAME_AD_ReportView_ID = "AD_ReportView_ID";
@@ -157,7 +157,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_ReportView_ID();
 
-	public org.compiere.model.I_AD_ReportView getAD_ReportView() throws RuntimeException;
+	public I_AD_ReportView getAD_ReportView() throws RuntimeException;
 
     /** Column name AD_Table_ID */
     public static final String COLUMNNAME_AD_Table_ID = "AD_Table_ID";
@@ -172,7 +172,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -187,7 +187,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name Args */
     public static final String COLUMNNAME_Args = "Args";
@@ -353,7 +353,7 @@ public interface I_AD_PrintFormat
 	  */
 	public int getJasperProcess_ID();
 
-	public org.compiere.model.I_AD_Process getJasperProcess() throws RuntimeException;
+	public I_AD_Process getJasperProcess() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

@@ -41,8 +41,8 @@ public interface I_C_OrderLandedCost
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_C_OrderLandedCost
 	  */
 	public int getC_Order_ID();
 
-	public org.compiere.model.I_C_Order getC_Order() throws RuntimeException;
+	public I_C_Order getC_Order() throws RuntimeException;
 
     /** Column name C_OrderLandedCost_ID */
     public static final String COLUMNNAME_C_OrderLandedCost_ID = "C_OrderLandedCost_ID";
@@ -176,7 +176,7 @@ public interface I_C_OrderLandedCost
 	  */
 	public int getM_CostElement_ID();
 
-	public org.compiere.model.I_M_CostElement getM_CostElement() throws RuntimeException;
+	public I_M_CostElement getM_CostElement() throws RuntimeException;
 
     /** Column name Processed */
     public static final String COLUMNNAME_Processed = "Processed";

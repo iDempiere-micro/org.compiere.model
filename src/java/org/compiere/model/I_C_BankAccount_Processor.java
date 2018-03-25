@@ -171,8 +171,8 @@ public interface I_C_BankAccount_Processor
 	  */
 	public boolean isAcceptVisa();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -205,7 +205,7 @@ public interface I_C_BankAccount_Processor
 	  */
 	public int getC_BankAccount_ID();
 
-	public org.compiere.model.I_C_BankAccount getC_BankAccount() throws RuntimeException;
+	public I_C_BankAccount getC_BankAccount() throws RuntimeException;
 
     /** Column name C_BankAccount_Processor_UU */
     public static final String COLUMNNAME_C_BankAccount_Processor_UU = "C_BankAccount_Processor_UU";
@@ -229,7 +229,7 @@ public interface I_C_BankAccount_Processor
 	  */
 	public int getC_Currency_ID();
 
-	public org.compiere.model.I_C_Currency getC_Currency() throws RuntimeException;
+	public I_C_Currency getC_Currency() throws RuntimeException;
 
     /** Column name C_PaymentProcessor_ID */
     public static final String COLUMNNAME_C_PaymentProcessor_ID = "C_PaymentProcessor_ID";
@@ -244,7 +244,7 @@ public interface I_C_BankAccount_Processor
 	  */
 	public int getC_PaymentProcessor_ID();
 
-	public org.compiere.model.I_C_PaymentProcessor getC_PaymentProcessor() throws RuntimeException;
+	public I_C_PaymentProcessor getC_PaymentProcessor() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

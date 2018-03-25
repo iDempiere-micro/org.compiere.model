@@ -41,8 +41,8 @@ public interface I_S_Training_Class
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_S_Training_Class
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name StartDate */
     public static final String COLUMNNAME_StartDate = "StartDate";
@@ -167,7 +167,7 @@ public interface I_S_Training_Class
 	  */
 	public int getS_Training_ID();
 
-	public org.compiere.model.I_S_Training getS_Training() throws RuntimeException;
+	public I_S_Training getS_Training() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

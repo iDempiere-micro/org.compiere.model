@@ -41,8 +41,8 @@ public interface I_K_IndexStop
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_K_IndexStop
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name CM_WebProject_ID */
     public static final String COLUMNNAME_CM_WebProject_ID = "CM_WebProject_ID";
@@ -90,7 +90,7 @@ public interface I_K_IndexStop
 	  */
 	public int getCM_WebProject_ID();
 
-	public org.compiere.model.I_CM_WebProject getCM_WebProject() throws RuntimeException;
+	public I_CM_WebProject getCM_WebProject() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -182,7 +182,7 @@ public interface I_K_IndexStop
 	  */
 	public int getR_RequestType_ID();
 
-	public org.compiere.model.I_R_RequestType getR_RequestType() throws RuntimeException;
+	public I_R_RequestType getR_RequestType() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

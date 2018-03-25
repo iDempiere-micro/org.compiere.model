@@ -41,8 +41,8 @@ public interface I_AD_RelationType
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_RelationType
 	/** Get Source Reference	  */
 	public int getAD_Reference_Source_ID();
 
-	public org.compiere.model.I_AD_Reference getAD_Reference_Source() throws RuntimeException;
+	public I_AD_Reference getAD_Reference_Source() throws RuntimeException;
 
     /** Column name AD_Reference_Target_ID */
     public static final String COLUMNNAME_AD_Reference_Target_ID = "AD_Reference_Target_ID";
@@ -82,7 +82,7 @@ public interface I_AD_RelationType
 	/** Get Target Reference	  */
 	public int getAD_Reference_Target_ID();
 
-	public org.compiere.model.I_AD_Reference getAD_Reference_Target() throws RuntimeException;
+	public I_AD_Reference getAD_Reference_Target() throws RuntimeException;
 
     /** Column name AD_RelationType_ID */
     public static final String COLUMNNAME_AD_RelationType_ID = "AD_RelationType_ID";

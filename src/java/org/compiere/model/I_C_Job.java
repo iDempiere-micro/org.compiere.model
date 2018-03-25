@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import software.hsharp.business.models.IClientBound;
 
 /** Generated Interface for C_Job
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_Job 
+public interface I_C_Job extends IClientBound
 {
 
     /** TableName=C_Job */
@@ -40,14 +41,6 @@ public interface I_C_Job
     BigDecimal accessLevel = BigDecimal.valueOf(2);
 
     /** Load Meta Data */
-
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
-
-	/** Get Client.
-	  * Client/Tenant for this installation.
-	  */
-	public int getAD_Client_ID();
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -75,7 +68,7 @@ public interface I_C_Job
 	  */
 	public int getC_JobCategory_ID();
 
-	public org.compiere.model.I_C_JobCategory getC_JobCategory() throws RuntimeException;
+	public I_C_JobCategory getC_JobCategory() throws RuntimeException;
 
     /** Column name C_Job_ID */
     public static final String COLUMNNAME_C_Job_ID = "C_Job_ID";

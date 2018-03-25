@@ -41,8 +41,8 @@ public interface I_AD_User
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -169,7 +169,7 @@ public interface I_AD_User
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BPartner_Location_ID */
     public static final String COLUMNNAME_C_BPartner_Location_ID = "C_BPartner_Location_ID";
@@ -184,7 +184,7 @@ public interface I_AD_User
 	  */
 	public int getC_BPartner_Location_ID();
 
-	public org.compiere.model.I_C_BPartner_Location getC_BPartner_Location() throws RuntimeException;
+	public I_C_BPartner_Location getC_BPartner_Location() throws RuntimeException;
 
     /** Column name C_Campaign_ID */
     public static final String COLUMNNAME_C_Campaign_ID = "C_Campaign_ID";
@@ -199,7 +199,7 @@ public interface I_AD_User
 	  */
 	public int getC_Campaign_ID();
 
-	public org.compiere.model.I_C_Campaign getC_Campaign() throws RuntimeException;
+	public I_C_Campaign getC_Campaign() throws RuntimeException;
 
     /** Column name C_Greeting_ID */
     public static final String COLUMNNAME_C_Greeting_ID = "C_Greeting_ID";
@@ -214,7 +214,7 @@ public interface I_AD_User
 	  */
 	public int getC_Greeting_ID();
 
-	public org.compiere.model.I_C_Greeting getC_Greeting() throws RuntimeException;
+	public I_C_Greeting getC_Greeting() throws RuntimeException;
 
     /** Column name C_Job_ID */
     public static final String COLUMNNAME_C_Job_ID = "C_Job_ID";
@@ -229,7 +229,7 @@ public interface I_AD_User
 	  */
 	public int getC_Job_ID();
 
-	public org.compiere.model.I_C_Job getC_Job() throws RuntimeException;
+	public I_C_Job getC_Job() throws RuntimeException;
 
     /** Column name C_Location_ID */
     public static final String COLUMNNAME_C_Location_ID = "C_Location_ID";
@@ -681,7 +681,7 @@ public interface I_AD_User
 	/** Get Default mail template	  */
 	public int getR_DefaultMailText_ID();
 
-	public org.compiere.model.I_R_MailText getR_DefaultMailText() throws RuntimeException;
+	public I_R_MailText getR_DefaultMailText() throws RuntimeException;
 
     /** Column name SalesRep_ID */
     public static final String COLUMNNAME_SalesRep_ID = "SalesRep_ID";
@@ -696,7 +696,7 @@ public interface I_AD_User
 	  */
 	public int getSalesRep_ID();
 
-	public org.compiere.model.I_AD_User getSalesRep() throws RuntimeException;
+	public I_AD_User getSalesRep() throws RuntimeException;
 
     /** Column name Salt */
     public static final String COLUMNNAME_Salt = "Salt";
@@ -733,7 +733,7 @@ public interface I_AD_User
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Title */
     public static final String COLUMNNAME_Title = "Title";

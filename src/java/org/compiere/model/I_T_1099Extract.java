@@ -41,8 +41,8 @@ public interface I_T_1099Extract
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_T_1099Extract
 	  */
 	public int getAD_PInstance_ID();
 
-	public org.compiere.model.I_AD_PInstance getAD_PInstance() throws RuntimeException;
+	public I_AD_PInstance getAD_PInstance() throws RuntimeException;
 
     /** Column name AmtBucket01 */
     public static final String COLUMNNAME_AmtBucket01 = "AmtBucket01";
@@ -234,7 +234,7 @@ public interface I_T_1099Extract
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_Location_ID */
     public static final String COLUMNNAME_C_Location_ID = "C_Location_ID";

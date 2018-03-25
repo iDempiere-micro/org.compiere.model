@@ -54,10 +54,10 @@ public interface I_AD_Issue
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -77,7 +77,7 @@ public interface I_AD_Issue
 	  */
 	public int getAD_Form_ID();
 
-	public org.compiere.model.I_AD_Form getAD_Form() throws RuntimeException;
+	public I_AD_Form getAD_Form() throws RuntimeException;
 
     /** Column name AD_Issue_ID */
     public static final String COLUMNNAME_AD_Issue_ID = "AD_Issue_ID";
@@ -127,7 +127,7 @@ public interface I_AD_Issue
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -142,7 +142,7 @@ public interface I_AD_Issue
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name Comments */
     public static final String COLUMNNAME_Comments = "Comments";
@@ -494,7 +494,7 @@ public interface I_AD_Issue
 	  */
 	public int getR_IssueKnown_ID();
 
-	public org.compiere.model.I_R_IssueKnown getR_IssueKnown() throws RuntimeException;
+	public I_R_IssueKnown getR_IssueKnown() throws RuntimeException;
 
     /** Column name R_IssueProject_ID */
     public static final String COLUMNNAME_R_IssueProject_ID = "R_IssueProject_ID";
@@ -509,7 +509,7 @@ public interface I_AD_Issue
 	  */
 	public int getR_IssueProject_ID();
 
-	public org.compiere.model.I_R_IssueProject getR_IssueProject() throws RuntimeException;
+	public I_R_IssueProject getR_IssueProject() throws RuntimeException;
 
     /** Column name R_IssueSystem_ID */
     public static final String COLUMNNAME_R_IssueSystem_ID = "R_IssueSystem_ID";
@@ -524,7 +524,7 @@ public interface I_AD_Issue
 	  */
 	public int getR_IssueSystem_ID();
 
-	public org.compiere.model.I_R_IssueSystem getR_IssueSystem() throws RuntimeException;
+	public I_R_IssueSystem getR_IssueSystem() throws RuntimeException;
 
     /** Column name R_IssueUser_ID */
     public static final String COLUMNNAME_R_IssueUser_ID = "R_IssueUser_ID";
@@ -539,7 +539,7 @@ public interface I_AD_Issue
 	  */
 	public int getR_IssueUser_ID();
 
-	public org.compiere.model.I_R_IssueUser getR_IssueUser() throws RuntimeException;
+	public I_R_IssueUser getR_IssueUser() throws RuntimeException;
 
     /** Column name R_Request_ID */
     public static final String COLUMNNAME_R_Request_ID = "R_Request_ID";
@@ -554,7 +554,7 @@ public interface I_AD_Issue
 	  */
 	public int getR_Request_ID();
 
-	public org.compiere.model.I_R_Request getR_Request() throws RuntimeException;
+	public I_R_Request getR_Request() throws RuntimeException;
 
     /** Column name SourceClassName */
     public static final String COLUMNNAME_SourceClassName = "SourceClassName";

@@ -41,8 +41,8 @@ public interface I_AD_Language
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -106,7 +106,7 @@ public interface I_AD_Language
 	  */
 	public int getAD_PrintPaper_ID();
 
-	public org.compiere.model.I_AD_PrintPaper getAD_PrintPaper() throws RuntimeException;
+	public I_AD_PrintPaper getAD_PrintPaper() throws RuntimeException;
 
     /** Column name CountryCode */
     public static final String COLUMNNAME_CountryCode = "CountryCode";

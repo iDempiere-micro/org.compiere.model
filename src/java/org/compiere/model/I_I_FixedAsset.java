@@ -68,7 +68,7 @@ public interface I_I_FixedAsset
 	/** Get Asset class	  */
 	public int getA_Asset_Class_ID();
 
-	public org.compiere.model.I_A_Asset_Class getA_Asset_Class() throws RuntimeException;
+	public I_A_Asset_Class getA_Asset_Class() throws RuntimeException;
 
     /** Column name A_Asset_Class_Value */
     public static final String COLUMNNAME_A_Asset_Class_Value = "A_Asset_Class_Value";
@@ -101,7 +101,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getA_Asset_Group_ID();
 
-	public org.compiere.model.I_A_Asset_Group getA_Asset_Group() throws RuntimeException;
+	public I_A_Asset_Group getA_Asset_Group() throws RuntimeException;
 
     /** Column name A_Asset_Group_Value */
     public static final String COLUMNNAME_A_Asset_Group_Value = "A_Asset_Group_Value";
@@ -125,7 +125,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Type_ID */
     public static final String COLUMNNAME_A_Asset_Type_ID = "A_Asset_Type_ID";
@@ -136,7 +136,7 @@ public interface I_I_FixedAsset
 	/** Get Asset Type	  */
 	public int getA_Asset_Type_ID();
 
-	public org.compiere.model.I_A_Asset_Type getA_Asset_Type() throws RuntimeException;
+	public I_A_Asset_Type getA_Asset_Type() throws RuntimeException;
 
     /** Column name A_Asset_Type_Value */
     public static final String COLUMNNAME_A_Asset_Type_Value = "A_Asset_Type_Value";
@@ -156,8 +156,8 @@ public interface I_I_FixedAsset
 	/** Get Current Period	  */
 	public int getA_Current_Period();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -260,7 +260,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getC_BPartnerSR_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartnerSR() throws RuntimeException;
+	public I_C_BPartner getC_BPartnerSR() throws RuntimeException;
 
     /** Column name C_City_ID */
     public static final String COLUMNNAME_C_City_ID = "C_City_ID";
@@ -275,7 +275,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getC_City_ID();
 
-	public org.compiere.model.I_C_City getC_City() throws RuntimeException;
+	public I_C_City getC_City() throws RuntimeException;
 
     /** Column name C_City_Value */
     public static final String COLUMNNAME_C_City_Value = "C_City_Value";
@@ -315,7 +315,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getC_UOM_ID();
 
-	public org.compiere.model.I_C_UOM getC_UOM() throws RuntimeException;
+	public I_C_UOM getC_UOM() throws RuntimeException;
 
     /** Column name DateAcct */
     public static final String COLUMNNAME_DateAcct = "DateAcct";
@@ -448,7 +448,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getM_Locator_ID();
 
-	public org.compiere.model.I_M_Locator getM_Locator() throws RuntimeException;
+	public I_M_Locator getM_Locator() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -463,7 +463,7 @@ public interface I_I_FixedAsset
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Name */
     public static final String COLUMNNAME_Name = "Name";

@@ -41,8 +41,8 @@ public interface I_M_InventoryLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_InventoryLine
 	  */
 	public int getC_Charge_ID();
 
-	public org.compiere.model.I_C_Charge getC_Charge() throws RuntimeException;
+	public I_C_Charge getC_Charge() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -186,7 +186,7 @@ public interface I_M_InventoryLine
 	  */
 	public int getM_Inventory_ID();
 
-	public org.compiere.model.I_M_Inventory getM_Inventory() throws RuntimeException;
+	public I_M_Inventory getM_Inventory() throws RuntimeException;
 
     /** Column name M_InventoryLine_ID */
     public static final String COLUMNNAME_M_InventoryLine_ID = "M_InventoryLine_ID";
@@ -238,7 +238,7 @@ public interface I_M_InventoryLine
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name NewCostPrice */
     public static final String COLUMNNAME_NewCostPrice = "NewCostPrice";
@@ -327,7 +327,7 @@ public interface I_M_InventoryLine
 	  */
 	public int getReversalLine_ID();
 
-	public org.compiere.model.I_M_InventoryLine getReversalLine() throws RuntimeException;
+	public I_M_InventoryLine getReversalLine() throws RuntimeException;
 
     /** Column name UPC */
     public static final String COLUMNNAME_UPC = "UPC";

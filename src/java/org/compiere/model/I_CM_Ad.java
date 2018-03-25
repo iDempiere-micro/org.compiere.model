@@ -67,8 +67,8 @@ public interface I_CM_Ad
 	  */
 	public int getActualImpression();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -101,7 +101,7 @@ public interface I_CM_Ad
 	  */
 	public int getCM_Ad_Cat_ID();
 
-	public org.compiere.model.I_CM_Ad_Cat getCM_Ad_Cat() throws RuntimeException;
+	public I_CM_Ad_Cat getCM_Ad_Cat() throws RuntimeException;
 
     /** Column name CM_Ad_ID */
     public static final String COLUMNNAME_CM_Ad_ID = "CM_Ad_ID";
@@ -138,7 +138,7 @@ public interface I_CM_Ad
 	  */
 	public int getCM_Media_ID();
 
-	public org.compiere.model.I_CM_Media getCM_Media() throws RuntimeException;
+	public I_CM_Media getCM_Media() throws RuntimeException;
 
     /** Column name ContentHTML */
     public static final String COLUMNNAME_ContentHTML = "ContentHTML";

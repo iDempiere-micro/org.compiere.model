@@ -54,8 +54,8 @@ public interface I_W_Click
 	  */
 	public String getAcceptLanguage();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -237,7 +237,7 @@ public interface I_W_Click
 	  */
 	public int getW_ClickCount_ID();
 
-	public org.compiere.model.I_W_ClickCount getW_ClickCount() throws RuntimeException;
+	public I_W_ClickCount getW_ClickCount() throws RuntimeException;
 
     /** Column name W_Click_ID */
     public static final String COLUMNNAME_W_Click_ID = "W_Click_ID";

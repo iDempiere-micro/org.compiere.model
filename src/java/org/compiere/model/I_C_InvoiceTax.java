@@ -41,8 +41,8 @@ public interface I_C_InvoiceTax
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_InvoiceTax
 	  */
 	public int getC_Invoice_ID();
 
-	public org.compiere.model.I_C_Invoice getC_Invoice() throws RuntimeException;
+	public I_C_Invoice getC_Invoice() throws RuntimeException;
 
     /** Column name C_InvoiceTax_UU */
     public static final String COLUMNNAME_C_InvoiceTax_UU = "C_InvoiceTax_UU";
@@ -115,7 +115,7 @@ public interface I_C_InvoiceTax
 	  */
 	public int getC_Tax_ID();
 
-	public org.compiere.model.I_C_Tax getC_Tax() throws RuntimeException;
+	public I_C_Tax getC_Tax() throws RuntimeException;
 
     /** Column name C_TaxProvider_ID */
     public static final String COLUMNNAME_C_TaxProvider_ID = "C_TaxProvider_ID";
@@ -126,7 +126,7 @@ public interface I_C_InvoiceTax
 	/** Get Tax Provider	  */
 	public int getC_TaxProvider_ID();
 
-	public org.compiere.model.I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
+	public I_C_TaxProvider getC_TaxProvider() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

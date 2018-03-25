@@ -42,8 +42,8 @@ public interface I_C_AddressValidation
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -72,7 +72,7 @@ public interface I_C_AddressValidation
 	/** Get Address Validation Configuration	  */
 	public int getC_AddressValidationCfg_ID();
 
-	public org.compiere.model.I_C_AddressValidationCfg getC_AddressValidationCfg() throws RuntimeException;
+	public I_C_AddressValidationCfg getC_AddressValidationCfg() throws RuntimeException;
 
     /** Column name C_AddressValidation_ID */
     public static final String COLUMNNAME_C_AddressValidation_ID = "C_AddressValidation_ID";

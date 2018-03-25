@@ -41,8 +41,8 @@ public interface I_C_CycleStep
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_CycleStep
 	  */
 	public int getC_Cycle_ID();
 
-	public org.compiere.model.I_C_Cycle getC_Cycle() throws RuntimeException;
+	public I_C_Cycle getC_Cycle() throws RuntimeException;
 
     /** Column name C_CycleStep_ID */
     public static final String COLUMNNAME_C_CycleStep_ID = "C_CycleStep_ID";

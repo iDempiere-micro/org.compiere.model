@@ -80,8 +80,8 @@ public interface I_AD_ToolBarButton
 	  */
 	public String getActionName();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -114,7 +114,7 @@ public interface I_AD_ToolBarButton
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Tab_ID */
     public static final String COLUMNNAME_AD_Tab_ID = "AD_Tab_ID";
@@ -129,7 +129,7 @@ public interface I_AD_ToolBarButton
 	  */
 	public int getAD_Tab_ID();
 
-	public org.compiere.model.I_AD_Tab getAD_Tab() throws RuntimeException;
+	public I_AD_Tab getAD_Tab() throws RuntimeException;
 
     /** Column name AD_ToolBarButton_ID */
     public static final String COLUMNNAME_AD_ToolBarButton_ID = "AD_ToolBarButton_ID";

@@ -68,10 +68,10 @@ public interface I_AD_ChartDatasource
 	/** Get Chart	  */
 	public int getAD_Chart_ID();
 
-	public org.compiere.model.I_AD_Chart getAD_Chart() throws RuntimeException;
+	public I_AD_Chart getAD_Chart() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -104,7 +104,7 @@ public interface I_AD_ChartDatasource
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name CategoryColumn */
     public static final String COLUMNNAME_CategoryColumn = "CategoryColumn";

@@ -54,8 +54,8 @@ public interface I_AD_Form
 	  */
 	public String getAccessLevel();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_Form
 	/** Get Context Help	  */
 	public int getAD_CtxHelp_ID();
 
-	public org.compiere.model.I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
+	public I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
 
     /** Column name AD_Form_ID */
     public static final String COLUMNNAME_AD_Form_ID = "AD_Form_ID";

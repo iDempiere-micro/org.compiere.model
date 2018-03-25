@@ -97,7 +97,7 @@ public interface I_A_Depreciation_Exp
 	/** Get Asset Addition	  */
 	public int getA_Asset_Addition_ID();
 
-	public org.compiere.model.I_A_Asset_Addition getA_Asset_Addition() throws RuntimeException;
+	public I_A_Asset_Addition getA_Asset_Addition() throws RuntimeException;
 
     /** Column name A_Asset_Cost */
     public static final String COLUMNNAME_A_Asset_Cost = "A_Asset_Cost";
@@ -126,7 +126,7 @@ public interface I_A_Depreciation_Exp
 	/** Get Asset Disposed	  */
 	public int getA_Asset_Disposed_ID();
 
-	public org.compiere.model.I_A_Asset_Disposed getA_Asset_Disposed() throws RuntimeException;
+	public I_A_Asset_Disposed getA_Asset_Disposed() throws RuntimeException;
 
     /** Column name A_Asset_ID */
     public static final String COLUMNNAME_A_Asset_ID = "A_Asset_ID";
@@ -141,7 +141,7 @@ public interface I_A_Depreciation_Exp
 	  */
 	public int getA_Asset_ID();
 
-	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
+	public I_A_Asset getA_Asset() throws RuntimeException;
 
     /** Column name A_Asset_Remaining */
     public static final String COLUMNNAME_A_Asset_Remaining = "A_Asset_Remaining";
@@ -161,8 +161,8 @@ public interface I_A_Depreciation_Exp
 	/** Get Remaining Amt (fiscal)	  */
 	public BigDecimal getA_Asset_Remaining_F();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -178,7 +178,7 @@ public interface I_A_Depreciation_Exp
 	/** Get Depreciation Entry	  */
 	public int getA_Depreciation_Entry_ID();
 
-	public org.compiere.model.I_A_Depreciation_Entry getA_Depreciation_Entry() throws RuntimeException;
+	public I_A_Depreciation_Entry getA_Depreciation_Entry() throws RuntimeException;
 
     /** Column name A_Depreciation_Exp_ID */
     public static final String COLUMNNAME_A_Depreciation_Exp_ID = "A_Depreciation_Exp_ID";

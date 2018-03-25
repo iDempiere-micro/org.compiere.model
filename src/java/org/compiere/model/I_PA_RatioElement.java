@@ -54,10 +54,10 @@ public interface I_PA_RatioElement
 	  */
 	public int getAccount_ID();
 
-	public org.compiere.model.I_C_ElementValue getAccount() throws RuntimeException;
+	public I_C_ElementValue getAccount() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -158,7 +158,7 @@ public interface I_PA_RatioElement
 	  */
 	public int getPA_MeasureCalc_ID();
 
-	public org.compiere.model.I_PA_MeasureCalc getPA_MeasureCalc() throws RuntimeException;
+	public I_PA_MeasureCalc getPA_MeasureCalc() throws RuntimeException;
 
     /** Column name PA_RatioElement_ID */
     public static final String COLUMNNAME_PA_RatioElement_ID = "PA_RatioElement_ID";
@@ -195,7 +195,7 @@ public interface I_PA_RatioElement
 	  */
 	public int getPA_Ratio_ID();
 
-	public org.compiere.model.I_PA_Ratio getPA_Ratio() throws RuntimeException;
+	public I_PA_Ratio getPA_Ratio() throws RuntimeException;
 
     /** Column name PA_RatioUsed_ID */
     public static final String COLUMNNAME_PA_RatioUsed_ID = "PA_RatioUsed_ID";
@@ -210,7 +210,7 @@ public interface I_PA_RatioElement
 	  */
 	public int getPA_RatioUsed_ID();
 
-	public org.compiere.model.I_PA_Ratio getPA_RatioUsed() throws RuntimeException;
+	public I_PA_Ratio getPA_RatioUsed() throws RuntimeException;
 
     /** Column name PostingType */
     public static final String COLUMNNAME_PostingType = "PostingType";

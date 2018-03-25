@@ -41,8 +41,8 @@ public interface I_M_Demand
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_Demand
 	  */
 	public int getC_Calendar_ID();
 
-	public org.compiere.model.I_C_Calendar getC_Calendar() throws RuntimeException;
+	public I_C_Calendar getC_Calendar() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -106,7 +106,7 @@ public interface I_M_Demand
 	  */
 	public int getC_Year_ID();
 
-	public org.compiere.model.I_C_Year getC_Year() throws RuntimeException;
+	public I_C_Year getC_Year() throws RuntimeException;
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";

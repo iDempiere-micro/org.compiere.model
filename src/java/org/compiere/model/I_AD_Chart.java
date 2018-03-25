@@ -59,8 +59,8 @@ public interface I_AD_Chart
 	/** Get AD_Chart_UU	  */
 	public String getAD_Chart_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

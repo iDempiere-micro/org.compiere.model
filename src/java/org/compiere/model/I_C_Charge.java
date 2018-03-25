@@ -41,8 +41,8 @@ public interface I_C_Charge
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_Charge
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_Charge_ID */
     public static final String COLUMNNAME_C_Charge_ID = "C_Charge_ID";
@@ -99,7 +99,7 @@ public interface I_C_Charge
 	/** Get Charge Type	  */
 	public int getC_ChargeType_ID();
 
-	public org.compiere.model.I_C_ChargeType getC_ChargeType() throws RuntimeException;
+	public I_C_ChargeType getC_ChargeType() throws RuntimeException;
 
     /** Column name C_Charge_UU */
     public static final String COLUMNNAME_C_Charge_UU = "C_Charge_UU";
@@ -152,7 +152,7 @@ public interface I_C_Charge
 	  */
 	public int getC_TaxCategory_ID();
 
-	public org.compiere.model.I_C_TaxCategory getC_TaxCategory() throws RuntimeException;
+	public I_C_TaxCategory getC_TaxCategory() throws RuntimeException;
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";

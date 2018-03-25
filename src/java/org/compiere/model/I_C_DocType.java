@@ -41,8 +41,8 @@ public interface I_C_DocType
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_DocType
 	  */
 	public int getAD_PrintFormat_ID();
 
-	public org.compiere.model.I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
+	public I_AD_PrintFormat getAD_PrintFormat() throws RuntimeException;
 
     /** Column name C_DocTypeDifference_ID */
     public static final String COLUMNNAME_C_DocTypeDifference_ID = "C_DocTypeDifference_ID";
@@ -90,7 +90,7 @@ public interface I_C_DocType
 	  */
 	public int getC_DocTypeDifference_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocTypeDifference() throws RuntimeException;
+	public I_C_DocType getC_DocTypeDifference() throws RuntimeException;
 
     /** Column name C_DocType_ID */
     public static final String COLUMNNAME_C_DocType_ID = "C_DocType_ID";
@@ -118,7 +118,7 @@ public interface I_C_DocType
 	  */
 	public int getC_DocTypeInvoice_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocTypeInvoice() throws RuntimeException;
+	public I_C_DocType getC_DocTypeInvoice() throws RuntimeException;
 
     /** Column name C_DocTypeProforma_ID */
     public static final String COLUMNNAME_C_DocTypeProforma_ID = "C_DocTypeProforma_ID";
@@ -133,7 +133,7 @@ public interface I_C_DocType
 	  */
 	public int getC_DocTypeProforma_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocTypeProforma() throws RuntimeException;
+	public I_C_DocType getC_DocTypeProforma() throws RuntimeException;
 
     /** Column name C_DocTypeShipment_ID */
     public static final String COLUMNNAME_C_DocTypeShipment_ID = "C_DocTypeShipment_ID";
@@ -148,7 +148,7 @@ public interface I_C_DocType
 	  */
 	public int getC_DocTypeShipment_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocTypeShipment() throws RuntimeException;
+	public I_C_DocType getC_DocTypeShipment() throws RuntimeException;
 
     /** Column name C_DocType_UU */
     public static final String COLUMNNAME_C_DocType_UU = "C_DocType_UU";
@@ -184,7 +184,7 @@ public interface I_C_DocType
 	/** Get Definite Sequence	  */
 	public int getDefiniteSequence_ID();
 
-	public org.compiere.model.I_AD_Sequence getDefiniteSequence() throws RuntimeException;
+	public I_AD_Sequence getDefiniteSequence() throws RuntimeException;
 
     /** Column name Description */
     public static final String COLUMNNAME_Description = "Description";
@@ -225,7 +225,7 @@ public interface I_C_DocType
 	  */
 	public int getDocNoSequence_ID();
 
-	public org.compiere.model.I_AD_Sequence getDocNoSequence() throws RuntimeException;
+	public I_AD_Sequence getDocNoSequence() throws RuntimeException;
 
     /** Column name DocSubTypeInv */
     public static final String COLUMNNAME_DocSubTypeInv = "DocSubTypeInv";
@@ -292,7 +292,7 @@ public interface I_C_DocType
 	  */
 	public int getGL_Category_ID();
 
-	public org.compiere.model.I_GL_Category getGL_Category() throws RuntimeException;
+	public I_GL_Category getGL_Category() throws RuntimeException;
 
     /** Column name HasCharges */
     public static final String COLUMNNAME_HasCharges = "HasCharges";

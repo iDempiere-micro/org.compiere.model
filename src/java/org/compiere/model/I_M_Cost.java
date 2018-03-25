@@ -41,8 +41,8 @@ public interface I_M_Cost
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_M_Cost
 	  */
 	public int getC_AcctSchema_ID();
 
-	public org.compiere.model.I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
+	public I_C_AcctSchema getC_AcctSchema() throws RuntimeException;
 
     /** Column name CostingMethod */
     public static final String COLUMNNAME_CostingMethod = "CostingMethod";
@@ -256,7 +256,7 @@ public interface I_M_Cost
 	  */
 	public int getM_CostElement_ID();
 
-	public org.compiere.model.I_M_CostElement getM_CostElement() throws RuntimeException;
+	public I_M_CostElement getM_CostElement() throws RuntimeException;
 
     /** Column name M_CostType_ID */
     public static final String COLUMNNAME_M_CostType_ID = "M_CostType_ID";
@@ -271,7 +271,7 @@ public interface I_M_Cost
 	  */
 	public int getM_CostType_ID();
 
-	public org.compiere.model.I_M_CostType getM_CostType() throws RuntimeException;
+	public I_M_CostType getM_CostType() throws RuntimeException;
 
     /** Column name M_Cost_UU */
     public static final String COLUMNNAME_M_Cost_UU = "M_Cost_UU";
@@ -295,7 +295,7 @@ public interface I_M_Cost
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Percent */
     public static final String COLUMNNAME_Percent = "Percent";

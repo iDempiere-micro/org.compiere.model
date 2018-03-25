@@ -50,10 +50,10 @@ public interface I_PA_DashboardContent
 	/** Get Chart	  */
 	public int getAD_Chart_ID();
 
-	public org.compiere.model.I_AD_Chart getAD_Chart() throws RuntimeException;
+	public I_AD_Chart getAD_Chart() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -86,7 +86,7 @@ public interface I_PA_DashboardContent
 	  */
 	public int getAD_Process_ID();
 
-	public org.compiere.model.I_AD_Process getAD_Process() throws RuntimeException;
+	public I_AD_Process getAD_Process() throws RuntimeException;
 
     /** Column name AD_Role_ID */
     public static final String COLUMNNAME_AD_Role_ID = "AD_Role_ID";
@@ -101,7 +101,7 @@ public interface I_PA_DashboardContent
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -116,7 +116,7 @@ public interface I_PA_DashboardContent
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_Window_ID */
     public static final String COLUMNNAME_AD_Window_ID = "AD_Window_ID";
@@ -131,7 +131,7 @@ public interface I_PA_DashboardContent
 	  */
 	public int getAD_Window_ID();
 
-	public org.compiere.model.I_AD_Window getAD_Window() throws RuntimeException;
+	public I_AD_Window getAD_Window() throws RuntimeException;
 
     /** Column name ColumnNo */
     public static final String COLUMNNAME_ColumnNo = "ColumnNo";
@@ -328,7 +328,7 @@ public interface I_PA_DashboardContent
 	  */
 	public int getPA_Goal_ID();
 
-	public org.compiere.model.I_PA_Goal getPA_Goal() throws RuntimeException;
+	public I_PA_Goal getPA_Goal() throws RuntimeException;
 
     /** Column name ProcessParameters */
     public static final String COLUMNNAME_ProcessParameters = "ProcessParameters";

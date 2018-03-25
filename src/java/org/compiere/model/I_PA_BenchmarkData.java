@@ -41,8 +41,8 @@ public interface I_PA_BenchmarkData
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -178,7 +178,7 @@ public interface I_PA_BenchmarkData
 	  */
 	public int getPA_Benchmark_ID();
 
-	public org.compiere.model.I_PA_Benchmark getPA_Benchmark() throws RuntimeException;
+	public I_PA_Benchmark getPA_Benchmark() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

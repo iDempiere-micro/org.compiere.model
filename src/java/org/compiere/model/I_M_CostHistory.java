@@ -41,8 +41,8 @@ public interface I_M_CostHistory
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -119,7 +119,7 @@ public interface I_M_CostHistory
 	  */
 	public int getM_CostDetail_ID();
 
-	public org.compiere.model.I_M_CostDetail getM_CostDetail() throws RuntimeException;
+	public I_M_CostDetail getM_CostDetail() throws RuntimeException;
 
     /** Column name M_CostElement_ID */
     public static final String COLUMNNAME_M_CostElement_ID = "M_CostElement_ID";
@@ -134,7 +134,7 @@ public interface I_M_CostHistory
 	  */
 	public int getM_CostElement_ID();
 
-	public org.compiere.model.I_M_CostElement getM_CostElement() throws RuntimeException;
+	public I_M_CostElement getM_CostElement() throws RuntimeException;
 
     /** Column name M_CostHistory_ID */
     public static final String COLUMNNAME_M_CostHistory_ID = "M_CostHistory_ID";
@@ -171,7 +171,7 @@ public interface I_M_CostHistory
 	  */
 	public int getM_CostType_ID();
 
-	public org.compiere.model.I_M_CostType getM_CostType() throws RuntimeException;
+	public I_M_CostType getM_CostType() throws RuntimeException;
 
     /** Column name NewCAmt */
     public static final String COLUMNNAME_NewCAmt = "NewCAmt";

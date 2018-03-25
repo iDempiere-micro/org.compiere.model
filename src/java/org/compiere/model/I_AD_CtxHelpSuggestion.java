@@ -54,8 +54,8 @@ public interface I_AD_CtxHelpSuggestion
 	  */
 	public String getAcceptSuggestion();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_CtxHelpSuggestion
 	/** Get Context Help	  */
 	public int getAD_CtxHelp_ID();
 
-	public org.compiere.model.I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
+	public I_AD_CtxHelp getAD_CtxHelp() throws RuntimeException;
 
     /** Column name AD_CtxHelpMsg_ID */
     public static final String COLUMNNAME_AD_CtxHelpMsg_ID = "AD_CtxHelpMsg_ID";
@@ -82,7 +82,7 @@ public interface I_AD_CtxHelpSuggestion
 	/** Get Context Help Message	  */
 	public int getAD_CtxHelpMsg_ID();
 
-	public org.compiere.model.I_AD_CtxHelpMsg getAD_CtxHelpMsg() throws RuntimeException;
+	public I_AD_CtxHelpMsg getAD_CtxHelpMsg() throws RuntimeException;
 
     /** Column name AD_CtxHelpSuggestion_ID */
     public static final String COLUMNNAME_AD_CtxHelpSuggestion_ID = "AD_CtxHelpSuggestion_ID";
@@ -137,7 +137,7 @@ public interface I_AD_CtxHelpSuggestion
 	/** Get Tenant of User	  */
 	public int getAD_UserClient_ID();
 
-	public org.compiere.model.I_AD_AllClients_V getAD_UserClient() throws RuntimeException;
+	public I_AD_AllClients_V getAD_UserClient() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -152,7 +152,7 @@ public interface I_AD_CtxHelpSuggestion
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_AllUsers_V getAD_User() throws RuntimeException;
+	public I_AD_AllUsers_V getAD_User() throws RuntimeException;
 
     /** Column name CompareSuggestion */
     public static final String COLUMNNAME_CompareSuggestion = "CompareSuggestion";

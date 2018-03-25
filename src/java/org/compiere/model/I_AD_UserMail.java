@@ -41,8 +41,8 @@ public interface I_AD_UserMail
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_UserMail
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_UserMail_ID */
     public static final String COLUMNNAME_AD_UserMail_ID = "AD_UserMail_ID";
@@ -225,7 +225,7 @@ public interface I_AD_UserMail
 	  */
 	public int getR_MailText_ID();
 
-	public org.compiere.model.I_R_MailText getR_MailText() throws RuntimeException;
+	public I_R_MailText getR_MailText() throws RuntimeException;
 
     /** Column name Subject */
     public static final String COLUMNNAME_Subject = "Subject";
@@ -269,5 +269,5 @@ public interface I_AD_UserMail
 	  */
 	public int getW_MailMsg_ID();
 
-	public org.compiere.model.I_W_MailMsg getW_MailMsg() throws RuntimeException;
+	public I_W_MailMsg getW_MailMsg() throws RuntimeException;
 }

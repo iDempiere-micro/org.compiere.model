@@ -50,7 +50,7 @@ public interface I_A_Asset_Group
 	/** Get Asset class	  */
 	public int getA_Asset_Class_ID();
 
-	public org.compiere.model.I_A_Asset_Class getA_Asset_Class() throws RuntimeException;
+	public I_A_Asset_Class getA_Asset_Class() throws RuntimeException;
 
     /** Column name A_Asset_Group_ID */
     public static final String COLUMNNAME_A_Asset_Group_ID = "A_Asset_Group_ID";
@@ -83,10 +83,10 @@ public interface I_A_Asset_Group
 	/** Get Asset Type	  */
 	public int getA_Asset_Type_ID();
 
-	public org.compiere.model.I_A_Asset_Type getA_Asset_Type() throws RuntimeException;
+	public I_A_Asset_Type getA_Asset_Type() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

@@ -41,8 +41,8 @@ public interface I_C_BP_Withholding
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_C_BP_Withholding
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_BP_Withholding_UU */
     public static final String COLUMNNAME_C_BP_Withholding_UU = "C_BP_Withholding_UU";
@@ -115,7 +115,7 @@ public interface I_C_BP_Withholding
 	  */
 	public int getC_Withholding_ID();
 
-	public org.compiere.model.I_C_Withholding getC_Withholding() throws RuntimeException;
+	public I_C_Withholding getC_Withholding() throws RuntimeException;
 
     /** Column name ExemptReason */
     public static final String COLUMNNAME_ExemptReason = "ExemptReason";

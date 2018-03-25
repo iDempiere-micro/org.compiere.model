@@ -41,8 +41,8 @@ public interface I_AD_TreeBar
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_TreeBar
 	  */
 	public int getAD_Menu_ID();
 
-	public org.compiere.model.I_AD_Menu getAD_Menu() throws RuntimeException;
+	public I_AD_Menu getAD_Menu() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -99,7 +99,7 @@ public interface I_AD_TreeBar
 	  */
 	public int getAD_Tree_ID();
 
-	public org.compiere.model.I_AD_Tree getAD_Tree() throws RuntimeException;
+	public I_AD_Tree getAD_Tree() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -114,7 +114,7 @@ public interface I_AD_TreeBar
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

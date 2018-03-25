@@ -41,8 +41,8 @@ public interface I_AD_Scheduler_Para
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_Scheduler_Para
 	/** Get Process Parameter	  */
 	public int getAD_Process_Para_ID();
 
-	public org.compiere.model.I_AD_Process_Para getAD_Process_Para() throws RuntimeException;
+	public I_AD_Process_Para getAD_Process_Para() throws RuntimeException;
 
     /** Column name AD_Scheduler_ID */
     public static final String COLUMNNAME_AD_Scheduler_ID = "AD_Scheduler_ID";
@@ -86,7 +86,7 @@ public interface I_AD_Scheduler_Para
 	  */
 	public int getAD_Scheduler_ID();
 
-	public org.compiere.model.I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
+	public I_AD_Scheduler getAD_Scheduler() throws RuntimeException;
 
     /** Column name AD_Scheduler_Para_UU */
     public static final String COLUMNNAME_AD_Scheduler_Para_UU = "AD_Scheduler_Para_UU";

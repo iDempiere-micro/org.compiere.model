@@ -41,8 +41,8 @@ public interface I_C_RfQResponseLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -91,7 +91,7 @@ public interface I_C_RfQResponseLine
 	  */
 	public int getC_RfQLine_ID();
 
-	public org.compiere.model.I_C_RfQLine getC_RfQLine() throws RuntimeException;
+	public I_C_RfQLine getC_RfQLine() throws RuntimeException;
 
     /** Column name C_RfQResponse_ID */
     public static final String COLUMNNAME_C_RfQResponse_ID = "C_RfQResponse_ID";
@@ -106,7 +106,7 @@ public interface I_C_RfQResponseLine
 	  */
 	public int getC_RfQResponse_ID();
 
-	public org.compiere.model.I_C_RfQResponse getC_RfQResponse() throws RuntimeException;
+	public I_C_RfQResponse getC_RfQResponse() throws RuntimeException;
 
     /** Column name C_RfQResponseLine_ID */
     public static final String COLUMNNAME_C_RfQResponseLine_ID = "C_RfQResponseLine_ID";

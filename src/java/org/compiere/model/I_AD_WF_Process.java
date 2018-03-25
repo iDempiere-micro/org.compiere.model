@@ -41,8 +41,8 @@ public interface I_AD_WF_Process
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -62,7 +62,7 @@ public interface I_AD_WF_Process
 	  */
 	public int getAD_Message_ID();
 
-	public org.compiere.model.I_AD_Message getAD_Message() throws RuntimeException;
+	public I_AD_Message getAD_Message() throws RuntimeException;
 
     /** Column name AD_Org_ID */
     public static final String COLUMNNAME_AD_Org_ID = "AD_Org_ID";
@@ -90,7 +90,7 @@ public interface I_AD_WF_Process
 	  */
 	public int getAD_Table_ID();
 
-	public org.compiere.model.I_AD_Table getAD_Table() throws RuntimeException;
+	public I_AD_Table getAD_Table() throws RuntimeException;
 
     /** Column name AD_User_ID */
     public static final String COLUMNNAME_AD_User_ID = "AD_User_ID";
@@ -105,7 +105,7 @@ public interface I_AD_WF_Process
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name AD_WF_Process_ID */
     public static final String COLUMNNAME_AD_WF_Process_ID = "AD_WF_Process_ID";
@@ -142,7 +142,7 @@ public interface I_AD_WF_Process
 	  */
 	public int getAD_WF_Responsible_ID();
 
-	public org.compiere.model.I_AD_WF_Responsible getAD_WF_Responsible() throws RuntimeException;
+	public I_AD_WF_Responsible getAD_WF_Responsible() throws RuntimeException;
 
     /** Column name AD_Workflow_ID */
     public static final String COLUMNNAME_AD_Workflow_ID = "AD_Workflow_ID";
@@ -157,7 +157,7 @@ public interface I_AD_WF_Process
 	  */
 	public int getAD_Workflow_ID();
 
-	public org.compiere.model.I_AD_Workflow getAD_Workflow() throws RuntimeException;
+	public I_AD_Workflow getAD_Workflow() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

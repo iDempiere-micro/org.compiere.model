@@ -41,8 +41,8 @@ public interface I_R_RequestType
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -321,7 +321,7 @@ public interface I_R_RequestType
 	  */
 	public int getR_StatusCategory_ID();
 
-	public org.compiere.model.I_R_StatusCategory getR_StatusCategory() throws RuntimeException;
+	public I_R_StatusCategory getR_StatusCategory() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

@@ -41,8 +41,8 @@ public interface I_M_Warehouse
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -158,7 +158,7 @@ public interface I_M_Warehouse
 	  */
 	public int getM_ReserveLocator_ID();
 
-	public org.compiere.model.I_M_Locator getM_ReserveLocator() throws RuntimeException;
+	public I_M_Locator getM_ReserveLocator() throws RuntimeException;
 
     /** Column name M_Warehouse_ID */
     public static final String COLUMNNAME_M_Warehouse_ID = "M_Warehouse_ID";
@@ -186,7 +186,7 @@ public interface I_M_Warehouse
 	  */
 	public int getM_WarehouseSource_ID();
 
-	public org.compiere.model.I_M_Warehouse getM_WarehouseSource() throws RuntimeException;
+	public I_M_Warehouse getM_WarehouseSource() throws RuntimeException;
 
     /** Column name M_Warehouse_UU */
     public static final String COLUMNNAME_M_Warehouse_UU = "M_Warehouse_UU";

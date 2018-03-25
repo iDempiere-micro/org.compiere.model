@@ -41,8 +41,8 @@ public interface I_AD_Sequence_No
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_Sequence_No
 	  */
 	public int getAD_Sequence_ID();
 
-	public org.compiere.model.I_AD_Sequence getAD_Sequence() throws RuntimeException;
+	public I_AD_Sequence getAD_Sequence() throws RuntimeException;
 
     /** Column name AD_Sequence_No_UU */
     public static final String COLUMNNAME_AD_Sequence_No_UU = "AD_Sequence_No_UU";

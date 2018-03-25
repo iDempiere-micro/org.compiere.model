@@ -59,8 +59,8 @@ public interface I_AD_AllClients_V
 	/** Get AD_AllClients_V_UU	  */
 	public String getAD_AllClients_V_UU();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

@@ -41,8 +41,8 @@ public interface I_CM_AccessListBPGroup
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_AccessListBPGroup
 	  */
 	public int getC_BP_Group_ID();
 
-	public org.compiere.model.I_C_BP_Group getC_BP_Group() throws RuntimeException;
+	public I_C_BP_Group getC_BP_Group() throws RuntimeException;
 
     /** Column name CM_AccessListBPGroup_UU */
     public static final String COLUMNNAME_CM_AccessListBPGroup_UU = "CM_AccessListBPGroup_UU";
@@ -99,7 +99,7 @@ public interface I_CM_AccessListBPGroup
 	  */
 	public int getCM_AccessProfile_ID();
 
-	public org.compiere.model.I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
+	public I_CM_AccessProfile getCM_AccessProfile() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

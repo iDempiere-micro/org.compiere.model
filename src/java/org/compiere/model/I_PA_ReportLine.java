@@ -41,8 +41,8 @@ public interface I_PA_ReportLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -113,7 +113,7 @@ public interface I_PA_ReportLine
 	  */
 	public int getGL_Budget_ID();
 
-	public org.compiere.model.I_GL_Budget getGL_Budget() throws RuntimeException;
+	public I_GL_Budget getGL_Budget() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";
@@ -189,7 +189,7 @@ public interface I_PA_ReportLine
 	  */
 	public int getOper_1_ID();
 
-	public org.compiere.model.I_PA_ReportLine getOper_1() throws RuntimeException;
+	public I_PA_ReportLine getOper_1() throws RuntimeException;
 
     /** Column name Oper_2_ID */
     public static final String COLUMNNAME_Oper_2_ID = "Oper_2_ID";
@@ -204,7 +204,7 @@ public interface I_PA_ReportLine
 	  */
 	public int getOper_2_ID();
 
-	public org.compiere.model.I_PA_ReportLine getOper_2() throws RuntimeException;
+	public I_PA_ReportLine getOper_2() throws RuntimeException;
 
     /** Column name PAAmountType */
     public static final String COLUMNNAME_PAAmountType = "PAAmountType";
@@ -250,7 +250,7 @@ public interface I_PA_ReportLine
 	/** Get Report Line Set	  */
 	public int getPA_ReportLineSet_ID();
 
-	public org.compiere.model.I_PA_ReportLineSet getPA_ReportLineSet() throws RuntimeException;
+	public I_PA_ReportLineSet getPA_ReportLineSet() throws RuntimeException;
 
     /** Column name PA_ReportLine_UU */
     public static final String COLUMNNAME_PA_ReportLine_UU = "PA_ReportLine_UU";

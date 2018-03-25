@@ -41,8 +41,8 @@ public interface I_M_PackageLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -117,7 +117,7 @@ public interface I_M_PackageLine
 	  */
 	public int getM_InOutLine_ID();
 
-	public org.compiere.model.I_M_InOutLine getM_InOutLine() throws RuntimeException;
+	public I_M_InOutLine getM_InOutLine() throws RuntimeException;
 
     /** Column name M_Package_ID */
     public static final String COLUMNNAME_M_Package_ID = "M_Package_ID";
@@ -132,7 +132,7 @@ public interface I_M_PackageLine
 	  */
 	public int getM_Package_ID();
 
-	public org.compiere.model.I_M_Package getM_Package() throws RuntimeException;
+	public I_M_Package getM_Package() throws RuntimeException;
 
     /** Column name M_PackageLine_ID */
     public static final String COLUMNNAME_M_PackageLine_ID = "M_PackageLine_ID";
@@ -165,7 +165,7 @@ public interface I_M_PackageLine
 	/** Get Package MPS	  */
 	public int getM_PackageMPS_ID();
 
-	public org.compiere.model.I_M_PackageMPS getM_PackageMPS() throws RuntimeException;
+	public I_M_PackageMPS getM_PackageMPS() throws RuntimeException;
 
     /** Column name M_Product_ID */
     public static final String COLUMNNAME_M_Product_ID = "M_Product_ID";
@@ -180,7 +180,7 @@ public interface I_M_PackageLine
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Qty */
     public static final String COLUMNNAME_Qty = "Qty";

@@ -41,8 +41,8 @@ public interface I_A_RegistrationProduct
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_A_RegistrationProduct
 	  */
 	public int getA_RegistrationAttribute_ID();
 
-	public org.compiere.model.I_A_RegistrationAttribute getA_RegistrationAttribute() throws RuntimeException;
+	public I_A_RegistrationAttribute getA_RegistrationAttribute() throws RuntimeException;
 
     /** Column name A_RegistrationProduct_UU */
     public static final String COLUMNNAME_A_RegistrationProduct_UU = "A_RegistrationProduct_UU";
@@ -141,7 +141,7 @@ public interface I_A_RegistrationProduct
 	  */
 	public int getM_Product_ID();
 
-	public org.compiere.model.I_M_Product getM_Product() throws RuntimeException;
+	public I_M_Product getM_Product() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

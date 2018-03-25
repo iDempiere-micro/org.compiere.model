@@ -41,8 +41,8 @@ public interface I_WS_WebService_Para
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -165,5 +165,5 @@ public interface I_WS_WebService_Para
 	/** Get Web Service Type	  */
 	public int getWS_WebServiceType_ID();
 
-	public org.compiere.model.I_WS_WebServiceType getWS_WebServiceType() throws RuntimeException;
+	public I_WS_WebServiceType getWS_WebServiceType() throws RuntimeException;
 }

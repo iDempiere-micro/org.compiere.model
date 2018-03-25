@@ -41,8 +41,8 @@ public interface I_GL_JournalGeneratorLine
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -106,7 +106,7 @@ public interface I_GL_JournalGeneratorLine
 	  */
 	public int getC_BPartner_ID();
 
-	public org.compiere.model.I_C_BPartner getC_BPartner() throws RuntimeException;
+	public I_C_BPartner getC_BPartner() throws RuntimeException;
 
     /** Column name C_ElementValueCR_ID */
     public static final String COLUMNNAME_C_ElementValueCR_ID = "C_ElementValueCR_ID";
@@ -117,7 +117,7 @@ public interface I_GL_JournalGeneratorLine
 	/** Get Account CR	  */
 	public int getC_ElementValueCR_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValueCR() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValueCR() throws RuntimeException;
 
     /** Column name C_ElementValueDR_ID */
     public static final String COLUMNNAME_C_ElementValueDR_ID = "C_ElementValueDR_ID";
@@ -128,7 +128,7 @@ public interface I_GL_JournalGeneratorLine
 	/** Get Account DR	  */
 	public int getC_ElementValueDR_ID();
 
-	public org.compiere.model.I_C_ElementValue getC_ElementValueDR() throws RuntimeException;
+	public I_C_ElementValue getC_ElementValueDR() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -168,7 +168,7 @@ public interface I_GL_JournalGeneratorLine
 	/** Get GL Journal Generator	  */
 	public int getGL_JournalGenerator_ID();
 
-	public org.compiere.model.I_GL_JournalGenerator getGL_JournalGenerator() throws RuntimeException;
+	public I_GL_JournalGenerator getGL_JournalGenerator() throws RuntimeException;
 
     /** Column name GL_JournalGeneratorLine_ID */
     public static final String COLUMNNAME_GL_JournalGeneratorLine_ID = "GL_JournalGeneratorLine_ID";

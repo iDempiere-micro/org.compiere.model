@@ -41,8 +41,8 @@ public interface I_WS_WebServiceTypeAccess
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_WS_WebServiceTypeAccess
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -153,5 +153,5 @@ public interface I_WS_WebServiceTypeAccess
 	/** Get Web Service Type	  */
 	public int getWS_WebServiceType_ID();
 
-	public org.compiere.model.I_WS_WebServiceType getWS_WebServiceType() throws RuntimeException;
+	public I_WS_WebServiceType getWS_WebServiceType() throws RuntimeException;
 }

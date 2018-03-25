@@ -54,8 +54,8 @@ public interface I_CM_WebAccessLog
 	  */
 	public String getAcceptLanguage();
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -88,7 +88,7 @@ public interface I_CM_WebAccessLog
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name CM_BroadcastServer_ID */
     public static final String COLUMNNAME_CM_BroadcastServer_ID = "CM_BroadcastServer_ID";
@@ -103,7 +103,7 @@ public interface I_CM_WebAccessLog
 	  */
 	public int getCM_BroadcastServer_ID();
 
-	public org.compiere.model.I_CM_BroadcastServer getCM_BroadcastServer() throws RuntimeException;
+	public I_CM_BroadcastServer getCM_BroadcastServer() throws RuntimeException;
 
     /** Column name CM_Media_ID */
     public static final String COLUMNNAME_CM_Media_ID = "CM_Media_ID";
@@ -118,7 +118,7 @@ public interface I_CM_WebAccessLog
 	  */
 	public int getCM_Media_ID();
 
-	public org.compiere.model.I_CM_Media getCM_Media() throws RuntimeException;
+	public I_CM_Media getCM_Media() throws RuntimeException;
 
     /** Column name CM_WebAccessLog_ID */
     public static final String COLUMNNAME_CM_WebAccessLog_ID = "CM_WebAccessLog_ID";
@@ -155,7 +155,7 @@ public interface I_CM_WebAccessLog
 	  */
 	public int getCM_WebProject_ID();
 
-	public org.compiere.model.I_CM_WebProject getCM_WebProject() throws RuntimeException;
+	public I_CM_WebProject getCM_WebProject() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

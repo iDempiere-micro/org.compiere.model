@@ -41,8 +41,8 @@ public interface I_R_CategoryUpdates
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_R_CategoryUpdates
 	  */
 	public int getAD_User_ID();
 
-	public org.compiere.model.I_AD_User getAD_User() throws RuntimeException;
+	public I_AD_User getAD_User() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -132,7 +132,7 @@ public interface I_R_CategoryUpdates
 	  */
 	public int getR_Category_ID();
 
-	public org.compiere.model.I_R_Category getR_Category() throws RuntimeException;
+	public I_R_Category getR_Category() throws RuntimeException;
 
     /** Column name R_CategoryUpdates_UU */
     public static final String COLUMNNAME_R_CategoryUpdates_UU = "R_CategoryUpdates_UU";

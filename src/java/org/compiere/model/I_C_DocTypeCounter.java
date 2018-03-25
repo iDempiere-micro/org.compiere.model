@@ -41,8 +41,8 @@ public interface I_C_DocTypeCounter
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -97,7 +97,7 @@ public interface I_C_DocTypeCounter
 	  */
 	public int getC_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getC_DocType() throws RuntimeException;
+	public I_C_DocType getC_DocType() throws RuntimeException;
 
     /** Column name Counter_C_DocType_ID */
     public static final String COLUMNNAME_Counter_C_DocType_ID = "Counter_C_DocType_ID";
@@ -112,7 +112,7 @@ public interface I_C_DocTypeCounter
 	  */
 	public int getCounter_C_DocType_ID();
 
-	public org.compiere.model.I_C_DocType getCounter_C_DocType() throws RuntimeException;
+	public I_C_DocType getCounter_C_DocType() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

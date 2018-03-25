@@ -41,8 +41,8 @@ public interface I_CM_CStageTTable
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_CM_CStageTTable
 	  */
 	public int getCM_CStage_ID();
 
-	public org.compiere.model.I_CM_CStage getCM_CStage() throws RuntimeException;
+	public I_CM_CStage getCM_CStage() throws RuntimeException;
 
     /** Column name CM_CStageTTable_ID */
     public static final String COLUMNNAME_CM_CStageTTable_ID = "CM_CStageTTable_ID";
@@ -112,7 +112,7 @@ public interface I_CM_CStageTTable
 	  */
 	public int getCM_TemplateTable_ID();
 
-	public org.compiere.model.I_CM_TemplateTable getCM_TemplateTable() throws RuntimeException;
+	public I_CM_TemplateTable getCM_TemplateTable() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";

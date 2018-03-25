@@ -42,8 +42,8 @@ public interface I_C_Period
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -114,7 +114,7 @@ public interface I_C_Period
 	  */
 	public int getC_Year_ID();
 
-	public org.compiere.model.I_C_Year getC_Year() throws RuntimeException;
+	public I_C_Year getC_Year() throws RuntimeException;
 
     /** Column name EndDate */
     public static final String COLUMNNAME_EndDate = "EndDate";

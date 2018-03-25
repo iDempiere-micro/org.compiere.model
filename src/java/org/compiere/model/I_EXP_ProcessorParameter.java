@@ -41,8 +41,8 @@ public interface I_EXP_ProcessorParameter
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -100,7 +100,7 @@ public interface I_EXP_ProcessorParameter
 	/** Get Export Processor	  */
 	public int getEXP_Processor_ID();
 
-	public org.compiere.model.I_EXP_Processor getEXP_Processor() throws RuntimeException;
+	public I_EXP_Processor getEXP_Processor() throws RuntimeException;
 
     /** Column name EXP_ProcessorParameter_ID */
     public static final String COLUMNNAME_EXP_ProcessorParameter_ID = "EXP_ProcessorParameter_ID";

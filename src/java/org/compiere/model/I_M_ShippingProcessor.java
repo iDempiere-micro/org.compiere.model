@@ -41,8 +41,8 @@ public interface I_M_ShippingProcessor
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -118,7 +118,7 @@ public interface I_M_ShippingProcessor
 	/** Get Shipping Processor Configuration	  */
 	public int getM_ShippingProcessorCfg_ID();
 
-	public org.compiere.model.I_M_ShippingProcessorCfg getM_ShippingProcessorCfg() throws RuntimeException;
+	public I_M_ShippingProcessorCfg getM_ShippingProcessorCfg() throws RuntimeException;
 
     /** Column name M_ShippingProcessor_ID */
     public static final String COLUMNNAME_M_ShippingProcessor_ID = "M_ShippingProcessor_ID";

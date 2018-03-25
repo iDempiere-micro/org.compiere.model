@@ -41,8 +41,8 @@ public interface I_R_Status
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -208,7 +208,7 @@ public interface I_R_Status
 	  */
 	public int getNext_Status_ID();
 
-	public org.compiere.model.I_R_Status getNext_Status() throws RuntimeException;
+	public I_R_Status getNext_Status() throws RuntimeException;
 
     /** Column name R_StatusCategory_ID */
     public static final String COLUMNNAME_R_StatusCategory_ID = "R_StatusCategory_ID";
@@ -223,7 +223,7 @@ public interface I_R_Status
 	  */
 	public int getR_StatusCategory_ID();
 
-	public org.compiere.model.I_R_StatusCategory getR_StatusCategory() throws RuntimeException;
+	public I_R_StatusCategory getR_StatusCategory() throws RuntimeException;
 
     /** Column name R_Status_ID */
     public static final String COLUMNNAME_R_Status_ID = "R_Status_ID";
@@ -304,7 +304,7 @@ public interface I_R_Status
 	  */
 	public int getUpdate_Status_ID();
 
-	public org.compiere.model.I_R_Status getUpdate_Status() throws RuntimeException;
+	public I_R_Status getUpdate_Status() throws RuntimeException;
 
     /** Column name Value */
     public static final String COLUMNNAME_Value = "Value";

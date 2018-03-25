@@ -58,8 +58,8 @@ public interface I_PP_WF_Node_Asset
 
 	public org.compiere.model.I_A_Asset getA_Asset() throws RuntimeException;
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.

@@ -41,8 +41,8 @@ public interface I_U_RoleMenu
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_U_RoleMenu
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name Created */
     public static final String COLUMNNAME_Created = "Created";
@@ -149,5 +149,5 @@ public interface I_U_RoleMenu
 	/** Get Web Menu	  */
 	public int getU_WebMenu_ID();
 
-	public org.compiere.model.I_U_WebMenu getU_WebMenu() throws RuntimeException;
+	public I_U_WebMenu getU_WebMenu() throws RuntimeException;
 }

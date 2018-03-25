@@ -41,8 +41,8 @@ public interface I_M_ShipperLabels
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -126,7 +126,7 @@ public interface I_M_ShipperLabels
 	  */
 	public int getM_Shipper_ID();
 
-	public org.compiere.model.I_M_Shipper getM_Shipper() throws RuntimeException;
+	public I_M_Shipper getM_Shipper() throws RuntimeException;
 
     /** Column name M_ShipperLabelsCfg_ID */
     public static final String COLUMNNAME_M_ShipperLabelsCfg_ID = "M_ShipperLabelsCfg_ID";
@@ -137,7 +137,7 @@ public interface I_M_ShipperLabels
 	/** Get Shipper Labels Configuration	  */
 	public int getM_ShipperLabelsCfg_ID();
 
-	public org.compiere.model.I_M_ShipperLabelsCfg getM_ShipperLabelsCfg() throws RuntimeException;
+	public I_M_ShipperLabelsCfg getM_ShipperLabelsCfg() throws RuntimeException;
 
     /** Column name M_ShipperLabels_ID */
     public static final String COLUMNNAME_M_ShipperLabels_ID = "M_ShipperLabels_ID";

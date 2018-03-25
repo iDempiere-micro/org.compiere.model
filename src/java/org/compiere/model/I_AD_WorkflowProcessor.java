@@ -41,8 +41,8 @@ public interface I_AD_WorkflowProcessor
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -71,7 +71,7 @@ public interface I_AD_WorkflowProcessor
 	/** Get Schedule	  */
 	public int getAD_Schedule_ID();
 
-	public org.compiere.model.I_AD_Schedule getAD_Schedule() throws RuntimeException;
+	public I_AD_Schedule getAD_Schedule() throws RuntimeException;
 
     /** Column name AD_WorkflowProcessor_ID */
     public static final String COLUMNNAME_AD_WorkflowProcessor_ID = "AD_WorkflowProcessor_ID";
@@ -250,7 +250,7 @@ public interface I_AD_WorkflowProcessor
 	  */
 	public int getSupervisor_ID();
 
-	public org.compiere.model.I_AD_User getSupervisor() throws RuntimeException;
+	public I_AD_User getSupervisor() throws RuntimeException;
 
     /** Column name Updated */
     public static final String COLUMNNAME_Updated = "Updated";

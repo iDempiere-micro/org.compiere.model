@@ -41,8 +41,8 @@ public interface I_AD_Role_Included
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -75,7 +75,7 @@ public interface I_AD_Role_Included
 	  */
 	public int getAD_Role_ID();
 
-	public org.compiere.model.I_AD_Role getAD_Role() throws RuntimeException;
+	public I_AD_Role getAD_Role() throws RuntimeException;
 
     /** Column name AD_Role_Included_UU */
     public static final String COLUMNNAME_AD_Role_Included_UU = "AD_Role_Included_UU";
@@ -111,7 +111,7 @@ public interface I_AD_Role_Included
 	/** Get Included Role	  */
 	public int getIncluded_Role_ID();
 
-	public org.compiere.model.I_AD_Role getIncluded_Role() throws RuntimeException;
+	public I_AD_Role getIncluded_Role() throws RuntimeException;
 
     /** Column name IsActive */
     public static final String COLUMNNAME_IsActive = "IsActive";

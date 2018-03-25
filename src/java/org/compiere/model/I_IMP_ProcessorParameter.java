@@ -41,8 +41,8 @@ public interface I_IMP_ProcessorParameter
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -113,7 +113,7 @@ public interface I_IMP_ProcessorParameter
 	/** Get Import Processor	  */
 	public int getIMP_Processor_ID();
 
-	public org.compiere.model.I_IMP_Processor getIMP_Processor() throws RuntimeException;
+	public I_IMP_Processor getIMP_Processor() throws RuntimeException;
 
     /** Column name IMP_ProcessorParameter_ID */
     public static final String COLUMNNAME_IMP_ProcessorParameter_ID = "IMP_ProcessorParameter_ID";

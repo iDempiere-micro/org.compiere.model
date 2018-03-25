@@ -41,8 +41,8 @@ public interface I_W_MailMsg
 
     /** Load Meta Data */
 
-    /** Column name AD_Client_ID */
-    public static final String COLUMNNAME_AD_Client_ID = "AD_Client_ID";
+    
+    
 
 	/** Get Client.
 	  * Client/Tenant for this installation.
@@ -233,5 +233,5 @@ public interface I_W_MailMsg
 	  */
 	public int getW_Store_ID();
 
-	public org.compiere.model.I_W_Store getW_Store() throws RuntimeException;
+	public I_W_Store getW_Store() throws RuntimeException;
 }
