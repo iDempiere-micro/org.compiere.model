@@ -403,4 +403,7 @@ public interface I_AD_Table
 	  * User who updated this records
 	  */
 	public int getUpdatedBy();
+
+	/** Organization = 1 */
+	public static final String ACCESSLEVEL_Organization = "1";
 }
