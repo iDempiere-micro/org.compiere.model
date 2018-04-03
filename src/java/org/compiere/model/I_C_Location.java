@@ -314,4 +314,6 @@ public interface I_C_Location extends ILocation, IClientBound
 
 	/** Get Validate Address	  */
 	public String getValidateAddress();
+
+	boolean equals(int c_country_id, int c_region_id, String postal, String s, String city, String address1, String address2);
 }

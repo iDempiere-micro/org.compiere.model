@@ -19,13 +19,15 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import software.hsharp.business.models.IBusinessPartnerLocation;
 import software.hsharp.business.models.IClientBound;
+import software.hsharp.business.models.ILocation;
 
 /** Generated Interface for C_BPartner_Location
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_BPartner_Location extends IClientBound
+public interface I_C_BPartner_Location extends IClientBound, IBusinessPartnerLocation
 {
 
     /** TableName=C_BPartner_Location */
@@ -292,4 +294,8 @@ public interface I_C_BPartner_Location extends IClientBound
 	  * User who updated this records
 	  */
 	public int getUpdatedBy();
+
+	I_C_Location getLocation();
+
+    boolean save();
 }

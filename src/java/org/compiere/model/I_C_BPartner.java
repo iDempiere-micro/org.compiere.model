@@ -18,6 +18,8 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
 import software.hsharp.business.models.IClientBound;
 import software.hsharp.core.models.ISearchableByKey;
@@ -958,4 +960,10 @@ public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEnti
 	  * Search key for the record in the format required - must be unique
 	  */
 	public void setValue (String Value);
+
+    Properties getCtx();
+
+	String get_TrxName();
+
+	I_C_BPartner_Location[] getLocations();
 }
