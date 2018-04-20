@@ -966,4 +966,14 @@ public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEnti
 	String get_TrxName();
 
 	I_C_BPartner_Location[] getLocations();
+
+	boolean save();
+
+	boolean set_ValueNoCheck (String ColumnName, Object value);
+
+	void set_TrxName (String trxName);
+
+	void saveEx();
+
+	boolean delete (boolean force);
 }
