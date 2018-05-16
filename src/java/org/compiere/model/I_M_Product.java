@@ -890,4 +890,8 @@ public interface I_M_Product
 	  * Weight of a product
 	  */
 	public BigDecimal getWeight();
+
+    int getUOMPrecision();
+
+	boolean isItem();
 }

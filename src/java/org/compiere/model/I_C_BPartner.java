@@ -976,4 +976,6 @@ public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEnti
 	void saveEx();
 
 	boolean delete (boolean force);
+
+    I_AD_User[] getContacts(boolean b);
 }

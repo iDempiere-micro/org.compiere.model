@@ -18,13 +18,16 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for M_RMALine
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_M_RMALine 
+public interface I_M_RMALine extends IPO
 {
 
     /** TableName=M_RMALine */
@@ -318,4 +321,18 @@ public interface I_M_RMALine
 	  * User who updated this records
 	  */
 	public int getUpdatedBy();
+
+    boolean is_ValueChanged(String columnname_c_tax_id);
+
+	Object get_ValueOld(String columnname_c_tax_id);
+
+	Properties getCtx();
+
+	I_M_RMA getParent();
+
+	boolean updateOrderTax(boolean b);
+
+	boolean updateHeaderAmt();
+
+	void clearParent();
 }

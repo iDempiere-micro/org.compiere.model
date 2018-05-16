@@ -18,13 +18,16 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for C_Invoice
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_Invoice 
+public interface I_C_Invoice extends IPO
 {
 
     /** TableName=C_Invoice */
@@ -917,4 +920,24 @@ public interface I_C_Invoice
 	public int getUser2_ID();
 
 	public I_C_ElementValue getUser2() throws RuntimeException;
+
+    Properties getCtx();
+
+	String get_TrxName();
+
+    String getProcessMsg();
+
+	void set_TrxName(String trxName);
+
+	boolean voidIt();
+
+	boolean reverseCorrectIt();
+
+	void saveEx(String trxName);
+
+	int getPrecision();
+
+	I_C_InvoiceLine[] getLines(boolean b);
+
+	I_C_InvoiceTax[] getTaxes(boolean b);
 }

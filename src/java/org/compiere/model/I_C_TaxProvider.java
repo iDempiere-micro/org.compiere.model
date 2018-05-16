@@ -18,6 +18,8 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
 
 /** Generated Interface for C_TaxProvider
@@ -199,4 +201,6 @@ public interface I_C_TaxProvider
 
 	/** Get Validate Connection	  */
 	public String getValidateConnection();
+
+    Properties getCtx();
 }

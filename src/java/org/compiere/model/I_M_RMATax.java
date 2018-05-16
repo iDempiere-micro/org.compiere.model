@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for M_RMATax
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_M_RMATax 
+public interface I_M_RMATax extends IPO
 {
 
     /** TableName=M_RMATax */
@@ -208,4 +209,10 @@ public interface I_M_RMATax
 	  * User who updated this records
 	  */
 	public int getUpdatedBy();
+
+	I_C_Tax getTax();
+
+	boolean delete(boolean b, String trxName);
+
+	boolean save(String trxName);
 }

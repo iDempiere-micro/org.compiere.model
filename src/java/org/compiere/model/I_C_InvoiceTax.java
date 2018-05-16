@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for C_InvoiceTax
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_InvoiceTax 
+public interface I_C_InvoiceTax extends IPO
 {
 
     /** TableName=C_InvoiceTax */
@@ -208,4 +209,8 @@ public interface I_C_InvoiceTax
 	  * User who updated this records
 	  */
 	public int getUpdatedBy();
+
+	I_C_Tax getTax();
+
+	void deleteEx(boolean b, String trxName);
 }

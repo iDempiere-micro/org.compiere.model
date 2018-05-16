@@ -414,4 +414,8 @@ public interface I_C_Tax
 	  * Valid from including this date (first day)
 	  */
 	public Timestamp getValidFrom();
+
+    I_C_Tax[] getChildTaxes(boolean b);
+
+	BigDecimal calculateTax(BigDecimal taxBaseAmt, boolean b, int precision);
 }

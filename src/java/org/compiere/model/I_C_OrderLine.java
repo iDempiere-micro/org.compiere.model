@@ -18,13 +18,16 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for C_OrderLine
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_OrderLine 
+public interface I_C_OrderLine extends IPO
 {
 
     /** TableName=C_OrderLine */
@@ -806,4 +809,22 @@ public interface I_C_OrderLine
 	public int getUser2_ID();
 
 	public I_C_ElementValue getUser2() throws RuntimeException;
+
+    String get_TrxName();
+
+	boolean isTaxIncluded();
+
+	void clearParent();
+
+    Properties getCtx();
+
+	boolean updateOrderTax(boolean b);
+
+	boolean is_ValueChanged(String columnname_c_tax_id);
+
+	I_C_Order getParent();
+
+	boolean updateHeaderTax();
+
+	Object get_ValueOld(String columnname_c_tax_id);
 }

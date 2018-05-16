@@ -18,13 +18,16 @@ package org.compiere.model;
 
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.util.Properties;
+
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for C_Order
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_Order 
+public interface I_C_Order extends IPO
 {
 
     /** TableName=C_Order */
@@ -1222,4 +1225,16 @@ public interface I_C_Order
 	  * Weight of a product
 	  */
 	public BigDecimal getWeight();
+
+	I_C_OrderLine[] getLines();
+
+    Properties getCtx();
+
+	String get_TrxName();
+
+	int getPrecision();
+
+	I_C_OrderTax[] getTaxes(boolean b);
+
+	boolean isComplete();
 }

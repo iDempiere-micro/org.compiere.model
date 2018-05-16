@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for C_InvoiceLine
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_InvoiceLine 
+public interface I_C_InvoiceLine extends IPO
 {
 
     /** TableName=C_InvoiceLine */
@@ -688,4 +689,12 @@ public interface I_C_InvoiceLine
 	public int getUser2_ID();
 
 	public I_C_ElementValue getUser2() throws RuntimeException;
+
+    boolean isTaxIncluded();
+
+	boolean updateInvoiceTax(boolean b);
+
+	boolean updateHeaderTax();
+
+	void clearParent();
 }
