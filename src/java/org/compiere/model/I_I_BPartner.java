@@ -673,6 +673,9 @@ public interface I_I_BPartner
     /** Column name Value */
     public static final String COLUMNNAME_Value = "Value";
 
+    public static final String COLUMNNAME_I_IsShipTo = "IsShipTo";
+	public static final String COLUMNNAME_I_IsBillTo = "IsBillTo";
+
 	/** Set Search Key.
 	  * Search key for the record in the format required - must be unique
 	  */
@@ -682,4 +685,24 @@ public interface I_I_BPartner
 	  * Search key for the record in the format required - must be unique
 	  */
 	public String getValue();
+
+	/** Set IsShipTo.
+	 * Indicates if this is a ShipTo address
+	 */
+	public void setIsShipTo (boolean IsShipTo);
+
+	/** Get IsShipTo.
+	 * Indicates if this is a ShipTo address
+	 */
+	public boolean isShipTo();
+
+	/** Set IsBillTo.
+	 * Indicates if this is a BillTo address
+	 */
+	public void setIsBillTo (boolean IsBillTo);
+
+	/** Get IsBillTo.
+	 * Indicates if this is a BillTo address
+	 */
+	public boolean isBillTo();
 }
