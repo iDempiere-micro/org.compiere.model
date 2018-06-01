@@ -19,12 +19,13 @@ package org.compiere.model;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import org.idempiere.common.util.KeyNamePair;
+import org.idempiere.icommon.model.IPO;
 
 /** Generated Interface for M_Product
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_M_Product 
+public interface I_M_Product extends IPO
 {
 
     /** TableName=M_Product */
