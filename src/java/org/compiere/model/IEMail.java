@@ -1,5 +1,4 @@
 package org.compiere.model;
 
-public interface IEMail {
-    String send();
+public interface IEMail extends software.hsharp.core.models.IEmail {
 }
