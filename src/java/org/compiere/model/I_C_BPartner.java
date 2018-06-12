@@ -16,6 +16,7 @@
  *****************************************************************************/
 package org.compiere.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Properties;
@@ -29,7 +30,7 @@ import software.hsharp.core.models.INamedEntity;
  *  @author iDempiere (generated) 
  *  @version Release 5.1
  */
-public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEntity
+public interface I_C_BPartner extends IClientBound, ISearchableByKey, INamedEntity, Serializable
 {
 
     /** TableName=C_BPartner */
